@@ -21,6 +21,27 @@ body{
     padding-top: 7rem;
 }
 
+.padding7rem{
+    padding: 7rem;
+}
+
+
+.padding8rem{
+    padding: 8rem;
+}
+
+.padding4rem{
+    padding: 4rem;
+}
+
+.padding5rem{
+    padding: 5rem;
+}
+
+.padding10rem{
+    padding: 10rem;
+}
+
 .banner2-card{
 
     border-radius: 9px;
@@ -97,13 +118,18 @@ padding: 1rem;
     align-items: end;
 }
 
-.nav-link{
-    color: #3564FB !important;
+.menuItems{
+    color: #3564FB !important
 font-size: 14px !important;
 font-style: normal;
 font-weight: 400 !important;
 line-height: normal;
 letter-spacing: 0.9px;
+}
+
+.loginRegister{
+    color: #3564FB !important;
+    line-height: 1rem;
 }
 
 .familyMont{
@@ -134,6 +160,11 @@ left: -8.5rem;
     padding-left : 7rem  !important
 }
 
+.paddingBottom7rem{
+    padding-Bottom : 7rem  !important
+}
+
+
 .paddingLeft6rem{
     padding-left : 6rem  !important
 }
@@ -145,6 +176,11 @@ left: -8.5rem;
 .paddingLeft4rem{
     padding-left : 4rem  !important
 }
+
+.marginBottom18rem{
+    margin-bottom : 18rem  !important
+}
+
 
 .lineHeight25{
     line-height: 2.5rem !important;
@@ -599,4 +635,56 @@ letter-spacing: 0.2px;
 
 .marginBottom7rem{
     margin-bottom : 7rem !important;
+}
+.marginTop7rem{
+    margin-top : 7rem !important;
+}
+
+
+.marginLeft7rem{
+    margin-left : 7rem !important;
+}
+
+.aspirantBanner{
+    background : url(./images/aspirantBackground.png);
+    height: 15rem;
+}
+
+.pageHeading{
+color: #3564FB;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+
+.aspirantRow1 .aboutAspirants{
+    color: #3564FB;
+text-align: justify;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.headingUnderLine{
+    /* position: relative;
+    left : -3rem */
+}
+
+.backgroundTheme{
+    background: #3564FB;
+}
+
+.aspirantRow2 .firstLine{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.6px;
 }

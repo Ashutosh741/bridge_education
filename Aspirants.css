@@ -1,0 +1,272 @@
+.firstBox{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 60px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+.secondBox{
+    background: #FFF;
+box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+width: 405px;
+height: 300px;
+margin-top : 4.5rem;
+padding : 5.5rem 2rem 2rem 3rem !important
+}
+
+.secondBoxText{
+    color: #3564FB;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.smallBox{
+    background: #3564FB;
+box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 10px;
+position: relative;
+left: 1rem;
+}
+
+.smallBoxText{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: 1.2px;
+width: 152px;
+align-self: stretch;
+}
+
+.oddBox{
+    background: #FBCF32;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.playVideo{
+    padding : 7rem;
+}
+
+.aboutVideo .name{
+    color: #4F4E4E;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px; /* 150% */
+letter-spacing: 0.24px;
+}
+
+.aboutVideo .school{
+    color: #4F4E4E;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.24px;
+}
+
+.aboutVideo{
+    padding-top : 12rem
+}
+
+.aboutVideo .reviews{
+    color: #3564FB;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 297px;
+}
+
+.playVideo .background{
+    top: 12rem;
+    position: relative;
+    left: 21rem;
+}
+
+.playVideo .playButton{
+    position: relative;
+    top: 12rem;
+    left: 18rem;
+}
+
+.aspirantRow4{
+    background: #FBCF32;
+    color: #3367D6;
+}
+
+.aspirantRow4 .submitDetails{
+
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display : flex;
+flex-direction: column;
+align-items: center;
+gap : 2rem
+}
+
+.submitBtn{
+    border-radius: 25px;
+background: #3564FB;
+width: 210px;
+height: 38px;
+flex-shrink: 0;
+}
+
+.submitbtnStyle{
+    color: #FFF !important;
+    font-family: Montserrat !important;
+    font-size: 12px !important;
+    /* font-style: normal !important; */
+    font-weight: 700 !important;
+    line-height: normal !important;
+}
+
+.row6Heading{
+    color: #3564FB;
+text-align: center;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: 1.5px;
+}
+
+.tabHeadingStyling{
+    color: #3564FB !important;
+font-family: Montserrat;
+font-size: 20px !important;
+font-style: normal;
+font-weight: 600 !important;
+line-height: normal;
+letter-spacing: 0.4px;
+border-radius: 0px !important;
+}
+
+.firstTabContent{
+    color: #3564FB;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0.32px;
+    padding-top: 4rem;
+}
+
+.firstTabNote{
+    color: #3564FB;
+text-align: justify;
+font-family: Montserrat;
+font-size: 16px;
+font-style: italic;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.32px;
+margin-top: 1.5rem !important;
+}
+
+.firstTabBorder{
+    border-top: 0.5px solid #3564FB !important;
+border-right: 0.5px solid #3564FB !important;
+border-left: 0.5px solid #3564FB !important;
+width: 499px;
+height: 94px;
+flex-shrink: 0;
+}
+
+.secondTabBorder{
+border: 0.5px solid #3564FB !important;
+background: #F1F0F5 !important;
+width: 499px;
+height: 94px;
+flex-shrink: 0;
+}
+
+.contentStyling{
+    border-right: 0.5px solid #3564FB;
+border-bottom: 0.5px solid #3564FB;
+border-left: 0.5px solid #3564FB;
+width: 1004px;
+height: 428px;
+flex-shrink: 0;
+display : block !important
+}
+
+.tabGap{
+    display : flex;
+    gap : 0.4rem;
+}
+
+.nav-tabs{
+    border-bottom: none !important;
+}
+
+.aspirantRow6 .text1{
+    color: #000;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.aspirantRow6 .text2{
+    color: #3564FB;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: 1.5px;
+}
+
+.accordianStyling{
+    border-radius: 10px;
+background: #F1F0F5;
+
+}
+
+.accordianHeading{
+    color: #000;
+text-align: justify;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.accordion-button:not(.collapsed) {
+    background: #3564FB  !important;
+    color: #FFF !important;
+text-align: justify;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.accordion-button{
+    background-color: #F1F0F5 !important;
+    
+}
