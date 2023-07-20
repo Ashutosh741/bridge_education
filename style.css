@@ -130,6 +130,22 @@ left: -8.5rem;
     padding-left : 3rem  !important
 }
 
+.paddingLeft7rem{
+    padding-left : 7rem  !important
+}
+
+.paddingLeft6rem{
+    padding-left : 6rem  !important
+}
+
+.paddingLeft5rem{
+    padding-left : 5rem  !important
+}
+
+.paddingLeft4rem{
+    padding-left : 4rem  !important
+}
+
 .lineHeight25{
     line-height: 2.5rem !important;
 }
@@ -242,6 +258,25 @@ width: 55%;
 font-family: montserrat !important;
 }
 
+.width90{
+    width : 90% !important;
+    display: block;
+}
+
+.width80{
+    width : 80% !important;
+    display: block;
+}
+
+.blogBackground{
+    background: url(./images/blogBackground.png),  lightgray 50% / cover no-repeat;
+    height: 15rem;
+    /* background: url(<path-to-image>),; */
+}
+
+.height15rem{
+    height: 15rem !important;
+}
 
 .leftBolderHeading{
     color: #3564FB;
@@ -301,6 +336,14 @@ letter-spacing: 1.5px;
 
 .blogContent{
     padding : 3rem 2rem !important
+}
+
+.blogCard{
+    background: #FFF;
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 387px;
+height: 300px;
+flex-shrink: 0;
 }
 
 .readMore{
@@ -462,7 +505,8 @@ line-height: normal;
 }
 
 .footerContent{
-    padding: 5rem 10rem;
+    /* padding: 5rem 9rem; */
+    padding: 5rem 4rem 5rem 8rem;
 }
 
 .footer .quickHeading{
@@ -509,4 +553,50 @@ padding-top: 3.5rem !important;
 
 .row-4 .description{
     width : 50%;
+}
+
+.blogPage{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.verticalLine{
+    width: 2px;
+height: 43px;
+background: #FBCF32;
+}
+
+ .firstPageBackground{
+    background-color: #FED942;
+    border-radius: 50%;
+    width: 1.5rem;
+    display: block;
+    height: 1.5rem;
+
+}
+
+.pagination .firstPage{
+    position: relative;
+    left: -0.9rem;
+    /* top: 1rem; */
+
+}
+
+
+.paginationStyling{
+    color: #999494;
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 13px; /* 130% */
+letter-spacing: 0.2px;
+}
+
+.marginBottom7rem{
+    margin-bottom : 7rem !important;
 }
