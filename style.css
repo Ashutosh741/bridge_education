@@ -9,12 +9,12 @@ body{
 
 
 .bannerHeading1{
-    text-align: right; 
-    color: #3564FB;
-     font-size: 36px;
-
-       font-weight: 800; 
-       word-wrap: break-word;
+text-align: right; 
+color: #3564FB;
+font-size: 36px;
+line-height: 2.7rem;
+font-weight: 800; 
+word-wrap: break-word;
 }
 
 .paddingTop7rem{
@@ -54,6 +54,7 @@ padding: 1rem;
 .cardCenter .card-heading2{
     color: white;
     padding-bottom: 20px;
+    font-size: 20px !important;
 }
 
 .cardCenter{
@@ -70,7 +71,7 @@ padding: 1rem;
 }
 .card-heading{
     padding-top : 0.5rem;
-    padding-right: 3rem;
+    padding-right: 2rem;
 }
 
 .card-heading >span{
@@ -180,11 +181,19 @@ left: -8.5rem;
 .marginBottom18rem{
     margin-bottom : 18rem  !important
 }
+
+.marginBottom5rem{
+    margin-bottom : 5rem  !important
+}
+
+
 .marginLeft9rem{
     margin-left : 9rem!important
 }
 
-
+.paddingTop6rem{
+    padding-top: 6rem !important;
+}
 
 .lineHeight25{
     line-height: 2.5rem !important;
@@ -231,7 +240,7 @@ line-height: normal;
 }
 
 .paddingRight{
-    padding-right : .6rem !important;
+    padding-right : 1.2rem !important;
 }
 
 .row-1{
@@ -250,11 +259,11 @@ font-size: 30px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
-width: 75% !important;
+width: 80% !important;
 display: block;
 }
 .whyAnswer{
-    width: 60%;
+    width: 65%;
 }
 
 
@@ -324,7 +333,7 @@ font-size: 30px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
-width: 65%;
+width: 70%;
 padding-left: 2rem;
 }
 
@@ -560,8 +569,12 @@ font-family: revert;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 2rem;
 letter-spacing: 0.24px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 0.5rem;
 }
 
 .leftContent{
@@ -592,7 +605,7 @@ padding-top: 3.5rem !important;
 }
 
 .row-4 .description{
-    width : 50%;
+    width : 60%;
 }
 
 .blogPage{
@@ -691,4 +704,11 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 1.6px;
+}
+
+.carouselIndicator{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25) !important;
 }

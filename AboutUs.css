@@ -1,0 +1,318 @@
+.aboutUsBanner{
+    /* background-image: url('./images/contactUsBanner.png'); */
+    background: url('./images/contactBanner.png'), lightgray 1px -92.5px / 100% 139.655% no-repeat;
+    /* width: 1440px; */
+height: 290px;
+flex-shrink: 0;
+}
+
+.aboutUsContent{
+    width: 484px;
+height: 466px;
+flex-shrink: 0;
+color: #3564FB;
+text-align: justify;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.aboutImage{
+    background: url('./images/aboutUsBanner.png'), lightgray 50% / cover no-repeat;
+    width: 511px;
+height: 572px;
+flex-shrink: 0;
+}
+
+ .aboutImage .background{
+    top: 16rem;
+    position: relative;
+    left: 13rem;
+}
+ .aboutImage .playButton{
+    position: relative;
+    top: 16rem;
+    left: 10rem;
+}
+
+
+
+.anilHeading{
+    color: #3564FB;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 3rem;
+    width: 50%;
+    letter-spacing: -2px;
+}
+
+
+.anilDescription{
+    color: #3564FB;
+text-align: justify;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 539px;
+height: 227px;
+flex-shrink: 0;
+}
+
+.anilBorder{
+
+position:absolute;
+top: 1px;
+}
+
+.anilBackground{
+
+    position: absolute;
+    top: -5.5rem;
+    left: -3rem;
+
+}
+
+.anilWithGlass{
+
+    position: absolute;
+    top: 0rem;
+    left: 6.6rem;
+}
+
+.aboutUsRow3Heading{
+    color: #3564FB;
+text-align: center;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: 0.6px;
+}
+
+.aboutUsRow3LighterHeading{
+    color: #3564FB;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    padding: 0rem 23rem;
+}
+
+.institution{
+    color: #3564FB;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+gap: 6rem;
+}
+
+.aboutUsRow3 .path{
+    gap: 13rem;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 1px;
+    background: #BCB9B9;
+
+}
+
+/* .backLine{
+    width: 982px;
+height: 1px;
+background: #BCB9B9;
+top: 2.9rem;
+left: 5.9rem;
+} */
+
+.riseMaxHeading{
+    color: #3564FB;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: 0.6px;
+}
+
+.riseMaxContent{
+    color: #3564FB;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 461px;
+height: 145px;
+flex-shrink: 0;
+}
+
+.aboutRiseMax{
+    margin-top:5rem;
+    margin-left: 2rem;
+}
+
+.visionBox{
+    width: 387px;
+    height: 575px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #3564FB;
+    padding: 7rem 2rem 3rem 6rem;
+
+}
+
+.visionBoxContent{
+    color: #FFF;
+text-align: justify;
+font-family: Montserrat;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 271px;
+}
+
+.visionRotated{
+    color: #FBCF32;
+    font-family: Montserrat;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 14.4px;
+    transform: rotate(-90deg);
+    top: 9.2rem;
+    left: -11.9rem;
+    position: absolute;
+}
+
+.teamHeading{
+    color: #3564FB;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+.teamSubHeading{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 81%;
+}
+
+.memberDetail .memberName{
+
+    color: #333;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.6px;
+}
+
+
+.memberPosition{
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.member{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.member2{
+    border-radius: 10px;
+background-image: url("./images/member2.png"), lightgray 50% / cover no-repeat !important;
+
+width: 370px;
+height: 400px;
+flex-shrink: 0;
+}
+
+.member2Back{
+border-radius: 10px;
+opacity: 0.800000011920929;
+background: #FBCF32;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #FBCF32;
+    overflow: hidden;
+
+    /* width: 370px;
+    height: 400px; */
+    transition: .5s ease;
+    opacity: 0.800000011920929;
+}
+
+.item {
+    position: relative;
+    overflow: hidden;
+    width: 370px;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.item:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.bottom-overlay {
+    top: 100%;
+}
+
+.item:hover .bottom-overlay {
+  top: 0;
+}
+
+
+.text {
+    color: white;
+    font-size: 1.2vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

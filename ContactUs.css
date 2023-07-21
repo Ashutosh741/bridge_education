@@ -1,0 +1,85 @@
+.row2Heading{
+    color: #3564FB;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom : 2rem;
+    line-height: normal;
+}
+
+.underline{
+    width: 63.829px;
+height: 5px;
+background: #FEB408;
+}
+
+.row2SubHeading{
+    color: #3564FB;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.headingContent{
+    color: #3564FB;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.9px;
+}
+
+.followUs{
+    color: #3564FB;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px; /* 53.333% */
+}
+
+.upperBox{
+height: 303px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FBCF32;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.upperText{
+    color: #3367D6;
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.upperSubmit{
+    border-radius: 25px;
+background: #3564FB;
+width: 210px;
+height: 38px;
+flex-shrink: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.submitText{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
