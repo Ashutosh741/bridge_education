@@ -242,7 +242,13 @@ letter-spacing: 1.5px;
 .accordianStyling{
     border-radius: 10px;
 background: #F1F0F5;
-
+color: #000;
+text-align: justify;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
 
 .accordianHeading{
@@ -253,6 +259,8 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+padding: 1.5rem !important;
+padding-left: 3rem !important;
 }
 
 .accordion-button:not(.collapsed) {
@@ -269,4 +277,24 @@ line-height: normal;
 .accordion-button{
     background-color: #F1F0F5 !important;
     
+}
+
+.accordion-item{
+    margin-bottom : 1rem !important;
+    border-radius : 10px !important;
+    /* width: 805px; */
+/* height: 78px; */
+background: #F1F0F5 !important;
+border : none !important
+}
+
+.accordion-button:not(.collapsed)::after{
+    /* content:  !important; */
+    color : white !important;
+    background-image:url(./images/arrowUp.png)!important;
+}
+
+
+.accordion-button:focus{
+    box-shadow: none !important;
 }

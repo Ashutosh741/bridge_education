@@ -119,7 +119,7 @@ padding: 1rem;
 }
 
 .menuItems{
-    color: #3564FB !important
+    color: #3564FB !important;
 font-size: 14px !important;
 font-style: normal;
 font-weight: 400 !important;
@@ -180,6 +180,10 @@ left: -8.5rem;
 .marginBottom18rem{
     margin-bottom : 18rem  !important
 }
+.marginLeft9rem{
+    margin-left : 9rem!important
+}
+
 
 
 .lineHeight25{
