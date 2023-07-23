@@ -640,15 +640,7 @@ background: #FBCF32;
 }
 
 
-.paginationStyling{
-    color: #999494;
-font-family: Montserrat;
-font-size: 15px;
-font-style: normal;
-font-weight: 500;
-line-height: 13px; /* 130% */
-letter-spacing: 0.2px;
-}
+
 
 .marginBottom7rem{
     margin-bottom : 7rem !important;
@@ -706,9 +698,47 @@ line-height: normal;
 letter-spacing: 1.6px;
 }
 
-.carouselIndicator{
-    width: 15px;
-    height: 15px;
+.carousel-indicators [data-bs-target] {
+    width: 20px !important;
+    height: 0px !important;
     border-radius: 50%;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+
+.nav-tabs button{
+        width: 499px;
+    height: 94px;
+}
+
+
+.active>.page-link, .page-link.active{
+    background-color: #FED942 !important;
+    border-radius: 50%;
+    color: #3564FB !important;
+    display: flex;
+    align-items: cn;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    color: black;
+    border-color:  #FED942 !important;
+
+}
+
+.page-link {
+    color: #999494 !important;
+    font-family: Montserrat;
+    font-size: 15px !important;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 13px; */
+    letter-spacing: 0.2px;
+    border : none !important;
+}
+
+.colouredCircle{
+    color : yellow;
+    border: px solid blue;
+    border-radius: 50%;
 }

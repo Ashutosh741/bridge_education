@@ -316,3 +316,10 @@ background: #FBCF32;
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+.smallCircle{
+    width: 18px;
+    height: 18px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+}
