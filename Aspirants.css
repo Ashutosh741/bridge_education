@@ -53,9 +53,6 @@ align-self: stretch;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.playVideo{
-    padding : 7rem;
-}
 
 .aboutVideo .name{
     color: #4F4E4E;
@@ -78,7 +75,7 @@ letter-spacing: 0.24px;
 }
 
 .aboutVideo{
-    padding-top : 12rem
+    padding-top : 6rem
 }
 
 .aboutVideo .reviews{
@@ -90,7 +87,7 @@ font-weight: 600;
 line-height: normal;
 width: 297px;
 }
-
+/* 
 .playVideo .background{
     top: 12rem;
     position: relative;
@@ -101,7 +98,7 @@ width: 297px;
     position: relative;
     top: 12rem;
     left: 18rem;
-}
+} */
 
 .aspirantRow4{
     background: #FBCF32;

@@ -742,11 +742,16 @@ letter-spacing: 1.6px;
     border-radius: 50%;
 }
 
-[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
-    display: none !important;
-}
-
 .logo img{
 width: 112px !important;
 height: 112px;
+}
+
+
+.slick-prev{
+    display: none !important;
+}
+
+.slick-next{
+    display: none !important;
 }
