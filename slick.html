@@ -1,29 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Example</title>
+    <link rel = "stylesheet" href = "style.css"/>
 
-<html>
-  <head>
-  <title>My Now Amazing Webpage</title>
-  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-  </head>
-  <body>
+    <!-- Add the Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+<body>
+    <!-- Your existing HTML code for the carousel section goes here -->
+    <section class="row-6 pt-5 pb-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 pb-4">
+                  <div class="heading text-center">
+                      <span>Our Clients</span>
+                  </div>
+              </div>
+              <div class="col-12 text-center pt-5">
+                  <div class="slider logo d-flex text-center">
 
-  <div class="your-class">
-    <div>your content</div>
-    <div>your content</div>
-    <div>your content</div>
-  </div>
+                      <img src = "images/client1.png" />
+                      <img src = "images/client2.png" />
+                      <img src = "images/client3.png" />
+                      <img src = "images/client4.png" />
+                      <img src = "images/client5.png" />
+                      <img src = "images/client2.png" />
+                      <img src = "images/client3.png" />
+                      <img src = "images/client4.png" />
+                      <img src = "images/client5.png" />
+                      <img src = "images/client2.png" />
+                      <img src = "images/client3.png" />
+                      <img src = "images/client4.png" />
+                      <img src = "images/client5.png" />
+                      <img src = "images/client2.png" />
+                      <img src = "images/client3.png" />
+                      <img src = "images/client4.png" />
+                      <img src = "images/client5.png" />
 
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="slick/slick.min.js"></script>
+                  </div>
+              </div>
+              </div>
+      </div>
+  </section>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $('.your-class').slick({
-        setting-name: setting-value
-      });
-    });
-  </script>
+    <!-- Add the Owl Carousel JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-  </body>
+    <!-- Initialize the Owl Carousel -->
+    <script>
+        $(document).ready(function(){
+            // Initialize the carousel
+            $('.slider.logo').owlCarousel({
+                loop: true,         // Set to 'false' if you don't want to loop the carousel
+                margin: 10,         // Space between items
+                nav: false,         // Set to 'true' to enable navigation buttons
+                dots: false,        // Set to 'true' to show pagination dots
+                responsive:{
+                    0:{
+                        items: 1        // Number of items to show on different screen sizes
+                    },
+                    600:{
+                        items: 3        // Number of items to show on different screen sizes
+                    },
+                    1000:{
+                        items: 5        // Number of items to show on different screen sizes
+                    }
+                }
+            });
+        });
+    </script>
+</body>
 </html>

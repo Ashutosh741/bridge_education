@@ -442,10 +442,7 @@ line-height: normal;
     font-weight: 600;
     line-height: 18px; /* 112.5% */
     letter-spacing: 0.8px;
-width : 74%;
-    position: relative;
-    left: -10px;
-
+width: 75%;
 }
 
 
@@ -527,19 +524,21 @@ line-height: normal;
 }
 
 .processIcon{
-    position: relative;
-    bottom : 70px;
-    left : 35px;
+    position: absolute;
 }
 
 .playImage{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50%;
+    height: 70%;
 }
 
-.row-8 .process{
+.process{
+    gap : 2rem !important
+}
+
+.row-8{
     padding-left: 5rem;;
 }
 
@@ -741,4 +740,13 @@ letter-spacing: 1.6px;
     color : yellow;
     border: px solid blue;
     border-radius: 50%;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
+    display: none !important;
+}
+
+.logo img{
+width: 112px !important;
+height: 112px;
 }
