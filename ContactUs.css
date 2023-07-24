@@ -3,7 +3,7 @@
     font-family: Montserrat;
     font-size: 50px;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 800;
     margin-bottom : 2rem;
     line-height: normal;
 }
@@ -19,7 +19,7 @@ background: #FEB408;
     font-family: Montserrat;
     font-size: 34px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
 }
 
@@ -28,7 +28,7 @@ background: #FEB408;
 font-family: Montserrat;
 font-size: 18px;
 font-style: normal;
-font-weight: 400;
+font-weight: 300;
 line-height: normal;
 letter-spacing: 0.9px;
 }
@@ -38,7 +38,7 @@ letter-spacing: 0.9px;
 font-family: Montserrat;
 font-size: 30px;
 font-style: normal;
-font-weight: 700;
+font-weight: 600;
 line-height: 16px; /* 53.333% */
 }
 
@@ -59,7 +59,7 @@ text-align: center;
 font-family: Montserrat;
 font-size: 24px;
 font-style: normal;
-font-weight: 700;
+font-weight: 600;
 line-height: normal;
 }
 
@@ -80,6 +80,6 @@ align-items: center;
     font-family: Montserrat;
     font-size: 12px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
 }

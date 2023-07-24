@@ -13,7 +13,7 @@ text-align: right;
 color: #3564FB;
 font-size: 36px;
 line-height: 2.7rem;
-font-weight: 800; 
+font-weight: 700; 
 word-wrap: break-word;
 }
 
@@ -77,7 +77,7 @@ padding: 1rem;
 .card-heading >span{
     color: #3367D6;
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1;
 }
 
@@ -109,7 +109,7 @@ padding: 1rem;
      color: #3564FB; 
      font-size: 16px; 
  
-     font-weight: 400;
+     font-weight: 300;
       word-wrap: break-word;
 
 }
@@ -123,7 +123,7 @@ padding: 1rem;
     color: #3564FB !important;
 font-size: 14px !important;
 font-style: normal;
-font-weight: 400 !important;
+font-weight: 300 !important;
 line-height: normal;
 letter-spacing: 0.9px;
 }
@@ -131,6 +131,7 @@ letter-spacing: 0.9px;
 .loginRegister{
     color: #3564FB !important;
     line-height: 1rem;
+    font-weight: 600 !important;
 }
 
 .familyMont{
@@ -217,7 +218,7 @@ text-align: right;
 font-family: Montserrat;
 font-size: 14px;
 font-style: normal;
-font-weight: 700;
+font-weight: 600;
 line-height: normal;
 }
 
@@ -226,11 +227,11 @@ line-height: normal;
 }
 
 .weight300{
-    font-weight : 300 !important;
+    font-weight : 200 !important;
 }
 
 .weight700{
-    font-weight : 700 !important;
+    font-weight : 600 !important;
 }
 
 
@@ -257,7 +258,7 @@ box-shadow: 2px 2px 6px 1px rgba(30, 30, 30, 0.20);
     color: #3564FB;
 font-size: 30px;
 font-style: normal;
-font-weight: 800;
+font-weight: 700;
 line-height: normal;
 width: 80% !important;
 display: block;
@@ -272,7 +273,7 @@ display: block;
 color: #3564FB;
 font-size: 16px;
 font-style: normal;
-font-weight: 400;
+font-weight: 300;
 line-height: normal;
 }
 
@@ -284,7 +285,7 @@ line-height: normal;
     color: #3564FB;
 font-size: 36px;
 font-style: normal;
-font-weight: 400;
+font-weight: 300;
 line-height: 38px; /* 105.556% */
 }
 
@@ -292,7 +293,7 @@ line-height: 38px; /* 105.556% */
     color: #3564FB;
 font-size: 36px;
 font-style: normal;
-font-weight: 800;
+font-weight: 700;
 line-height: 38px; /* 105.556% */
 }
 
@@ -301,7 +302,7 @@ line-height: 38px; /* 105.556% */
     color: #3564FB;
 font-size: 16px;
 font-style: normal;
-font-weight: 400;
+font-weight: 300;
 line-height: normal;
 width: 55%;
 font-family: montserrat !important;
@@ -331,7 +332,7 @@ font-family: montserrat !important;
     color: #3564FB;
 font-size: 30px;
 font-style: normal;
-font-weight: 800;
+font-weight: 700;
 line-height: normal;
 width: 70%;
 padding-left: 2rem;
@@ -353,7 +354,7 @@ padding-left: 2rem;
 text-align: center;
 font-size: 20px;
 font-style: italic;
-font-weight: 600;
+font-weight: 500;
 line-height: normal;
 }
 
@@ -361,9 +362,8 @@ line-height: normal;
     color: #3564FB;
 font-size: 30px;
 font-style: normal;
-font-weight: 800;
+font-weight: 700;
 line-height: 30px; /* 100% */
-letter-spacing: 1.5px;
 }
 
 .yellowBackground{
@@ -408,7 +408,7 @@ flex-shrink: 0;
     color: #444;
 font-size: 13px;
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 line-height: 13px; /* 100% */
 letter-spacing: 0.65px;
 }
@@ -418,7 +418,7 @@ letter-spacing: 0.65px;
     text-align: center;
     font-size: 40px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 45px; /* 112.5% */
     letter-spacing: 2px;
     padding: 0px 250px;
@@ -430,7 +430,7 @@ letter-spacing: 0.65px;
 text-align: center;
 font-size: 20px;
 font-style: normal;
-font-weight: 400;
+font-weight: 300;
 line-height: normal;
 }
 
@@ -439,7 +439,7 @@ line-height: normal;
     text-align: center;
     font-size: 16px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 18px; /* 112.5% */
     letter-spacing: 0.8px;
 width : 74%;
@@ -453,7 +453,7 @@ width : 74%;
     color: #000;
 font-size: 14px;
 font-style: normal;
-font-weight: 400;
+font-weight: 300;
 line-height: 14px; /* 100% */
 letter-spacing: 0.28px;
 }
@@ -462,7 +462,7 @@ letter-spacing: 0.28px;
     color: #3564FB;
     font-size: 24px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 30px; /* 125% */
     letter-spacing: 0.48px;
 } 
@@ -470,7 +470,7 @@ letter-spacing: 0.28px;
     color: #3564FB;
 font-size: 16px;
 font-style: normal;
-font-weight: 400;
+font-weight: 300;
 line-height: 24.5px; /* 153.125% */
 letter-spacing: 0.32px;
 }
@@ -479,7 +479,7 @@ letter-spacing: 0.32px;
     color: #3564FB;
 font-size: 16px;
 font-style: normal;
-font-weight: 400;
+font-weight: 300;
 line-height: 16px; /* 100% */
 letter-spacing: 0.32px;
 }
@@ -493,7 +493,7 @@ letter-spacing: 0.32px;
     color: #FFF;
 font-size: 16px;
 font-style: normal;
-font-weight: 700;
+font-weight: 600;
 line-height: 16px; /* 100% */
 }
 
@@ -501,7 +501,7 @@ line-height: 16px; /* 100% */
     color: #FFF;
 font-size: 16px;
 font-style: revert;
-font-weight: 700;
+font-weight: 600;
 line-height: 146.9%; /* 23.504px */
 }
 
@@ -599,7 +599,7 @@ gap: 0.5rem;
 font-family: revert;
 font-size: 24px;
 font-style: normal;
-font-weight: 800;
+font-weight: 700;
 line-height: normal;
 padding-top: 3.5rem !important;
 }
@@ -613,7 +613,7 @@ padding-top: 3.5rem !important;
 font-family: Montserrat;
 font-size: 30px;
 font-style: normal;
-font-weight: 700;
+font-weight: 600;
 line-height: normal;
 }
 
@@ -664,7 +664,7 @@ color: #3564FB;
 font-family: Montserrat;
 font-size: 36px;
 font-style: normal;
-font-weight: 900;
+font-weight: 800;
 line-height: normal;
 }
 
@@ -675,7 +675,7 @@ text-align: justify;
 font-family: Montserrat;
 font-size: 20px;
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 line-height: normal;
 }
 
@@ -693,7 +693,7 @@ line-height: normal;
 font-family: Montserrat;
 font-size: 16px;
 font-style: normal;
-font-weight: 700;
+font-weight: 600;
 line-height: normal;
 letter-spacing: 1.6px;
 }
@@ -731,7 +731,7 @@ letter-spacing: 1.6px;
     font-family: Montserrat;
     font-size: 15px !important;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     /* line-height: 13px; */
     letter-spacing: 0.2px;
     border : none !important;

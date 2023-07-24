@@ -3,7 +3,7 @@
 font-family: Montserrat;
 font-size: 60px;
 font-style: normal;
-font-weight: 900;
+font-weight: 800;
 line-height: normal;
 }
 
@@ -21,7 +21,7 @@ padding : 5.5rem 2rem 2rem 3rem !important
 font-family: Montserrat;
 font-size: 16px;
 font-style: normal;
-font-weight: 400;
+font-weight: 300;
 line-height: normal;
 }
 
@@ -41,7 +41,7 @@ left: 1rem;
 font-family: Montserrat;
 font-size: 24px;
 font-style: normal;
-font-weight: 900;
+font-weight: 800;
 line-height: normal;
 letter-spacing: 1.2px;
 width: 152px;
@@ -62,7 +62,7 @@ align-self: stretch;
 font-family: Montserrat;
 font-size: 12px;
 font-style: normal;
-font-weight: 700;
+font-weight: 600;
 line-height: 18px; /* 150% */
 letter-spacing: 0.24px;
 }
@@ -72,7 +72,7 @@ letter-spacing: 0.24px;
 font-family: Montserrat;
 font-size: 12px;
 font-style: normal;
-font-weight: 400;
+font-weight: 300;
 line-height: 18px;
 letter-spacing: 0.24px;
 }
@@ -86,7 +86,7 @@ letter-spacing: 0.24px;
 font-family: Montserrat;
 font-size: 20px;
 font-style: normal;
-font-weight: 700;
+font-weight: 600;
 line-height: normal;
 width: 297px;
 }
@@ -114,7 +114,7 @@ text-align: center;
 font-family: Montserrat;
 font-size: 24px;
 font-style: normal;
-font-weight: 700;
+font-weight: 600;
 line-height: normal;
 display : flex;
 flex-direction: column;
@@ -135,7 +135,7 @@ flex-shrink: 0;
     font-family: Montserrat !important;
     font-size: 12px !important;
     /* font-style: normal !important; */
-    font-weight: 700 !important;
+    font-weight: 600 !important;
     line-height: normal !important;
 }
 
@@ -145,7 +145,7 @@ text-align: center;
 font-family: Montserrat;
 font-size: 30px;
 font-style: normal;
-font-weight: 900;
+font-weight: 800;
 line-height: normal;
 letter-spacing: 1.5px;
 }
@@ -155,7 +155,7 @@ letter-spacing: 1.5px;
 font-family: Montserrat;
 font-size: 20px !important;
 font-style: normal;
-font-weight: 600 !important;
+font-weight: 500 !important;
 line-height: normal;
 letter-spacing: 0.4px;
 border-radius: 0px !important;
@@ -166,7 +166,7 @@ border-radius: 0px !important;
     font-family: Montserrat;
     font-size: 15px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 10px;
     letter-spacing: 0.32px;
     padding-top: 4rem;
@@ -178,7 +178,7 @@ text-align: justify;
 font-family: Montserrat;
 font-size: 16px;
 font-style: italic;
-font-weight: 600;
+font-weight: 500;
 line-height: normal;
 letter-spacing: 0.32px;
 margin-top: 1.5rem !important;
@@ -224,7 +224,7 @@ flex-shrink: 0;
 font-family: Montserrat;
 font-size: 16px;
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 line-height: normal;
 }
 
@@ -233,7 +233,7 @@ line-height: normal;
 font-family: Montserrat;
 font-size: 30px;
 font-style: normal;
-font-weight: 900;
+font-weight: 800;
 line-height: normal;
 letter-spacing: 1.5px;
 }
@@ -246,7 +246,7 @@ text-align: justify;
 font-family: Montserrat;
 font-size: 16px;
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 line-height: normal;
 }
 
@@ -256,7 +256,7 @@ text-align: justify;
 font-family: Montserrat;
 font-size: 16px;
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 line-height: normal;
 padding: 1.5rem !important;
 padding-left: 3rem !important;
@@ -269,7 +269,7 @@ text-align: justify;
 font-family: Montserrat;
 font-size: 16px;
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 line-height: normal;
 }
 
@@ -308,7 +308,7 @@ border : none !important
     font-family: Montserrat;
     font-size: 20px !important;
     font-style: normal;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
     line-height: normal;
     letter-spacing: 0.4px;
     border-radius: 0px !important;
