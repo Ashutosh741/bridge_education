@@ -679,10 +679,6 @@ background: #FBCF32;
     margin-left : 7rem !important;
 }
 
-.aspirantBanner{
-    background : url(./images/aspirantBackground.png);
-    height: 15rem;
-}
 
 .pageHeading{
 color: #3564FB;
@@ -696,12 +692,12 @@ line-height: normal;
 
 .aspirantRow1 .aboutAspirants{
     color: #3564FB;
-text-align: justify;
-font-family: Montserrat;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .headingUnderLine{
@@ -792,4 +788,8 @@ height: 112px;
     /* position: absolute!important; */
     bottom: -1.1rem;
     right: 2rem;
+}
+
+.page-item:first-child .page-link{
+    border-radius: 0px !important;
 }
