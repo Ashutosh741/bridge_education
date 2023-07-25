@@ -11,12 +11,13 @@
 //     smallCircles[smallCircles.length - 1].classList.remove('smallCircle');
 //     smallCircles[smallCircles.length - 1].classList.add('currentCircle');
 //     console.log("hyy")
+//     console.log("aisa kya hai bhai",smallCircles[smallCircles.length - 1])
 //   }
   
 //   // Function to handle the click event for rightSlider
 //   function handleRightSliderClick() {
 //     const currentSlider = document.querySelector('.currentCircle');
-//     const smallCircles = document.querySelectorAll('.smallCircle');
+//     const smallCircles = document.querySelectorAll('.smallCircle')[1];
   
 //     // Move currentSlider to right
 //     currentSlider.classList.remove('currentCircle');
@@ -30,12 +31,25 @@
   
 //   // Add event listeners to leftSlider and rightSlider
 //   const leftSlider = document.querySelector('.bigCircle.position-relative');
-//   const rightSlider = document.querySelectorAll('.bigCircle.position-relative')[1];
+//   const rightSlider = document.querySelectorAll('.bigCircle.position-relative');
   
 //   leftSlider.addEventListener('click', handleLeftSliderClick);
 //   rightSlider.addEventListener('click', handleRightSliderClick);
   
 
+//   function showContent(circleId) {
+//     const currentCircle = document.getElementById(circleId);
+//     const allCircles = document.querySelectorAll('.smallCircle, .currentCircle');
+  
+//     allCircles.forEach(circle => {
+//       if (circle === currentCircle) {
+//         circle.style.display = 'block'; // Show the clicked circle's content
+//       } else {
+//         circle.style.display = 'none';  // Hide other circle's content
+//       }
+//     });
+//   }
+  
 
   
 

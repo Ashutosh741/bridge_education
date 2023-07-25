@@ -20,13 +20,13 @@ line-height: normal;
 }
 
 .aboutImage{
-    background: url('./images/aboutUsBanner.png'), lightgray 50% / cover no-repeat;
-    width: 511px;
-height: 572px;
-flex-shrink: 0;
+    /* background: url('./images/aboutUsBanner.png'), lightgray 50% / cover no-repeat; */
+    /* width: 511px;
+height: 572px; */
+/* flex-shrink: 0; */
 }
 
- .aboutImage .background{
+ /* .aboutImage .background{
     top: 16rem;
     position: relative;
     left: 13rem;
@@ -36,7 +36,7 @@ flex-shrink: 0;
     top: 16rem;
     left: 10rem;
 }
-
+ */
 
 
 .anilHeading{
@@ -317,9 +317,13 @@ background: #FBCF32;
     text-align: center;
 }
 
-/* .smallCircle{
-    width: 18px;
-    height: 18px;
-    background-color: #D9D9D9;
+.smallCircle{
+    /* color: #D9D9D9; */
     border-radius: 50%;
-} */
+    border: 9px solid #D9D9D9;
+}
+
+.currentCircle{
+
+}
+
