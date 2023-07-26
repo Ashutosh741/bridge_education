@@ -21,6 +21,7 @@ background: #FEB408;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    width: 50%;
 }
 
 .headingContent{
@@ -31,6 +32,7 @@ font-style: normal;
 font-weight: 300;
 line-height: normal;
 letter-spacing: 0.9px;
+width: 50%;
 }
 
 .followUs{
@@ -82,4 +84,29 @@ align-items: center;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+@media screen and (min-width : 300px) and (max-width : 1200px) {
+    .contactUsRow2{
+        padding-top: 2rem !important;
+    }
+    .row2Heading{
+        margin-bottom: 1rem !important;
+    }
+    .underline{
+        margin-bottom: 2rem !important;
+    }
+    .row2SubHeading{
+        width: 90% !important;
+    }
+    .headingContent{
+        width: 85%;
+        margin-bottom: 3rem !important;
+    }
+    .socialIcons{
+        margin-bottom: 9rem !important;
+    }
+    .upperText{
+        margin:1rem !important
+    }
 }

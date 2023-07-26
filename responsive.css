@@ -130,7 +130,7 @@
         background-color: white;
     }
     .footerContent{
-        padding: 4rem 0rem 4rem 1rem;
+        padding: 4rem 0rem 4rem 1rem !important;
     }
     .quickLink{
         padding-left: 0rem !important;
