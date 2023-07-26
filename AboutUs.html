@@ -6,59 +6,53 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel = "stylesheet" href = "style.css"/>
     <link rel = "stylesheet" href = "responsive.css"/>
-
-    <link rel = "stylesheet" href = "AboutUs.css"/>
     <link rel = "stylesheet" href = "Aspirants.css"/>
+    <link rel = "stylesheet" href = "AboutUs.css"/>
 
 
     <title>Document</title>
 
 </head>
 <body>
-
-    <section class = "header pt-5 pb-5 familyMont">
-        <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <img src = "./images/Frame.png" />
-                </div>
-                <div class="col-9 d-flex resmenu">
-                    <div class="menu">
-                    <nav class="navbar navbar-expand-lg">
-                        <div class="container-fluid">
-                          <button class="navbar-toggler resChangeFont" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="collapse navbar-collapse col-12" id="navbarNav">
-                            <ul class="navbar-nav">
-                              <li class="nav-item paddingRight">
-                                <a class="nav-link menuItems"href="/Home.html">Home</a>
-                              </li>
-                              <li class="nav-item paddingRight">
-                                <a class="nav-link menuItems" href="./Blog.html">For Employer</a>
-                              </li>
-                              <li class="nav-item paddingRight">
-                                <a class="nav-link menuItems" href="./Aspirants.html">Job Aspirants</a>
-                              </li>
-                              <li class="nav-item paddingRight">
-                                <a class="nav-link menuItems" href = "./AboutUs.html">About Us</a>
-                              </li>
-                              <li class="nav-item paddingRight">
-                                <a class="nav-link menuItems" href = "ContactUs.html">Contact</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link loginRegister fw-bolder">Login | Register</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </nav>
-                    </div>
-                </div>
+    <section class = "header pt-5 pb-3 familyMont">
+       
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src = "./images/Frame.png" class="img-fluid" />
+              </a>
+              <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button> -->
+              <button class="navbar-toggler resChangeFont shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto w-100 justify-content-end mb-2 mb-lg-0">
+                    <li class="nav-item paddingRight">
+                        <a class="nav-link menuItems"href="/Home.html">Home</a>
+                      </li>
+                      <li class="nav-item paddingRight">
+                        <a class="nav-link menuItems" href="./Blog.html">For Employer</a>
+                      </li>
+                      <li class="nav-item paddingRight">
+                        <a class="nav-link menuItems" href="./Aspirants.html">Job Aspirants</a>
+                      </li>
+                      <li class="nav-item paddingRight">
+                        <a class="nav-link menuItems" href = "./AboutUs.html">About Us</a>
+                      </li>
+                      <li class="nav-item paddingRight">
+                        <a class="nav-link menuItems" href = "ContactUs.html">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link loginRegister fw-bolder">Login | Register</a>
+                      </li>
+                </ul>
+                
+              </div>
             </div>
-        </div>
+          </nav>
     </section>
-
     
     <section class="aboutUsBanner ">
         <img src = "./images/contactBanner.png" class= "img-fluid"/>
@@ -73,12 +67,12 @@
                     <div class="headingUnderLine mb-4"></div>
                 </div>
                 <div class="col-12">
-                    <div class="pageHeading paddingLeft7rem">
+                    <div class="pageHeading mt-md-4 paddingLeft5rem">
                         <span>About us</span>
                     </div>
                 </div>
                 <div class="col-12">
-                    <div class="aboutUsContent marginLeft7rem mt-3">
+                    <div class="aboutUsContent marginLeft5rem me-md-4 mt-3">
                         <p>
                             Bridge Education is an educational and school administrative staff recruitment agency. It works as a bridge between educators and educational institutions. Making the whole hiring process speedy and smooth. The agency recruits competent teachers from various institutions that provide degrees in the field of Education. One of its kind is Rise Max College of Education, Faridabad.</p>
 
@@ -119,7 +113,7 @@
     <section class="aboutUsRow2 paddingTop7rem paddingBottom7rem">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 order-1 order-md-2">
+                <div class="col-md-6 ">
                     <div class="position-relative ms-5">
                             <div class="anilImage">
                                 <div class="anilBorder">
@@ -134,7 +128,7 @@
                             </div>
                     </div>
                 </div>
-                <div class="col-md-6 order-2 order-md-1">
+                <div class="col-md-6">
                     <div class="anilContent paddingTop6rem">
                         <div class="anilHeading">
                             <p>A brain-child of Mr. Anil Rawal</p>
@@ -149,93 +143,175 @@
         </div>
     </section>
 
-    <section class="aboutUsRow3 paddingTop9rem">
+    <section class="aboutUsRow3 marginTop12rem">
         <div class="container">
-            <div class="row">
+            <div class="row position-relative">
                 <div class="col-12">
-                    <div class="aboutUsRow3Heading "><span>Meet And Greet With Our Institutions</span></div>
-                </div>
-                <div class="col-12">
-                    <div class="aboutUsRow3LighterHeading mt-2">We are proudly introducing you to our institutions that expertly describe us.
-                        So, know us through our institutions.</div>
-                </div>
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                    <div class="institution mt-5">
-                        <div class="institution1">Rawal<br> International School</div>
-                        <div class="institution1">Rawal <br>Convent School</div>
-                        <div class="institution1">Risemax College <br>of Education</div>
-                        <div class="institution1">Rawal College<br> of Education</div>
+                    <div class="aboutUsRow3Heading">
+                        <span>Meet And Greet With Our Institutions</span>
                     </div>
                 </div>
-                <div class="col-md-2"></div>
-                <div class="col-12 text-center">
-                <div class="d-flex justify-content-center align-items-center mt-4">
+                <div class="col-12 ">
+                    <div class="aboutUsRow3LighterHeading mt-2">
+                        We are proudly introducing you to our institutions that expertly describe us.
+                        So, know us through our institutions.
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="institution d-md-flex justify-content-center align-items-center">
+                        <div id="institution1 w-25" >
+                            <label for="firstSlider"> Rawal<br> International School</label>
+                        </div>
+                        <div id="institution1 w-25">
+                            <label for = "secondSlider">
+                                Rawal <br>Convent School
+                            </label>
+                        </div>
 
-                    <div class="path mt-3 d-flex">
-                    <div class="bigCircle leftSlider position-relative">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
-                            <circle cx="30" cy="30" r="30" fill="#3564FB"/>
-                          </svg>
-                          <div class="position-absolute" style = "top: 1rem; left: 0.7rem;">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="34" height="6" viewBox="0 0 34 6" fill="none">
-                            <path d="M0.734837 2.73483C0.588387 2.88128 0.588387 3.11872 0.734837 3.26516L3.12132 5.65165C3.26777 5.79809 3.5052 5.79809 3.65165 5.65165C3.7981 5.5052 3.7981 5.26776 3.65165 5.12132L1.53033 3L3.65165 0.878677C3.7981 0.73223 3.7981 0.494794 3.65165 0.348347C3.5052 0.2019 3.26777 0.2019 3.12132 0.348347L0.734837 2.73483ZM34 2.625L1 2.625L1 3.375L34 3.375L34 2.625Z" fill="white"/>
-                          </svg>
+                        <div id="institution1 w-25">
+                            <label for = "thirdSlider">
+                                Risemax College <br>of Education
+                            </label>
+                        </div>
+                        <div id="institution1 w-25">
+                            <label for="fourthSlider">
+                                Rawal College<br> of Education
+                            </label>
                         </div>
                     </div>
-                    <div class="smallCircle" id = >
+                </div>
+                <div class="line position-relative col-12">
+                    <div class="path"></div>
+                </div>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators position-relative">
+                      <div class="w-25 d-flex justify-content-end align-items-center">
+                        <input type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" id = "firstSlider" aria-current="true" aria-label="Slide 1"></input>
                     </div>
-                    <div class="smallCircle" id=  "2">
+                      <div class="w-25 d-flex justify-content-end align-items-center"><input type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" id = "secondSlider" aria-label="Slide 2"></input></div>
+                      <div class="w-25 d-flex justify-content-center align-items-center"><input type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" id = "thirdSlider" aria-label="Slide 3"></input></div>
+                      <div class="w-25 d-flex justify-content-center align-items-center"><input type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" id = "fourthSlider" aria-label="Slide 4"></input></div>
+        
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="riseMaxImage text-md-end">
+                                    <img src = "./images/risemax.png" class = "img-fluid"/>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="aboutRiseMax">
+            
+                                <div class="riseMaxHeading  pe-3">
+                                    <span>Risemax College of Education </span>
+                                </div>
+                                <div class="riseMaxContent mt-4">
+                                    <span>Rise Max College of Education, Faridabad is affiliated with
+                                        Chaudhary Ranbir Singh University, Jind is being run by
+                                        “Rawal Educational and Welfare Society” by its founder
+                                        Chairman Mr. C.B. Rawal. Our Pro-Chairman
+                                        Mr. Anil Rawal is a great inspiration. The institution is
+                                        situated on sprawling land measuring 4.75 acres and
+                                        has a built-up space of 3500 sq. mts.
+                                        </span>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="riseMaxImage text-md-end">
+                                    <img src = "./images/risemax.png" class = "img-fluid"/>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="aboutRiseMax">
+            
+                                <div class="riseMaxHeading  pe-3">
+                                    <span>Risemax College of Education </span>
+                                </div>
+                                <div class="riseMaxContent mt-4">
+                                    <span>Rise Max College of Education, Faridabad is affiliated with
+                                        Chaudhary Ranbir Singh University, Jind is being run by
+                                        “Rawal Educational and Welfare Society” by its founder
+                                        Chairman Mr. C.B. Rawal. Our Pro-Chairman
+                                        Mr. Anil Rawal is a great inspiration. The institution is
+                                        situated on sprawling land measuring 4.75 acres and
+                                        has a built-up space of 3500 sq. mts.
+                                        </span>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="riseMaxImage text-md-end">
+                                    <img src = "./images/risemax.png" class = "img-fluid"/>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="aboutRiseMax">
+            
+                                <div class="riseMaxHeading  pe-3">
+                                    <span>Risemax College of Education </span>
+                                </div>
+                                <div class="riseMaxContent mt-4">
+                                    <span>Rise Max College of Education, Faridabad is affiliated with
+                                        Chaudhary Ranbir Singh University, Jind is being run by
+                                        “Rawal Educational and Welfare Society” by its founder
+                                        Chairman Mr. C.B. Rawal. Our Pro-Chairman
+                                        Mr. Anil Rawal is a great inspiration. The institution is
+                                        situated on sprawling land measuring 4.75 acres and
+                                        has a built-up space of 3500 sq. mts.
+                                        </span>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="riseMaxImage text-md-end">
+                                    <img src = "./images/risemax.png" class = "img-fluid"/>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="aboutRiseMax">
+            
+                                <div class="riseMaxHeading  pe-3">
+                                    <span>Risemax College of Education </span>
+                                </div>
+                                <div class="riseMaxContent mt-4">
+                                    <span>Rise Max College of Education, Faridabad is affiliated with
+                                        Chaudhary Ranbir Singh University, Jind is being run by
+                                        “Rawal Educational and Welfare Society” by its founder
+                                        Chairman Mr. C.B. Rawal. Our Pro-Chairman
+                                        Mr. Anil Rawal is a great inspiration. The institution is
+                                        situated on sprawling land measuring 4.75 acres and
+                                        has a built-up space of 3500 sq. mts.
+                                        </span>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                   </div>
-                    <div class="currentCircle" id = "3">
-
-                    </div>
-                  <div class="smallCircle" id = "4">
-                    </div>
-                <div class="bigCircle rightSlider position-relative">
-                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
-                    <circle cx="30" cy="30" r="30" fill="#3564FB"/>
-                </svg>
-                <div class="position-absolute" style = "top: 1rem; left: .7rem;">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="6" viewBox="0 0 34 6" fill="none">
-                        <path d="M33.2652 3.26517C33.4116 3.11872 33.4116 2.88128 33.2652 2.73483L30.8787 0.34835C30.7322 0.201903 30.4948 0.201903 30.3483 0.34835C30.2019 0.494796 30.2019 0.732233 30.3483 0.87868L32.4697 3L30.3483 5.12132C30.2019 5.26777 30.2019 5.5052 30.3483 5.65165C30.4948 5.7981 30.7322 5.7981 30.8787 5.65165L33.2652 3.26517ZM0 3.375H33V2.625H0V3.375Z" fill="white"/>
-                      </svg>
-                </div>
-                </div>
-                    </div>
-                </div>
-                </div>
-    
-            </div>
-        </div>
-    </section>
-
-    <section class="aboutUsRow4 marginTop6rem">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="riseMaxImage text-md-end">
-                        <img src = "./images/risemax.png" class = "img-fluid"/>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="aboutRiseMax">
-
-                    <div class="riseMaxHeading w-50 pe-3">
-                        <span>Risemax College of Education </span>
-                    </div>
-                    <div class="riseMaxContent mt-4">
-                        <span>Rise Max College of Education, Faridabad is affiliated with
-                            Chaudhary Ranbir Singh University, Jind is being run by
-                            “Rawal Educational and Welfare Society” by its founder
-                            Chairman Mr. C.B. Rawal. Our Pro-Chairman
-                            Mr. Anil Rawal is a great inspiration. The institution is
-                            situated on sprawling land measuring 4.75 acres and
-                            has a built-up space of 3500 sq. mts.
-                            </span>
-                    </div>
-                </div>
-                </div>
             </div>
         </div>
     </section>
@@ -272,7 +348,7 @@
         </div>
     </section>
 
-    <section class="aboutUsRow6 paddingTop9rem">
+    <section class="aboutUsRow6 paddingTop9rem marginBottom7rem">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -291,7 +367,7 @@
                     <div class="col-md-4">
                         <div class="member">
                             <div class="item animated wow fadeIn">
-                                <img src="./images/teamMember1.png" alt="">
+                                <img src="./images/teamMember1.png" class="img-fluid">
                                 <div class="overlay bottom-overlay">
                                 <div class="text">
                                     <div class="linkedin">
@@ -319,7 +395,7 @@
                     <div class="col-md-4">
                         <div class="member">
                             <div class="item animated wow fadeIn">
-                                <img src="./images/member2.png" alt="">
+                                <img src="./images/member2.png" class="img-fluid">
                                 <div class="overlay bottom-overlay">
                                 <div class="text">
                                     <div class="linkedin">
@@ -347,7 +423,7 @@
                     <div class="col-md-4">
                         <div class="member">
                             <div class="item animated wow fadeIn">
-                                <img src="./images/member3.png" alt="">
+                                <img src="./images/member3.png" class="img-fluid">
                                 <div class="overlay bottom-overlay">
                                 <div class="text">
                                     <div class="linkedin">
@@ -462,6 +538,10 @@
     </section>
     
 </body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-<script src="./script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+
+
 </html>

@@ -100,7 +100,6 @@
         position: relative !important;
     }
     .carousel-indicators{
-        position: absolute !important;
         bottom: -3.5rem !important;
     }
     .carousel-control-prev {

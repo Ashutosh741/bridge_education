@@ -720,7 +720,7 @@ letter-spacing: 1.6px;
     border-radius: 50%;
 }
 .carousel-indicators{
-    position: absolute !important;
+    /* position: absolute !important; */
     bottom: -3rem !important;
 }
 .carousel-indicators [data-bs-target] {
@@ -746,6 +746,11 @@ letter-spacing: 1.6px;
     color: black;
     border-color:  #FED942 !important;
 
+}
+
+
+#navbarSupportedContent{
+    margin-top: 5rem;
 }
 
 .page-link {

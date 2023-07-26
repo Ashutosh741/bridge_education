@@ -1,13 +1,11 @@
 
 
 .aboutUsContent{
-    width: 484px;
-height: 466px;
 flex-shrink: 0;
 color: #3564FB;
 text-align: justify;
 font-family: Montserrat;
-font-size: 20px;
+font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -17,13 +15,12 @@ line-height: normal;
 
 .anilHeading{
     color: #3564FB;
-    text-align: justify;
     font-family: Montserrat;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
     line-height: 3rem;
-    width: 50%;
+    width: 65%;
     letter-spacing: -2px;
 }
 
@@ -83,28 +80,33 @@ letter-spacing: 0.6px;
     line-height: normal;
     letter-spacing: 0.28px;
     padding: 0rem 23rem;
+    margin-bottom: 7rem;
 }
 
 .institution{
     color: #3564FB;
-text-align: center;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-display: flex;
-gap: 6rem;
-}
-
-.aboutUsRow3 .path{
-    gap: 13rem;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: normal;
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    gap: 6rem;
+    position: absolute !important;
+    left: 10rem;
+    top: 7rem;
+}
+
+.aboutUsRow3 .path {
+    width: 89.6%;
     height: 1px;
     background: #BCB9B9;
-
+    position: absolute;
+    left: 3.7rem;
+    top: 0rem;
+    z-index: -1;
 }
 
 /* .backLine{
@@ -123,6 +125,11 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 letter-spacing: 0.6px;
+width: 99%;
+}
+
+.riseMaxImage{
+    margin-top: 1rem;
 }
 
 .riseMaxContent{
@@ -136,20 +143,16 @@ width: 461px;
 height: 145px;
 flex-shrink: 0;
 }
-
-.aboutRiseMax{
-    margin-top:5rem;
+.aboutRiseMax {
+    margin-top: 5rem;
     margin-left: 2rem;
 }
 
-.visionBox{
-    width: 387px;
-    height: 575px;
-    flex-shrink: 0;
+.visionBox {
     border-radius: 10px;
     background: #3564FB;
-    padding: 7rem 2rem 3rem 6rem;
-
+    padding: 6rem 2rem 3rem 6rem;
+    text-align: justify;
 }
 
 .visionBoxContent{
@@ -220,6 +223,18 @@ font-weight: 300;
 line-height: normal;
 }
 
+.headingUnderLine {
+    width: 193px;
+    height: 5px;
+    background: #FBCF32;
+    position: absolute;
+    left: -1rem;
+}
+
+.marginLeft6rem{
+margin-left : 6rem !important;
+}
+
 
 .member{
     display: flex;
@@ -237,6 +252,14 @@ height: 400px;
 flex-shrink: 0;
 }
 
+.paddingLeft5rem{
+    padding-left: 5rem;
+}
+
+.marginLeft5rem{
+    margin-left: 5rem;
+}
+
 .member2Back{
 border-radius: 10px;
 opacity: 0.800000011920929;
@@ -251,9 +274,6 @@ background: #FBCF32;
     bottom: 0;
     background-color: #FBCF32;
     overflow: hidden;
-
-    /* width: 370px;
-    height: 400px; */
     transition: .5s ease;
     opacity: 0.800000011920929;
 }
@@ -261,9 +281,7 @@ background: #FBCF32;
 .item {
     position: relative;
     overflow: hidden;
-    width: 370px;
     border-radius: 10px;
-    height: 400px;
 }
 
 .item:hover .overlay {
@@ -294,16 +312,122 @@ background: #FBCF32;
 }
 
 .smallCircle{
-    /* color: #D9D9D9; */
     border-radius: 50%;
     border: 9px solid #D9D9D9;
 }
 
+.carousel-control-prev{
+    display: block !important;
+    background-color: black;
+    top: -2rem;
+    width: 60px;
+  height: 60px;
+  background-color: #3564FB;
+  border-radius: 50%;
+  z-index: 5;
+
+}
+
+.carousel-slide{
+    position: relative !important;
+}
+
+.carousel-control-next{
+    display: block !important;
+    background-color: black;
+    top: -2rem;
+    width: 60px;
+  height: 60px;
+  background-color: #3564FB;
+  border-radius: 50%;
+  z-index: 5;
+}
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    border: 9px solid #D9D9D9;
+    margin: auto;
+    height: 0px !important;
+    width: 0px !important;
+    /* z-index: 2 !important; */
+
+}
+
+.carousel-indicators .active{
+    width: 26px !important;
+    height: 26px !important;
+    background-color: #FBCF32 !important;
+    border-radius: 50% !important;
+    box-shadow: 0 0 0 1px #3564FB !important;
+    position: relative !important;
+    overflow: hidden !important;
+    color : white !important;
+    border : 9px solid white !important
+}
+
+.carousel-indicators {
+    top: -1.4rem !important;
+    z-index: 3;
+    margin: 0px !important;
+    padding: 0px 7rem;
+}
+
+.carousel-indicators div:nth-child(2) {
+    left: 1rem;
+    position: relative;
+}
+
+.carousel-indicators input:nth-child(3) {
+    left: 1rem;
+    position: relative;
+}
+
+.carousel-indicators div input:nth-child(4) {
+    left: 1rem;
+    position: relative;
+}
+
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='6' viewBox='0 0 34 6' fill='none'%3E%3Cpath d='M0.734837 2.73483C0.588387 2.88128 0.588387 3.11872 0.734837 3.26516L3.12132 5.65165C3.26777 5.79809 3.5052 5.79809 3.65165 5.65165C3.7981 5.5052 3.7981 5.26776 3.65165 5.12132L1.53033 3L3.65165 0.878677C3.7981 0.73223 3.7981 0.494794 3.65165 0.348347C3.5052 0.2019 3.26777 0.2019 3.12132 0.348347L0.734837 2.73483ZM34 2.625L1 2.625L1 3.375L34 3.375L34 2.625Z' fill='white'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='6' viewBox='0 0 34 6' fill='none'%3E%3Cpath d='M33.2652 3.26517C33.4116 3.11872 33.4116 2.88128 33.2652 2.73483L30.8787 0.34835C30.7322 0.201903 30.4948 0.201903 30.3483 0.34835C30.2019 0.494796 30.2019 0.732233 30.3483 0.87868L32.4697 3L30.3483 5.12132C30.2019 5.26777 30.2019 5.5052 30.3483 5.65165C30.4948 5.7981 30.7322 5.7981 30.8787 5.65165L33.2652 3.26517ZM0 3.375H33V2.625H0V3.375Z' fill='white'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+
+/* .carousel-indicators input:first-child {
+    left: 5rem;
+    position: relative;
+}
+
+
+
+
+.carousel-indicators input:last-child {
+    left: 5rem;
+    position: relative;
+} */
+
+.aboutUsRow3LighterHeading{
+    padding: 0rem 18rem
+}
+#institution1{
+    z-index: 99;
+    text-align: center;
+    /* position: absolute; */
+}
+
 
 @media screen and (min-width : 300px) and (max-width : 1200px) {
-    .aboutUsRow3, .aboutUsRow4{
+    /* .aboutUsRow3, .aboutUsRow4{
         display: none;
-    }
+    } */
     .aboutUsBanner{
         height: 133px;
     }
@@ -394,5 +518,86 @@ background: #FBCF32;
     }
     .member{
         margin-bottom: 5rem;
+    }
+    .aboutUsRow3LighterHeading{
+        padding : 0px !important;
+        margin-bottom: 3rem ;
+    }
+    .institution{
+        gap : 0px !important;
+        position: static !important;
+        font-size: 11px;
+        margin-bottom: 2.5rem;
+    }
+    .carousel-control-prev{
+        width: 26px;
+        height: 26px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Ccircle cx='13' cy='13' r='13' transform='matrix(-1 0 0 1 26 0)' fill='%233564FB'/%3E%3Cpath d='M6.73483 12.7348C6.58839 12.8813 6.58839 13.1187 6.73483 13.2652L9.12132 15.6516C9.26777 15.7981 9.5052 15.7981 9.65165 15.6516C9.7981 15.5052 9.7981 15.2678 9.65165 15.1213L7.53033 13L9.65165 10.8787C9.7981 10.7322 9.7981 10.4948 9.65165 10.3483C9.5052 10.2019 9.26777 10.2019 9.12132 10.3483L6.73483 12.7348ZM19 12.625L7 12.625L7 13.375L19 13.375L19 12.625Z' fill='white'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+    }
+    .carousel-control-next{
+        width: 26px;
+        height: 26px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Ccircle cx='13' cy='13' r='13' fill='%233564FB'/%3E%3Cpath d='M19.2652 13.2652C19.4116 13.1187 19.4116 12.8813 19.2652 12.7348L16.8787 10.3483C16.7322 10.2019 16.4948 10.2019 16.3483 10.3483C16.2019 10.4948 16.2019 10.7322 16.3483 10.8787L18.4697 13L16.3483 15.1213C16.2019 15.2678 16.2019 15.5052 16.3483 15.6517C16.4948 15.7981 16.7322 15.7981 16.8787 15.6517L19.2652 13.2652ZM7 13.375H19V12.625H7V13.375Z' fill='white'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        
+    }
+
+
+    .carousel-indicators [data-bs-target] {
+        border:0px solid white!important;
+      width: 18px !important;
+        height: 18px !important;
+        background-color: #D9D9D9;;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18' fill='none'%3E%3Ccircle cx='9' cy='9' r='9' fill='%23D9D9D9'/%3E%3C/svg%3E");
+        box-shadow: none !important; 
+}
+    .carousel-indicators .active{
+        width: 26px !important;
+        height: 26px !important;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Ccircle cx='13' cy='13' r='12.5' fill='white' stroke='%233564FB'/%3E%3Cpath d='M22 13C22 17.9706 17.9706 22 13 22C8.02944 22 4 17.9706 4 13C4 8.02944 8.02944 4 13 4C17.9706 4 22 8.02944 22 13Z' fill='%23FBCF32'/%3E%3C/svg%3E") !important;
+      
+    }
+    .carousel-indicators {
+        gap: 4rem;
+        top: -2rem !important;
+    }
+
+    .aboutUsRow3 .path {
+        width: 87.2%;
+        position: absolute;
+        left: 1.6rem;
+        top: -1.2rem;
+        z-index: -1;
+        opacity: 1 !important;
+    }
+    #institution1{
+        padding: 0px 1rem !important;
+    }
+    .carousel-indicators .w-25.d-flex:nth-child(1) input{
+        left: 0.5rem;
+        position: relative;
+    }
+    
+    .carousel-indicators .w-25.d-flex:nth-child(2) input{
+        left: -0.5rem;
+        position: relative;
+    }
+    
+    .carousel-indicators .w-25.d-flex:nth-child(3) input {
+        left: 1rem;
+        position: relative;
+    }
+
+    .carousel-indicators .w-25.d-flex:nth-child(4) input {
+        left: 1.2rem;
+        position: relative;
+
+    }
+    #institution1 label{
+        margin:  0px 10px !important
+    }
+    div#institution1\ w-25 {
+        margin: 4px;
     }
 }
