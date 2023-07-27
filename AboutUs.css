@@ -142,6 +142,7 @@ font-family: Montserrat;
 font-size: 16px;
 font-style: normal;
 font-weight: 300;
+text-align: justify;
 line-height: normal;
 width: 461px;
 height: 145px;
@@ -440,7 +441,7 @@ background: #FBCF32;
 @media screen and (min-width : 300px) and (max-width : 1200px) {
     .aboutUsBanner img{
         height: 113px;
-
+        width: 100%;
     }
     .aboutUsRow3{
         margin-top : 5rem !important

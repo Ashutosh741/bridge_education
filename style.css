@@ -131,7 +131,6 @@ padding: 1rem;
     color: #3564FB !important;
 font-size: 14px !important;
 font-style: normal;
-font-weight: 300 !important;
 line-height: normal;
 letter-spacing: 0.9px;
 }
@@ -801,5 +800,4 @@ height: 112px;
 }
 .bg-yellow{
     background: #FBCF32;
-
 }
