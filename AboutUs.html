@@ -101,8 +101,8 @@
                                 
                             </div>
                         </div>
-                        <div id="thevideo" style="display: none;">
-                          <iframe width="511" height="572" src="https://www.youtube.com/embed/oNPTWlU4u4g?rel=0;&autoplay=1&mute=1&loop=1" frameborder="0" allowfullscreen="" include=""></iframe>
+                        <div id="thevideo" class="iframe-container" style="display: none;">
+                          <iframe  src="https://www.youtube.com/embed/oNPTWlU4u4g?rel=0;&autoplay=1&mute=1&loop=1" frameborder="0" allowfullscreen="" include=""></iframe>
                         </div>
                       </div>
                 </div>
@@ -157,40 +157,41 @@
                         So, know us through our institutions.
                     </div>
                 </div>
-                <div class="col-md-12">
-                    <div class="institution d-md-flex justify-content-center align-items-center">
-                        <div id="institution1 w-25" >
-                            <label for="firstSlider" class ="school1"> Rawal<br> International School</label>
-                        </div>
-                        <div id="institution1 w-25">
-                            <label for = "secondSlider" class = "school2">
-                                Rawal <br>Convent School
-                            </label>
-                        </div>
-
-                        <div id="institution1 w-25">
-                            <label for = "thirdSlider" class = "school3">
-                                Risemax College <br>of Education
-                            </label>
-                        </div>
-                        <div id="institution1 w-25">
-                            <label for="fourthSlider" class = "school4">
-                                Rawal College<br> of Education
-                            </label>
-                        </div>
-                    </div>
-                </div>
                 <div class="line position-relative col-12">
                     <div class="path"></div>
                 </div>
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators position-relative">
-                      <div class="w-25 d-flex justify-content-end align-items-center">
-                        <input type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" id = "firstSlider" aria-current="true" aria-label="Slide 1"></input>
-                    </div>
-                      <div class="w-25 d-flex justify-content-end align-items-center"><input type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" id = "secondSlider" aria-label="Slide 2"></input></div>
-                      <div class="w-25 d-flex justify-content-center align-items-center"><input type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" id = "thirdSlider" aria-label="Slide 3"></input></div>
-                      <div class="w-25 d-flex justify-content-center align-items-center"><input type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" id = "fourthSlider" aria-label="Slide 4"></input></div>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active text position-relative" id = "firstSlider" aria-current="true" aria-label="Slide 1">
+                            <p class="schoolName1" style = "    
+                            position: absolute;
+                            left: -3rem;
+                            top: -6rem;">  Rawal International School</p>
+                    </button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" id = "secondSlider" aria-label="Slide 2" class="text position-relative">
+                        
+                        <p class="schoolName2" style = "    
+                        position: absolute;
+                        left: -2rem;
+                        top: -6rem;"> Rawal Convent School</p>
+
+                    </button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" id = "thirdSlider" aria-label="Slide 3"class="text position-relative">
+                        
+                        <p class="schoolName3" style = "    
+                        position: absolute;
+                        left: -2.5rem;
+                        top: -6rem;"> Risemax college of education</p>
+                    
+                    </button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" id = "fourthSlider" aria-label="Slide 4" class="text position-relative">
+                        
+                        <p class="schoolName4" style = "    
+                        position: absolute;
+                        left: -2.5rem;
+                        top: -6rem;">  Rawal College of Education</p>
+
+                      </button>
         
                     </div>
                     <div class="carousel-inner">

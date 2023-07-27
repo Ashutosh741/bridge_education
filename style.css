@@ -346,7 +346,7 @@ padding-left: 2rem;
 }
 
 .underline{
-    width: 342px;
+    width: 25%;
     height: 2px;
     background: #3564FB;
 }
@@ -801,3 +801,20 @@ height: 112px;
 .bg-yellow{
     background: #FBCF32;
 }
+
+
+.iframe-container {
+    overflow: hidden;
+    /* padding-top: 50.25%;  */
+    position: relative;
+    padding-bottom: 56.25%;
+  } 
+  
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+  }
