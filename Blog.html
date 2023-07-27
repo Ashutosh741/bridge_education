@@ -9,9 +9,9 @@
     <title>Blog</title>
 </head>
 <body>
-    <section class = "header pt-5 pb-3 familyMont">
+    <section class = "header pt-md-5 pb-3 familyMont">
        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src = "./images/Frame.png" class="img-fluid" />
@@ -19,28 +19,28 @@
               <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button> -->
-              <button class="navbar-toggler resChangeFont shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler resChangeFont shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto w-100 justify-content-end mb-2 mb-lg-0">
                     <li class="nav-item paddingRight">
-                        <a class="nav-link menuItems"href="/index.html">Home</a>
+                        <a id = "index-link" class="nav-link menuItems"href="/index.html">Home</a>
                       </li>
                       <li class="nav-item paddingRight">
-                        <a class="nav-link menuItems" href="./Blog.html">For Employer</a>
+                        <a  id = "Blog-link" class="nav-link menuItems" href="./Blog.html">For Employer</a>
                       </li>
                       <li class="nav-item paddingRight">
-                        <a class="nav-link menuItems" href="./Aspirants.html">Job Aspirants</a>
+                        <a  id = "Aspirants-link" class="nav-link menuItems" href="./Aspirants.html">Job Aspirants</a>
                       </li>
                       <li class="nav-item paddingRight">
-                        <a class="nav-link menuItems" href = "./AboutUs.html">About Us</a>
+                        <a  id = "AboutUs-link" class="nav-link menuItems" href = "./AboutUs.html">About Us</a>
                       </li>
                       <li class="nav-item paddingRight">
-                        <a class="nav-link menuItems" href = "ContactUs.html">Contact</a>
+                        <a  id = "ContactUs-link" class="nav-link menuItems" href = "ContactUs.html">Contact</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link loginRegister fw-bolder">Login | Register</a>
+                        <a  id = "login-link" class="nav-link loginRegister fw-bolder">Login | Register</a>
                       </li>
                 </ul>
                 
@@ -63,7 +63,7 @@
     </div>
 </section>
 
-<section class="row-9 paddingTop7rem familyMont">
+<section class="row-9 paddingTop7rem familyMont" style = "background-color: white;">
     <div class="container">
         <div class="row">
                 <div class="col-md-12">
@@ -309,13 +309,12 @@
         </div>
     </div>
 </section>
-
 <section class="row-10 footer familyMont">
     <div class="container">
         <div class="row footerContent">
                 <div class="col-md-4">
                     <div class="logo pb-5">
-                        <img class= "img-fluid" src = "./images/footerLogo.png"/>
+                        <img src = "./images/footerLogo.png"/>
                     </div>
                     <div class="description text-white width90 pb-3">
                         <span>Bridge Education is an educational and school administrative staff recruitment agency. It works as a bridge between educational institutions and educators. Our educationists recruits competent teachers to the India's Prestigious Schools only. Making the process smooth and speedy for both employee and employer.</span>
@@ -323,10 +322,10 @@
                     <div class="social">
                         <span>Follow us</span>
                         <div class="icons">
-                            <img class= "img-fluid" src = "images/insta.png"/>
-                            <img class= "img-fluid" src = "images/facebook.png"/>
-                            <img class= "img-fluid" src = "images/youtube.png"/>
-                            <img class= "img-fluid" src = "images/linkedin.png"/>
+                            <img src = "images/insta.png"/>
+                            <img src = "images/facebook.png"/>
+                            <img src = "images/youtube.png"/>
+                            <img src = "images/linkedin.png"/>
                         </div>
                     </div>
                 </div>
@@ -336,7 +335,7 @@
                             <span>Quick Links</span>
                             
                         </div>
-                        <div class="links pt-4 d-flex flex-column gap-4">
+                        <div class="links mt-md-3 pt-5 d-flex flex-column gap-4">
                             <div class="link1">Services</div>
                             <div class="link2">Blog</div>
                             <div class="link3">Contact</div>
@@ -347,11 +346,11 @@
 
                 </div>
                 <div class="col-md-4">
-                    <div class="contactContent text-white paddingLeft4rem">
+                    <div class="contactContent text-white  pe-md-2">
                         <div class="quickHeading fw-bold">Contact</div>
-                        <div class="contact d-flex flex-column gap-4 pt-4">
+                        <div class="contact mt-md-3 pt-5 d-flex flex-column gap-4">
                             <div class="locationHeading">RISE MAX COLLEGE OF EDUCATION</div>
-                            <div class="address"><span class="width80">Village Jharsaintly, Sector 58, Near Transport Nagar, Ballabgarh, Faridabad, Haryana- 121004.</span></div>
+                            <div class="address"><span>Village Jharsaintly, Sector 58, Near Transport Nagar, Ballabgarh, Faridabad, Haryana- 121004.</span></div>
                             <div class="email">
                                 <span>risemaxcollage@yahoo.com</span>
                                 <span>Madhuparasher@gmail.com</span>
@@ -373,7 +372,7 @@
             <div class="col-md-10">
                 <div class="row">
                 <div class="col-md-4 text-center">
-                    <span class = "condition"><img class= "img-fluid" src = "./images/copyright.png"/>All Rights Reserved. Rawal Shiksha Samiti</span>
+                    <span class = "condition"><img src = "./images/copyright.png"/>All Rights Reserved. Rawal Shiksha Samiti</span>
                 </div>
                 <div class="col-md-4 text-end">
                     <span class = "condition">Terms and Conditions | Privacy Policy</span>
@@ -388,8 +387,10 @@
     </div>
 </section>
 
-
-
 </body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+
 </html>

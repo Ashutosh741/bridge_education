@@ -52,6 +52,10 @@ top: 1px;
 
 }
 
+.aboutUsRow2{
+    background-color: #F8F7FE;
+}
+
 .anilWithGlass{
 
     position: absolute;
@@ -100,11 +104,11 @@ letter-spacing: 0.6px;
 }
 
 .aboutUsRow3 .path {
-    width: 89.6%;
+    width: 95%;
     height: 1px;
     background: #BCB9B9;
     position: absolute;
-    left: 3.7rem;
+    /* left: 3.7rem; */
     top: 0rem;
     z-index: -1;
 }
@@ -325,6 +329,7 @@ background: #FBCF32;
   background-color: #3564FB;
   border-radius: 50%;
   z-index: 5;
+  opacity: 1;
 
 }
 
@@ -341,6 +346,7 @@ background: #FBCF32;
   background-color: #3564FB;
   border-radius: 50%;
   z-index: 5;
+  opacity: 1;
 }
 .carousel-indicators [data-bs-target] {
     border-radius: 50%;
@@ -348,6 +354,8 @@ background: #FBCF32;
     margin: auto;
     height: 0px !important;
     width: 0px !important;
+    opacity: 1;
+    box-shadow: none !important;
     /* z-index: 2 !important; */
 
 }
@@ -425,14 +433,19 @@ background: #FBCF32;
 
 
 @media screen and (min-width : 300px) and (max-width : 1200px) {
-    /* .aboutUsRow3, .aboutUsRow4{
-        display: none;
-    } */
+    .aboutUsBanner img{
+        height: 113px;
+
+    }
+    .aboutUsRow3{
+        margin-top : 5rem !important
+    }
     .aboutUsBanner{
         height: 133px;
     }
     .aboutUsRow1{
-        padding:0px !important
+        padding:0px !important;
+        margin-top: 2rem;
     }
     .aboutUsContent{
         margin: 0px !important;
@@ -498,13 +511,23 @@ background: #FBCF32;
         letter-spacing: 0.6rem;
         font-size: 85px;
     }
+
+    .riseMaxContent{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .aboutRiseMax {
+        margin-top: 1rem;
+        margin-left:0rem;
+    }
     .resMission {
-        top: 13.2rem !important;
-        right: 9.6rem !important;
+        top: 13rem !important;
+        right: 7.5rem !important;
     }
     .resValues {
-        top: 11rem !important;
-        right: 9.6rem !important;
+        top: 10.7rem !important;
+        right: 7.5rem !important;
     }
     .cardMarginBottom3{
         margin-bottom: 3rem;
@@ -526,16 +549,19 @@ background: #FBCF32;
     .institution{
         gap : 0px !important;
         position: static !important;
-        font-size: 11px;
+        font-size: 10px;
         margin-bottom: 2.5rem;
     }
     .carousel-control-prev{
+        left:0.5rem;
         width: 26px;
         height: 26px;
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Ccircle cx='13' cy='13' r='13' transform='matrix(-1 0 0 1 26 0)' fill='%233564FB'/%3E%3Cpath d='M6.73483 12.7348C6.58839 12.8813 6.58839 13.1187 6.73483 13.2652L9.12132 15.6516C9.26777 15.7981 9.5052 15.7981 9.65165 15.6516C9.7981 15.5052 9.7981 15.2678 9.65165 15.1213L7.53033 13L9.65165 10.8787C9.7981 10.7322 9.7981 10.4948 9.65165 10.3483C9.5052 10.2019 9.26777 10.2019 9.12132 10.3483L6.73483 12.7348ZM19 12.625L7 12.625L7 13.375L19 13.375L19 12.625Z' fill='white'/%3E%3C/svg%3E");
         background-repeat: no-repeat;
     }
     .carousel-control-next{
+        right:0.5rem;
+
         width: 26px;
         height: 26px;
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Ccircle cx='13' cy='13' r='13' fill='%233564FB'/%3E%3Cpath d='M19.2652 13.2652C19.4116 13.1187 19.4116 12.8813 19.2652 12.7348L16.8787 10.3483C16.7322 10.2019 16.4948 10.2019 16.3483 10.3483C16.2019 10.4948 16.2019 10.7322 16.3483 10.8787L18.4697 13L16.3483 15.1213C16.2019 15.2678 16.2019 15.5052 16.3483 15.6517C16.4948 15.7981 16.7322 15.7981 16.8787 15.6517L19.2652 13.2652ZM7 13.375H19V12.625H7V13.375Z' fill='white'/%3E%3C/svg%3E");
@@ -551,6 +577,7 @@ background: #FBCF32;
         background-color: #D9D9D9;;
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18' fill='none'%3E%3Ccircle cx='9' cy='9' r='9' fill='%23D9D9D9'/%3E%3C/svg%3E");
         box-shadow: none !important; 
+        opacity: 1;
 }
     .carousel-indicators .active{
         width: 26px !important;
@@ -562,11 +589,9 @@ background: #FBCF32;
         gap: 4rem;
         top: -2rem !important;
     }
-
     .aboutUsRow3 .path {
-        width: 87.2%;
+        width: 90%;
         position: absolute;
-        left: 1.6rem;
         top: -1.2rem;
         z-index: -1;
         opacity: 1 !important;
@@ -575,22 +600,22 @@ background: #FBCF32;
         padding: 0px 1rem !important;
     }
     .carousel-indicators .w-25.d-flex:nth-child(1) input{
-        left: 0.5rem;
+        left: 1.5rem;
         position: relative;
     }
     
     .carousel-indicators .w-25.d-flex:nth-child(2) input{
-        left: -0.5rem;
+        left: -0.9rem;
         position: relative;
     }
     
     .carousel-indicators .w-25.d-flex:nth-child(3) input {
-        left: 1rem;
+        left: -1.2rem;
         position: relative;
     }
 
     .carousel-indicators .w-25.d-flex:nth-child(4) input {
-        left: 1.2rem;
+        left: -2rem;
         position: relative;
 
     }
@@ -599,5 +624,24 @@ background: #FBCF32;
     }
     div#institution1\ w-25 {
         margin: 4px;
+    }
+    .aboutUsRow3Heading{
+        font-size: 28px;
+    }
+    .school1{
+        left: 1rem;
+        position: relative;
+    }
+    .school2{
+        left: -1rem;
+        position: relative;
+    }
+    .school3{
+        left: -2rem;
+        position: relative;
+    }
+    .school4{
+        left: -2.2rem;
+        position: relative;
     }
 }

@@ -109,13 +109,17 @@ padding: 1rem;
 }
 
 .bannerHeading2 >span{
-     text-align: right !important; 
-     color: #3564FB; 
-     font-size: 16px; 
- 
-     font-weight: 300;
-      word-wrap: break-word;
+    text-align: right !important; 
+    color: #3564FB; 
+    font-size: 16px; 
+    font-weight: 300;
+    word-wrap: break-word;
+}
 
+.bannerHeading2{
+    /* margin-left: 12rem; */
+    width: 65%;
+    margin-left: auto;
 }
 
 .menu{
@@ -268,7 +272,7 @@ width: 80% !important;
 display: block;
 }
 .whyAnswer{
-    width: 65%;
+    width: 80%;
 }
 
 
@@ -399,9 +403,6 @@ line-height: 30px; /* 100% */
 .blogCard{
     background: #FFF;
     box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    width: 387px;
-height: 300px;
-flex-shrink: 0;
 }
 
 .readMore{
@@ -563,9 +564,9 @@ line-height: normal;
     left: 2px;;
 }
 
-.footerContent{
+.footerContent {
     /* padding: 5rem 9rem; */
-    padding: 5rem 4rem 5rem 8rem;
+    padding: 5rem 2rem 4rem 4rem;
 }
 
 .footer .quickHeading{
@@ -793,4 +794,12 @@ height: 112px;
 
 .page-item:first-child .page-link{
     border-radius: 0px !important;
+}
+
+.wrapBlog{
+    background-color: #fff;
+}
+.bg-yellow{
+    background: #FBCF32;
+
 }

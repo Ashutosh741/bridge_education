@@ -1,5 +1,17 @@
 @media screen and (min-width : 300px) and (max-width:1200px){
+    .navbar-nav li:last-child {
+        order: -1;
+      }
 
+    
+    #navbarSupportedContent{
+        margin-top: 0px;
+    }
+    .bannerHeading2{
+        margin:0px !important;
+        width: 100% !important;
+        letter-spacing: 1px;
+    }
     .resChangeFont{
         box-shadow: none;
     }
@@ -30,33 +42,34 @@
         margin-top: 4rem !important;
         margin-bottom: 5rem ;
     }
-    .leftImage{
-        margin: 1rem;
-    }
-
     .carousel-indicators [data-bs-target] {
         box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25) !important;
     }
     .resLeftImage{
-        padding: 1.5rem;
         margin-top: 2rem;
-        padding-right: 1.5rem !important;
+        padding-right:0px !important ;
     }
     .rightText{
         padding-top : 0px !important;
         padding: 2rem;
     }
     .lighterText{
+        margin-top: 2rem;
         text-align: center;
+        font-size: 32px !important;
     }
     .horizontalLine{
         width: 70px;
         height: 2px;
-        left : 0px;
+        left : -2rem;
     }
     .leftContent{
         display: block;
         padding : 0px !important
+
+    }
+    .leftContent .leftImage{
+        margin : 1rem;
     }
     .whyLine{
         position: relative;
@@ -76,10 +89,11 @@
     }
     .leftBolderHeading{
         width : 100%;
+        font-size: 28px;
     }
     .resPadding{
         margin-top : 2rem !important;
-        padding: 2rem;
+        padding: 1.5rem;
     }
     .row-4 .description{
         width : 100%;
@@ -108,9 +122,6 @@
     .carousel-control-next{
         display: none !important;
     }
-    .resMarginTop10rem{
-        margin-top: 10rem !important;
-    }
     .anilImage{
         transform: scaleX(-1);
     }
@@ -127,6 +138,7 @@
     }
     .wrapBlog{
         background-color: white;
+        margin-bottom: 2rem;
     }
     .footerContent{
         padding: 4rem 0rem 4rem 1rem !important;
@@ -172,10 +184,10 @@
     }
     .anilImage {
         position: absolute!important;
-        bottom: 0.07rem;
+        bottom: 0rem;
     }
-    .textHeading{
-        margin : 2rem;
+    .textHeading {
+        margin: 2rem 1rem;
     }
     .headingButton{
         display: flex;
@@ -184,10 +196,23 @@
     .resPaddingTop1rem{
         padding-top: 1rem;
     }
+    .row-8 .lighterHeading{
+        font-size: 19px;
+    }
+
 
     .blogCard{
         width: 100%;
         height: 297px;
     }
+    .blogContent{
+        padding: 2rem !important
+    }
+
+    .nav-item a.active {
+        /* margin-top: 5px; */
+        text-decoration: underline; /* Add any other styles you want for the active page */
+        
+      }
 
 }

@@ -10,8 +10,6 @@ line-height: normal;
 .secondBox{
     background: #FFF;
 box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-width: 405px;
-height: 300px;
 margin-top : 4.5rem;
 padding: 5.5rem 1rem 1rem 3rem !important
 }
@@ -85,7 +83,6 @@ font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
-width: 297px;
 }
 /* 
 .playVideo .background{
@@ -378,8 +375,6 @@ background: #FBCF32;
         font-size: 50px !important;
     }
     .secondBox{
-        width: 351px;
-        height: 306px;
         padding: 5.5rem 1rem 1rem 2rem !important;
         margin:auto;
         margin-top : 4.5rem !important
@@ -428,6 +423,9 @@ background: #FBCF32;
     }
     .aspirantRow6 #accordionExample{
         margin-top: 3rem !important;
+    }
+    .aspirantRow5{
+        display: none;
     }
 
 }
