@@ -21,7 +21,7 @@ background: #FEB408;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    width: 50%;
+    width: 63%;
 }
 
 .headingContent{
@@ -92,12 +92,15 @@ align-items: center;
     }
     .row2Heading{
         margin-bottom: 1rem !important;
+        font-size: 38px !important;
     }
     .underline{
         margin-bottom: 2rem !important;
+        width: 63.829px !important;
     }
     .row2SubHeading{
-        width: 90% !important;
+        width: 84% !important;
+        font-size: 30px !important;
     }
     .headingContent{
         width: 85%;

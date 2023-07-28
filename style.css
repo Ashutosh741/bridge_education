@@ -354,8 +354,8 @@ padding-left: 2rem;
 .stories {
     background: #FBCF32;
     padding: 58px;
-    width: 409px;
-    height: 307px;
+    height : 100% !important;
+    /* width : 100% !important; */
     margin-left: 4.2rem;
 }
 
