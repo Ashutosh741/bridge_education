@@ -10,7 +10,9 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-
+.aboutUsBanner img{
+    width: 100%;
+}
 
 
 .anilHeading{

@@ -7,6 +7,10 @@ font-weight: 800;
 line-height: normal;
 }
 
+.aspirantBanner img{
+    width : 100%;
+}
+
 .secondBox{
     background: #FFF;
 box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -345,6 +349,7 @@ background: #FBCF32;
     }
     .aspirantBanner img{
         height: 133px !important;
+        width: 100% !important;
     }
     .secondUnderLine{
         width: 112px;

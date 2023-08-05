@@ -1,0 +1,148 @@
+.blogDate{
+    color: #3564FB;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blogContent{
+
+}
+
+.contentImage img{
+    height : 482px;
+}
+
+
+
+.imageText h6{
+    color: #3564FB;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.32px;
+}
+
+.blogHeading h4{
+    color: #3564FB;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.searchBox{
+    width:70%;
+height: 62px;
+flex-shrink: 0;
+border-radius: 2px;
+border: 1px solid #D9D9D9;
+outline: none;
+padding : 1rem;
+}
+
+.searchIcon{
+    width: 85px;
+height: 62px;
+flex-shrink: 0;
+border-radius: 0px 2px 2px 0px;
+background: #3564FB;
+}
+
+button, select {
+    /* text-transform: none; */
+    border: none;
+}
+
+.suggestionHeading h6{
+    color: #3564FB;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: 0.9px;
+text-transform: uppercase;
+}
+
+.prefixLine{
+    width: 24px;
+height: 2px;
+color: #FED942;
+/* position: absolute; */
+}
+
+.postImage img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+
+.postHeading h6{
+    color: #3564FB;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+/* font-weight: 600; */
+line-height: normal;
+}
+
+
+.postDate h6{
+    color: #3564FB;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.categories span{
+    color: #3564FB;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.8px;
+}
+
+.popularTags span{
+display: inline-flex;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+border-radius: 2px;
+background: #F1F0F5;
+
+color: #3564FB;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.8px;
+}
+
+@media screen and (min-width : 300px) and (max-width : 1200px) {
+    .blogPage{
+        font-size : 24px;
+    }
+
+    .blogContent{
+        padding : 0px !important;   
+    }
+
+    .contentImage img{
+        height: 390px;
+        width: 100%;
+    }
+}

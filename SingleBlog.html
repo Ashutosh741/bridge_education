@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css"/>
+    <link rel = "stylesheet" href = "responsive.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "SingleBlog.css"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Blog</title>
+</head>
+<body>
+    <section class = "header pt-md-5 pb-3 familyMont">
+       
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src = "./images/Frame.png" class="img-fluid w-100" />
+              </a>
+
+              <button class="navbar-toggler resChangeFont shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto w-100 justify-content-end mb-2 mb-lg-0">
+                    <li class="nav-item paddingRight">
+                        <a id = "index-link" class="nav-link menuItems"href="/index.html">Home</a>
+                      </li>
+                      <li class="nav-item paddingRight">
+                        <a  id = "Blog-link" class="nav-link menuItems" href="./Blog.html">For Employer</a>
+                      </li>
+                      <li class="nav-item paddingRight">
+                        <a  id = "Aspirants-link" class="nav-link menuItems" href="./Aspirants.html">Job Aspirants</a>
+                      </li>
+                      <li class="nav-item paddingRight">
+                        <a  id = "AboutUs-link" class="nav-link menuItems" href = "./AboutUs.html">About Us</a>
+                      </li>
+                      <li class="nav-item paddingRight">
+                        <a  id = "ContactUs-link" class="nav-link menuItems" href = "ContactUs.html">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a  id = "login-link" class="nav-link loginRegister fw-bolder">Login | Register</a>
+                      </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+    </section>
+
+<section class = "blog blogBackground">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ">
+                <div class="blogCrumb align-items-center  height15rem d-flex">
+                    <div class="verticalLine me-2"></div>
+                    <div class="blogPage">A Guide for Teachers and Education Staff</div>
+                </div>
+             
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- heading line remaining, and some padding in responsive check it -->
+
+
+<section class="blogContent marginTop7rem mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h6 class = "blogDate mb-4">July 10, 2023</h6>
+            </div>
+            <div class="col-md-8">
+                <div class="contentImage mb-4">
+                    <img src = "./images/singleBlog1.png" class = "img-fluid w-100"/>
+                </div>
+                <div class="imageText">
+                    <h6><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                    </p>
+                     <p>   Bccaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    </p>
+                      <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+                        </p>
+
+                      </h6>
+                      
+                </div>
+                <div class="videoCoverImage mb-4 mt-5">
+                    <div onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; this.style.display='none'">
+                      <div class="playVideo position-relative d-flex justify-content-center align-items-center">
+                      <div class="d-flex position-absolute align-items-center justify-content-center">
+                      <div class="background">
+                          <img src = "images/playButtonBack.png" class = "img-fluid"/>
+                      </div>
+                      <div class="playButton position-absolute" style = "margin-left : 0.5rem">
+                          <img src = "images/playButton.png" class = "img-fluid"/>
+                      </div>
+                      </div>
+                      <div class="">
+                      <img src = "./images/singleBlog2.jpeg" class = "img-fluid"/>
+                      </div>
+                      
+                  </div>
+                    </div>
+                    <div id="thevideo" class="iframe-container" style="display: none;">
+                      <iframe width="100%" class="responsive-iframe" height="480" src="https://www.youtube.com/embed/oNPTWlU4u4g?rel=0;&autoplay=1&mute=1&loop=1" frameborder="0" allowfullscreen="" include=""></iframe>
+                    </div>
+                </div>
+                <div class="blogHeading">
+                    <h4>How to improve knowledge skills</h4>
+                </div>
+                <div class="imageText mb-4">
+                    <h6><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.                    </p>
+                    </h6>
+
+                </div>
+                <div class="blogHeading">
+                    <h4>The positive power of education</h4>
+                </div>
+                <div class="imageText mb-4">
+                    <h6>
+                     <p>   Bccaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    </p>
+                      <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+                        </p>
+                        
+                      </h6>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <form>
+                    <div class = "d-flex gap-0">
+                      <input type="search" id="mySearch" class = "searchBox" name="q" placeholder="Search"/>
+                      <button class="searchIcon">
+                        <img src = "./images/searchIcon.png" class="img-fluid "/>
+                      </button>
+                    </div>
+                </form>
+                <div class="suggestionHeading mt-4 mb-5">
+                    <h6>Recent Posts</h6> <span class="prefixLine"></span>
+                </div>
+
+                <div class="recentPost d-flex gap-3 mb-4 align-items-center">
+                    <div class="postImage">
+                        <img src = "./images/singleBlog1.png" class="img-fluid"/>
+                    </div>
+                    <div class="postDetails d-flex flex-column gap-1">
+                        <div class="postHeading fw-bold">
+                            <h6>A Guide for Teacher<br> and Education Staff</h6>
+                        </div>
+                        <div class="postDate">
+                            <h6>July 10, 2023</h6>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="recentPost d-flex gap-3 mb-4 align-items-center">
+                    <div class="postImage">
+                        <img src = "./images/singleBlog1.png" class="img-fluid"/>
+                    </div>
+                    <div class="postDetails d-flex flex-column gap-1">
+                        <div class="postHeading fw-bold">
+                            <h6>A Guide for Teacher<br> and Education Staff</h6>
+                        </div>
+                        <div class="postDate">
+                            <h6>July 10, 2023</h6>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="recentPost d-flex gap-3 mb-4 align-items-center">
+                    <div class="postImage">
+                        <img src = "./images/singleBlog1.png" class="img-fluid"/>
+                    </div>
+                    <div class="postDetails d-flex flex-column gap-1">
+                        <div class="postHeading fw-bold">
+                            <h6>A Guide for Teacher<br> and Education Staff</h6>
+                        </div>
+                        <div class="postDate">
+                            <h6>July 10, 2023</h6>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="recentPost d-flex gap-3 mb-4 align-items-center">
+                    <div class="postImage">
+                        <img src = "./images/singleBlog1.png" class="img-fluid"/>
+                    </div>
+                    <div class="postDetails d-flex flex-column gap-1">
+                        <div class="postHeading fw-bold">
+                            <h6>A Guide for Teacher<br> and Education Staff</h6>
+                        </div>
+                        <div class="postDate">
+                            <h6>July 10, 2023</h6>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="suggestionHeading mt-4 mb-5 ">
+                    <h6 class="prefixLine">Categories</h6> 
+                    <!-- <span class="prefixLine"></span> -->
+                    <div class="categories mt-4 d-flex flex-column gap-2">
+                        <span>Education</span>
+                        <span>Teaching Staff </span>
+                        <span>Learning</span>
+                        <span>Training</span>
+
+                    </div>
+                </div>
+
+                <div class="tags suggestionHeading">
+                    <h6>POPULAR TAGS</h6>
+                    <div class="popularTags mt-4 d-flex gap-2">
+                        <span>Education</span>
+                        <span>Job</span>
+                        <span>Teacher</span>
+    
+                        
+
+
+                    </div>
+                    <div class="popularTags mt-2">
+                        <span>School</span>
+                        <span>Good Staff</span>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="row-10 footer familyMont">
+    <div class="container">
+        <div class="row footerContent">
+                <div class="col-md-4">
+                    <div class="logo pb-5">
+                        <img src = "./images/footerLogo.png"/>
+                    </div>
+                    <div class="description text-white width90 pb-3">
+                        <span>Bridge Education is an educational and school administrative staff recruitment agency. It works as a bridge between educational institutions and educators. Our educationists recruits competent teachers to the India's Prestigious Schools only. Making the process smooth and speedy for both employee and employer.</span>
+                    </div>
+                    <div class="social">
+                        <span>Follow us</span>
+                        <div class="icons">
+                            <img src = "images/insta.png"/>
+                            <img src = "images/facebook.png"/>
+                            <img src = "images/youtube.png"/>
+                            <img src = "images/linkedin.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="quickLink text-white paddingLeft5rem">
+                        <div class="fw-bolder quickHeading">
+                            <span>Quick Links</span>
+                            
+                        </div>
+                        <div class="links mt-md-3 pt-5 d-flex flex-column gap-4">
+                            <div class="link1">Services</div>
+                            <div class="link2">Blog</div>
+                            <div class="link3">Contact</div>
+                            <div class="link4">About</div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="contactContent text-white  pe-md-2">
+                        <div class="quickHeading fw-bold">Contact</div>
+                        <div class="contact mt-md-3 pt-5 d-flex flex-column gap-4">
+                            <div class="locationHeading">RISE MAX COLLEGE OF EDUCATION</div>
+                            <div class="address"><span>Village Jharsaintly, Sector 58, Near Transport Nagar, Ballabgarh, Faridabad, Haryana- 121004.</span></div>
+                            <div class="email">
+                                <span>risemaxcollage@yahoo.com</span>
+                                <span>Madhuparasher@gmail.com</span>
+                            </div>
+                            <div class="contactNumber">+91 9818 07 6201</div>
+                        </div>
+
+                    </div>
+
+                </div>
+        </div>
+    </div>
+</section>
+
+<section class="row-11 termsConditions mt-1 familyMont">
+    <div class="container">
+        <div class="row  text-white">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 ">
+                <div class="row">
+                <div class="col-md-4 order-3 order-md-1">
+                    <span class = "condition"><img src = "./images/copyright.png"/>All Rights Reserved. Rawal Shiksha Samiti</span>
+                </div>
+                <div class="col-md-4 order-2 order-md-3 ">
+                    <span class = "condition">Terms and Conditions | Privacy Policy</span>
+                </div>
+                <div class="col-md-4 order-1 order-md-2">
+                    <span class = "condition">Website Designed by <u>School Saarthi</u></span>
+                </div>
+            </div>
+            </div>
+<div class="col-md-1"></div>
+        </div>
+    </div>
+</section>
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+
+</html>
