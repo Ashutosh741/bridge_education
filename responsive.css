@@ -83,12 +83,16 @@
         right : 1rem !important
     }
     .saathi{
-        position: absolute;
-        left: -2.7rem;
+        /* position: absolute;
+        left: -2.7rem; */
     }
-    .leftBolderHeading{
+    .resRemovePadding{
+        padding : 0px !important;
+    }
+    .leftBolderHeading h2{
         width : 100%;
         font-size: 28px;
+        padding-left: 3rem;
     }
     .resPadding{
         margin-top : 2rem !important;
@@ -97,6 +101,13 @@
     .row-4 .description{
         width : 100%;
     }
+     .row-3 .description{
+        width: 100%;
+    }
+    .row-3 .bolderText h1{
+        width: 100%;
+    }
+
     .underline{
         width : 65%;
     }
@@ -104,10 +115,17 @@
         margin-top: 2rem !important;
     }
     .stories{
-        padding : 2rem;
+        padding : 3rem 1.5rem;
         height: 100%;
         width:  100%;
         margin-left : 0px ;
+    }
+    .stories >h4{
+        font-size: 20px;
+    }
+    .candidateProfile> img{
+        width: 100%;
+        height: 100%;
     }
     #carouselExampleIndicators{
         position: relative !important;
@@ -127,8 +145,9 @@
     .row-8{
         padding-left: 0rem;
     }
-    .row-8 .heading{
+    .row-8 .heading h1{
         width: 100% !important;
+        padding: 1rem;
     }
     .individualProcess{
         display: flex ;
@@ -193,7 +212,7 @@
         bottom: 0rem;
     }
     .textHeading {
-        margin: 2rem 1rem;
+        padding: 2rem 1rem !important;
     }
     .headingButton{
         display: flex;

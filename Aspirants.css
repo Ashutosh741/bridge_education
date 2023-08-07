@@ -36,17 +36,18 @@ align-items: flex-start;
 gap: 10px;
 position: absolute;
 left: 1rem;
+width : 50%;
+height: 150px;
 }
 
 .smallBoxText{
     color: #FFF;
 font-family: Montserrat;
-font-size: 24px;
+font-size: 22px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
 letter-spacing: 1.2px;
-width: 152px;
 align-self: stretch;
 }
 
@@ -77,7 +78,7 @@ letter-spacing: 0.24px;
 }
 
 .aboutVideo{
-    padding-top : 6rem
+    padding-top : 4rem
 }
 
 .aboutVideo .reviews{
@@ -87,6 +88,11 @@ font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+}
+
+.personDetail{
+    margin : 0px 2rem;
+    padding-right: 6rem;
 }
 /* 
 .playVideo .background{
@@ -105,6 +111,15 @@ line-height: normal;
     background: #FBCF32;
     color: #3367D6;
 }
+
+
+.aspirantRow4 .btn:hover{
+    color: #FFF !important  ;
+    background:none !important;
+}
+
+
+
 
 .aspirantRow4 .submitDetails{
 
@@ -324,7 +339,7 @@ border : none !important
 }
 
 .aboutAspirants{
-    width : 75%;
+    /* width : 75%; */
 }
 
 .headingUnderLine{
@@ -432,6 +447,19 @@ background: #FBCF32;
     .aspirantRow5{
         display: none;
     }
+    .personDetail{
+        margin : 0px !important;
+        padding : 0px !important;
+    }
 
 }
 
+.wholeBox:hover .smallBoxText{
+    /* background-color: #4F4E4E; */
+    cursor: pointer;
+    color: #3564FB;
+}
+
+.wholeBox:hover .smallBox{
+    background: #FBCF32;
+}

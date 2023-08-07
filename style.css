@@ -8,13 +8,15 @@ body{
 }
 
 
-.bannerHeading1{
+.bannerHeading1 h1{
 text-align: right; 
 color: #3564FB;
 font-size: 36px;
 line-height: 2.7rem;
 font-weight: 700; 
 word-wrap: break-word;
+width: 65%;
+margin-left: auto;
 }
 .resmenu{
     display: flex;
@@ -51,12 +53,36 @@ word-wrap: break-word;
     border-radius: 9px;
 background: #F8F7FE;
 box-shadow: 2px 2px 6px 1px rgba(30, 30, 30, 0.20);
-width :200px;
-height: 220px;
+width: 196px;
+height: 238px;
 padding: 1rem;
 }
-.cardCenter .card-heading2{
-    color: white;
+
+.banner2-card:hover{
+    background: #3564FB;
+    cursor: pointer;
+    /* color: white; */
+
+
+}
+.banner2-card:hover .card-heading h4{
+    color : white
+}
+
+.banner2-card:hover .card-icon{
+    background: #FED942 !important;
+}
+
+.btn:hover{
+    background: #FED942 !important;
+    color : #3564FB !important;
+}
+
+.btn{
+    border: none !important;
+}
+
+.cardCenter .card-heading2 {
     padding-bottom: 20px;
     font-size: 20px !important;
 }
@@ -64,7 +90,6 @@ padding: 1rem;
 .cardCenter{
     position : absolute;
     top : 20%;
-    background: #3564FB;
 }
 
 .threeCards{
@@ -74,11 +99,11 @@ padding: 1rem;
 
 }
 .card-heading{
-    padding-top : 0.5rem;
+    padding-top : 1rem;
     padding-right: 2rem;
 }
 
-.card-heading >span{
+.card-heading >h4{
     color: #3367D6;
     font-size: 22px;
     font-weight: 600;
@@ -93,9 +118,7 @@ padding: 1rem;
     text-align: center;
     line-height: 45px;
 }
-.card-iconx{
-    background: #FED942 !important;
-}
+
 
 .logo{
     align-items: center;
@@ -171,6 +194,20 @@ left: -8.5rem;
 
 .paddingBottom7rem{
     padding-Bottom : 7rem  !important
+}
+
+.paddingBottom5rem{
+    padding-Bottom : 5rem  !important
+}
+.paddingBottom4rem{
+    padding-Bottom : 4rem  !important
+}
+
+.paddingTop5rem{
+    padding-top : 5rem  !important
+}
+.paddingTop4rem{
+    padding-top : 4rem  !important
 }
 
 
@@ -267,7 +304,7 @@ font-size: 30px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-width: 80% !important;
+/* width: 80% !important; */
 display: block;
 }
 .whyAnswer{
@@ -296,22 +333,38 @@ font-weight: 300;
 line-height: 38px; /* 105.556% */
 }
 
-.bolderText{
+.bolderText h1{
     color: #3564FB;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
 line-height: 38px; /* 105.556% */
+width: 60%;
 }
 
+/* .deskText{
+    width : 60%;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+} */
 
+
+
+.row-3 .description{
+    color: #3564FB;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+width: 55%;
+font-family: montserrat !important;
+}
 .description{
     color: #3564FB;
 font-size: 16px;
 font-style: normal;
 font-weight: 300;
 line-height: normal;
-/* width: 55%; */
 font-family: montserrat !important;
 }
 
@@ -335,14 +388,13 @@ font-family: montserrat !important;
     height: 15rem !important;
 }
 
-.leftBolderHeading{
+.leftBolderHeading h2{
     color: #3564FB;
 font-size: 30px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-width: 83%;
-padding-left: 2rem;
+padding-left: 3rem;
 }
 
 .underline{
@@ -353,19 +405,26 @@ padding-left: 2rem;
 
 .stories {
     background: #FBCF32;
-    padding: 58px;
-    height : 100% !important;
-    /* width : 100% !important; */
-    margin-left: 4.2rem;
+    padding: 0px 4rem;
+    height: 100% !important;
+    /* width: 100% !important; */
+    /* margin-left: 4.2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.stories >span{
+.stories >h4{
     color: #3564FB;;
 text-align: center;
-font-size: 20px;
+font-size: 23px;
 font-style: italic;
 font-weight: 500;
 line-height: normal;
+}
+
+.paddingRight5rem{
+    padding-right: 5rem;
 }
 
 .heading{
@@ -380,11 +439,16 @@ line-height: 30px; /* 100% */
     border-radius: 15px;
     background: #FBCF32;
     box-shadow: 3px -3px 4px 1px rgba(0, 0, 0, 0.10);
-    height: 250px;
+    margin: 0px 4rem !important; 
+    /* height: 250px;
     padding-top: 3rem;
     padding-left: 4rem !important;
-    margin: 8rem !important;
+    margin: 14rem !important; */
 
+}
+
+.yellowBackground .textHeading{
+    padding: 3rem 0rem 1rem 4rem;
 }
 
 .paddingTop18rem{
@@ -404,7 +468,7 @@ line-height: 30px; /* 100% */
     box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.readMore{
+.readMore >h5{
     color: #3564FB;
     font-size: 16px;
     font-style: normal;
@@ -444,15 +508,19 @@ font-weight: 300;
 line-height: normal;
 }
 
-.row-8 .aboutProcess{
+.row-8 .aboutProcess h6{
     color: #3564FB;
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 600;
     line-height: 18px; /* 112.5% */
     letter-spacing: 0.8px;
 width: 76%;
+}
+
+.lastImage img{
+    /* display: hidden; */
 }
 
 
@@ -590,7 +658,11 @@ gap: 0.5rem;
 .leftContent{
     display: flex;
     flex-direction: column;
-    padding-right: 6rem !important;
+    /* padding-right: 6rem !important; */
+}
+
+.leftContent{
+    padding-right: 5rem;
 }
 
 .whyLine{
@@ -615,15 +687,27 @@ gap: 0.5rem;
 .row-4 .heading{
     color: #3564FB;
 font-family: revert;
-font-size: 24px;
+font-size: 23px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 padding-top: 1rem !important;
 }
 
+.candidateProfile> img{
+    /* width: 400px; */
+    height: 350px;
+
+}
+
+.marginLR{
+    margin : 0px 6rem !important
+}
+
 .row-4 .description{
-    width : 60%;
+    width : 65%;
+    color: #3564FB;
+
 }
 
 .blogPage{
@@ -695,10 +779,11 @@ line-height: normal;
     color: #3564FB;
     text-align: justify;
     font-family: Montserrat;
-    font-size: 17px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding : 0px 10rem;
 }
 
 .backgroundTheme{
@@ -714,6 +799,8 @@ font-weight: 600;
 line-height: normal;
 letter-spacing: 1.6px;
 }
+
+
 
 .carousel-indicators [data-bs-target] {
     width: 20px !important;
@@ -747,6 +834,10 @@ letter-spacing: 1.6px;
     color: black;
     border-color:  #FED942 !important;
 
+}
+
+.banner2-card:hover .card-icon svg path{
+    fill:#3564FB;
 }
 
 
@@ -786,7 +877,7 @@ height: 112px;
 
 .anilImage {
     /* position: absolute!important; */
-    bottom: -1.1rem;
+    bottom: 0rem;
     right: 2rem;
 }
 
@@ -816,4 +907,15 @@ height: 112px;
     border: 0;
     width: 100%;
     height: 100%;
+  }
+
+
+  .footer .links a{
+    text-decoration:  none !important;
+    color : white  !important
+  }
+
+  .footer .links a:hover{
+    text-decoration:  underline !important;
+
   }
