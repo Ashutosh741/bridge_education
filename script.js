@@ -32,13 +32,16 @@ $(document).ready(function() {
 //   autoplay: true,
 //   autoplaySpeed: 2000,
 // });
+
+
+
 	
 
 
 $('.slider').slick({
   dots: false,
   infinite: true,
-  speed: 1500,
+  speed: 1000,
   autoplay: true,
   autoplaySpeed: 2000,
   slidesToShow: 5,

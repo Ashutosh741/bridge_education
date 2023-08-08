@@ -130,7 +130,7 @@
     }
     .stories{
         padding : 1rem 1.5rem;
-        height: 253px;
+        height: 312px !important;
         width:  100%;
         margin-left : 0px ;
     }
@@ -139,7 +139,7 @@
     }
     .candidateProfile> img{
         width: 100% !important;
-        height: 250px;
+        height: 0%;
     }
     .mobileLogo{
         display: block !important;
