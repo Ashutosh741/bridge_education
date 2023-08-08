@@ -459,7 +459,7 @@ background: #FBCF32;
         font-size: 45px !important;
     }
     .secondBox {
-        padding: 4.5rem 1rem 1rem 2rem !important;
+        /* padding: 4.5rem 1rem 1rem 2rem !important; */
         margin: auto;
         margin-top: 4.5rem !important;
         width: 100%;
@@ -538,5 +538,5 @@ background: #FBCF32;
 }
 
 .floatInnerBox1{
-    padding: 3rem 1rem 1rem 2rem !important;
+    padding: 3rem 1rem 1rem 3rem !important;
 }
