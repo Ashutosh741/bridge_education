@@ -369,14 +369,15 @@ background: #FBCF32;
 }
 
 .carousel-indicators .active {
-    width: 25px !important;
-    height: 25px !important;
+    width: 24px !important;
+    height: 24px !important;
     background-color: #FBCF32 !important;
     border-radius: 50% !important;
     box-shadow: 0 0 0 1px #3564FB !important;
     position: relative !important;
     border: 4px solid white !important;
 }
+
 .carousel-indicators {
     top: -1.4rem !important;
     z-index: 3;
@@ -387,7 +388,7 @@ background: #FBCF32;
     width: auto;
     height: 20px;
     text-indent: 0;
-    top: 0.3rem;
+    top: 0.45rem;
   }
 
 /* .carousel-indicators div:nth-child(2) {
@@ -442,6 +443,40 @@ background: #FBCF32;
     /* position: absolute; */
 }
 
+.schoolName1, .schoolName2, .schoolName3, .schoolName4{
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.schoolName1{
+    position: absolute;
+    left: -4.5rem;
+    color: #3564FB;
+    margin-top: -5rem;
+}
+.schoolName2{
+    position: absolute;
+    left: -3.4rem;
+    color: #3564FB;
+    margin-top: -5rem;
+}
+
+.schoolName3{
+    position: absolute;
+    left: -4.5rem;
+    color: #3564FB;
+    margin-top: -5rem;
+}
+.schoolName4{
+    position: absolute;
+    left: -4.5rem;
+    color: #3564FB;
+    margin-top: -5rem;
+}
+
+
 
 @media screen and (min-width : 300px) and (max-width : 1200px) {
     .aboutUsBanner img{
@@ -485,7 +520,8 @@ background: #FBCF32;
         transform: scaleX(-1);
         position: absolute;
         left: -3rem !important;
-        top: -1.2rem!important;
+        top: -1.1rem!important;
+        width: 363px;
     }
     .anilBackground{
         transform: scaleX(-1);
@@ -494,7 +530,6 @@ background: #FBCF32;
         height: 504.1px !important;
     }
     .anilImage {
-        position: relative!important;
         right: 4.5rem !important;
         bottom: 1.5rem !important;
     }
@@ -584,12 +619,11 @@ background: #FBCF32;
         opacity: 1;
 } */
     .carousel-indicators .active{
-        width: 0px !important;
         height: 0px !important;
         border: 9px solid #FBCF32 !important;      
     }
     .carousel-indicators {
-        gap: 4rem;
+        gap: 3rem;
         top: -2rem !important;
         font-size: 10px;
     }
@@ -635,23 +669,43 @@ background: #FBCF32;
     .schoolName1{
         left: -2rem !important;
         top: -4rem !important;
+        margin-top: 0px !important;
     }
     .schoolName2{
-        left: -1rem !important;
+        left: -1.3rem !important;
         top: -4rem !important;
+        margin-top: 0px !important;
+
     }
     .schoolName3{
         left: -1.5rem !important;
         top: -4rem !important;
+        margin-top: 0px !important;
+
     }
     .schoolName4{
         left: -1.5rem !important;
         top: -4rem !important;
+        margin-top: 0px !important;
+
+    }
+    .schoolName1, .schoolName2, .schoolName3, .schoolName4{
+        clear: both;
+        display: block;
+        overflow: y;
+        white-space: wrap;
+        font-size: 10px;
     }
     .visionRotated{
         font-size: 85px;
         left: -1.4rem;
     }
+    .carousel-indicators .indicatorText[data-bs-target] {
+        width: auto;
+        height: 20px;
+        text-indent: 0;
+        top: 0.3rem;
+      }
 
 
 }

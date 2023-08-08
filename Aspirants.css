@@ -11,11 +11,14 @@ line-height: normal;
     width : 100%;
 }
 
-.secondBox{
+
+.secondBox {
     background: #FFF;
-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-margin-top : 4.5rem;
-padding: 5.5rem 1rem 1rem 3rem !important
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 4.5rem;
+    padding: 3rem 1rem 1rem 3rem !important;
+    width: 405px;
+    height: 77%;
 }
 
 .secondBoxText{
@@ -36,9 +39,58 @@ align-items: flex-start;
 gap: 10px;
 position: absolute;
 left: 1rem;
-width : 50%;
-height: 150px;
+width : 62%;
 }
+
+.floatBox1{
+    width: 190px !important;
+    /* top : 1rem */
+}
+
+.floatBox2{
+    width: 220px !important;
+}
+
+.floatBox3{
+    width: 170px !important;
+}
+
+.floatBox2{
+    top : -1.5rem;
+}
+
+.floatBox4{
+    width: 180px !important;
+    top: 1.5rem;
+}
+.floatBox5{
+    width: 175px !important;
+    top: 0.5rem;
+}
+/* 
+.floatInnerBox2{
+    padding: 4.5rem 1rem 1rem 3rem !important;
+} */
+
+.floatInnerBox3{
+    padding: 4.5rem 1rem 1rem 3rem !important
+}
+
+.floatInnerBox4{
+    padding: 4.3rem 1rem 1rem 3rem !important
+}
+/* 
+.floatInnerBox5{
+    padding: 4.5rem 1rem 1rem 3rem !important
+} */
+
+.floatInnerBox2{
+    padding: 4.7rem 1rem 1rem 3rem !important;
+}
+.floatInnerBox5{
+    padding: 5rem 1rem 1rem 3rem !important;
+}
+
 
 .smallBoxText{
     color: #FFF;
@@ -92,7 +144,8 @@ line-height: normal;
 
 .personDetail{
     margin : 0px 2rem;
-    padding-right: 6rem;
+    /* padding-right: 6rem; */
+    width: 75%;
 }
 /* 
 .playVideo .background{
@@ -226,10 +279,11 @@ flex-shrink: 0;
 .tabGap{
     display : flex;
     gap : 0.4rem;
+    padding-top: 1.2px;
 }
 
 .nav-tabs{
-    border-bottom: none !important;
+border-bottom:  0.5px solid #3564FB;
 }
 
 .aspirantRow6 .text1{
@@ -275,15 +329,18 @@ padding: 1.5rem !important;
 padding-left: 3rem !important;
 }
 
-.accordion-button:not(.collapsed) {
+.accordion-button:not(.collapsed){
     background: #3564FB  !important;
     color: #FFF !important;
-text-align: justify;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.accordion-button:not(.collapsed) h6{
+    font-size: 16px;
 }
 
 .accordion-button{
@@ -316,6 +373,7 @@ border : none !important
     /* border-top: 0.5px solid #3564FB !important;
     border-right: 0.5px solid #3564FB !important; */
     border: 0.5px solid #3564FB !important;
+    border-bottom: none !important  ;
     flex-shrink: 0;
     color: #3564FB !important;
     font-family: Montserrat;
@@ -334,10 +392,14 @@ border : none !important
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
-    background: #F1F0F5 !important;
+    background: #FFF !important;
     border-bottom:0px none !important;
-}
 
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+    background: #F1F0F5 !important;
+    border-bottom:0.5px solid #3564FB !important;
+}
 .aboutAspirants{
     /* width : 75%; */
 }
@@ -368,7 +430,7 @@ background: #FBCF32;
     }
     .secondUnderLine{
         width: 112px;
-        left : -1rem;
+        left : -2rem;
         top: 1.5rem;
     }
     .headingUnderLine {
@@ -382,29 +444,36 @@ background: #FBCF32;
         width: 100% !important;
         margin: 2rem 0px !important;
         padding: 0.5rem !important;
+        font-size: 16px !important;
     }
 
     .pageHeading{
         padding-left : 0px !important;
+        font-size: 32px;
     }
     .resRemovePadding {
         padding: 5px !important;
         margin-bottom: 4rem;
     }
     .firstBox{
-        font-size: 50px !important;
+        font-size: 45px !important;
     }
-    .secondBox{
-        padding: 5.5rem 1rem 1rem 2rem !important;
-        margin:auto;
-        margin-top : 4.5rem !important
+    .secondBox {
+        padding: 4.5rem 1rem 1rem 2rem !important;
+        margin: auto;
+        margin-top: 4.5rem !important;
+        width: 100%;
     }
+
     .secondBoxText{
         font-size: 15px !important;
     }
     .smallBox{
-        left : 1.5rem;
+        left : 0.5rem;
 
+    }
+    .floatBox4{
+        top : 1.5rem
     }
     .firstLine{
         margin-top : 3rem;
@@ -425,17 +494,17 @@ background: #FBCF32;
         width: 393px;
         height: 260.663px;
     }
-    .aboutVideo{
-        padding:1.5rem;
+    .aboutVideo {
+        padding: 1.5rem 0.5rem;
     }
     .submitDetails{
         padding: 0rem;
         margin: 5rem 0rem;
     }
     .accordianHeading {
-        padding: 1.5rem !important;
-        padding-left: 1rem !important;
-        gap: 5rem;
+        padding: 1rem !important;
+        padding-left: 0.5rem !important;
+        gap: 1rem;
         letter-spacing: 0px;
     }
     .accordian-button{
@@ -450,16 +519,21 @@ background: #FBCF32;
     .personDetail{
         margin : 0px !important;
         padding : 0px !important;
+        width: 100% !important;
     }
 
 }
 
-.wholeBox:hover .smallBoxText{
+.smallBox:hover .smallBoxText{
     /* background-color: #4F4E4E; */
     cursor: pointer;
     color: #3564FB;
 }
 
-.wholeBox:hover .smallBox{
+.smallBox:hover{
     background: #FBCF32;
+}
+
+.floatInnerBox1{
+    padding: 3rem 1rem 1rem 2rem !important;
 }

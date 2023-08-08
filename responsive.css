@@ -12,6 +12,10 @@
         width: 100% !important;
         letter-spacing: 1px;
     }
+    .bannerHeading1 h1{
+        width: 100%;
+        font-size: 32px;
+    }
     .resChangeFont{
         box-shadow: none;
     }
@@ -107,7 +111,17 @@
     .row-3 .bolderText h1{
         width: 100%;
     }
+    .menuItems{
+        font-size: 14px !important;
+        font-weight: bolder !important;
+    }
+    .aspirantRow2 .firstLine{
+        font-size: 13px;
+    }
+    .loginRegister{
+        font-size: 16px !important;
 
+    }
     .underline{
         width : 65%;
     }
@@ -115,8 +129,8 @@
         margin-top: 2rem !important;
     }
     .stories{
-        padding : 3rem 1.5rem;
-        height: 100%;
+        padding : 1rem 1.5rem;
+        height: 253px;
         width:  100%;
         margin-left : 0px ;
     }
@@ -124,8 +138,14 @@
         font-size: 20px;
     }
     .candidateProfile> img{
-        width: 100%;
-        height: 100%;
+        width: 100% !important;
+        height: 250px;
+    }
+    .mobileLogo{
+        display: block !important;
+    }
+    .pcLogo{
+        display : none !important
     }
     #carouselExampleIndicators{
         position: relative !important;
@@ -215,8 +235,9 @@
         padding: 2rem 1rem !important;
     }
     .headingButton{
-        display: flex;
-        justify-content: center;
+        /* display: flex; */
+        /* justify-content: center; */
+        padding-right: 45%
     }
     .resPaddingTop1rem{
         padding-top: 1rem;
@@ -247,5 +268,7 @@
   .col-md-1 {
     order: 1;
   }
-
+  .marginLR{
+    margin : 0px !important
+  }
 }

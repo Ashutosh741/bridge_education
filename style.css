@@ -15,7 +15,7 @@ font-size: 36px;
 line-height: 2.7rem;
 font-weight: 700; 
 word-wrap: break-word;
-width: 65%;
+width: 68%;
 margin-left: auto;
 }
 .resmenu{
@@ -56,26 +56,34 @@ box-shadow: 2px 2px 6px 1px rgba(30, 30, 30, 0.20);
 width: 196px;
 height: 238px;
 padding: 1rem;
+transition: 0.3s all ease;
 }
 
 .banner2-card:hover{
     background: #3564FB;
     cursor: pointer;
+    transition:0.3s all ease;
     /* color: white; */
 
 
 }
 .banner2-card:hover .card-heading h4{
-    color : white
+    color : white;
+    transition:0.3s all ease;
+
 }
 
 .banner2-card:hover .card-icon{
     background: #FED942 !important;
+    transition:0.3s all ease;
+
 }
 
 .btn:hover{
     background: #FED942 !important;
     color : #3564FB !important;
+    transition:0.3s all ease;
+
 }
 
 .btn{
@@ -162,6 +170,12 @@ letter-spacing: 0.9px;
     color: #3564FB !important;
     line-height: 1rem;
     font-weight: 600 !important;
+}
+/* .pcLogo{
+    display : block !important;
+} */
+.mobileLogo{
+    display: none !important;
 }
 
 .familyMont{
@@ -487,7 +501,7 @@ line-height: 13px; /* 100% */
 letter-spacing: 0.65px;
 }
 
-.row-8 .heading{
+.row-8 .heading h1{
     color: #3564FB;
     text-align: center;
     font-size: 40px;
@@ -495,7 +509,12 @@ letter-spacing: 0.65px;
     font-weight: 700;
     line-height: 45px; /* 112.5% */
     letter-spacing: 2px;
-    width: 75% !important;
+    /* width: 75% !important; */
+}
+
+.slick-dots button{
+    display: none !important;
+    /* color : blac k */
 }
 
 
@@ -511,7 +530,7 @@ line-height: normal;
 .row-8 .aboutProcess h6{
     color: #3564FB;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 600;
     line-height: 18px; /* 112.5% */
@@ -768,7 +787,7 @@ background: #FBCF32;
 .pageHeading{
 color: #3564FB;
 font-family: Montserrat;
-font-size: 36px;
+font-size: 40px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
@@ -838,6 +857,8 @@ letter-spacing: 1.6px;
 
 .banner2-card:hover .card-icon svg path{
     fill:#3564FB;
+    transition:0.3s all ease;
+
 }
 
 
@@ -917,5 +938,6 @@ height: 112px;
 
   .footer .links a:hover{
     text-decoration:  underline !important;
+    transition:0.3s all ease;
 
   }
