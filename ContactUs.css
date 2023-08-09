@@ -28,10 +28,10 @@ background: #FEB408;
     color: #3564FB;
 font-family: Montserrat;
 font-size: 18px;
-font-style: normal;
+/* font-style: normal;
 font-weight: 300;
 line-height: normal;
-letter-spacing: 0.9px;
+letter-spacing: 0.9px; */
 width: 50%;
 }
 
@@ -111,5 +111,8 @@ align-items: center;
     }
     .upperText{
         margin:1rem !important
+    }
+    iframe{
+        height: 133px;
     }
 }

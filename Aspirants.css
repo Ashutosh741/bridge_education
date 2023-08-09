@@ -1,4 +1,4 @@
-.firstBox{
+.firstBox h2{
     color: #FFF;
 font-family: Montserrat;
 font-size: 60px;
@@ -9,6 +9,7 @@ line-height: normal;
 
 .aspirantBanner img{
     width : 100%;
+    height: 290px;
 }
 
 
@@ -18,16 +19,17 @@ line-height: normal;
     margin-top: 4.5rem;
     padding: 3rem 1rem 1rem 3rem !important;
     width: 405px;
-    height: 77%;
+    height: 82%;
+    text-align: justify;
 }
 
 .secondBoxText{
     color: #3564FB;
-font-family: Montserrat;
+/* font-family: Montserrat;
 font-size: 16px;
 font-style: normal;
 font-weight: 300;
-line-height: normal;
+line-height: normal; */
 }
 
 .smallBox{
@@ -444,7 +446,7 @@ background: #FBCF32;
         width: 100% !important;
         margin: 2rem 0px !important;
         padding: 0.5rem !important;
-        font-size: 16px !important;
+        /* font-size: 16px !important; */
     }
 
     .pageHeading{
@@ -455,8 +457,9 @@ background: #FBCF32;
         padding: 5px !important;
         margin-bottom: 4rem;
     }
-    .firstBox{
-        font-size: 45px !important;
+    .firstBox h2{
+        font-size: 40px !important;
+        padding: 0px 20px;
     }
     .secondBox {
         /* padding: 4.5rem 1rem 1rem 2rem !important; */
@@ -524,6 +527,17 @@ background: #FBCF32;
     .floatBox5 {
         top: 0rem;
     }
+
+    .aspirantBanner{
+        height: 133px;
+    }
+    .wholeBox{
+        padding : 0px 20px;
+    }
+    .floatInnerBox5{
+        padding: 4.5rem 1rem 1rem 3rem !important;
+    }
+    
 
 }
 

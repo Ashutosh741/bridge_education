@@ -113,7 +113,7 @@ transition: 0.3s all ease;
 
 .card-heading >h4{
     color: #3367D6;
-    font-size: 22px;
+    /* font-size: 22px; */
     font-weight: 600;
     line-height: 1;
 }
@@ -314,7 +314,7 @@ box-shadow: 2px 2px 6px 1px rgba(30, 30, 30, 0.20);
 
 .whyRegisterText{
     color: #3564FB;
-font-size: 30px;
+font-size: 32px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -329,10 +329,10 @@ display: block;
 
 .whyAnswerText{
 color: #3564FB;
-font-size: 16px;
+/* font-size: 16px;
 font-style: normal;
 font-weight: 300;
-line-height: normal;
+line-height: normal; */
 }
 
 .banner3Body{
@@ -375,7 +375,7 @@ font-family: montserrat !important;
 }
 .description{
     color: #3564FB;
-font-size: 16px;
+/* font-size: 16px; */
 font-style: normal;
 font-weight: 300;
 line-height: normal;
@@ -394,7 +394,7 @@ font-family: montserrat !important;
 
 .blogBackground{
     background: url(./images/blogBackground.png),  lightgray 50% / cover no-repeat;
-    height: 15rem;
+    height: 290px;
     /* background: url(<path-to-image>),; */
 }
 
@@ -443,7 +443,7 @@ line-height: normal;
 
 .heading{
     color: #3564FB;
-font-size: 29px;
+font-size: 32px;
 font-style: normal;
 font-weight: 700;
 line-height: 30px; /* 100% */
@@ -494,17 +494,17 @@ line-height: 30px; /* 100% */
 
 .sectionHeading{
     color: #444;
-font-size: 13px;
+/* font-size: 13px;
 font-style: normal;
 font-weight: 400;
-line-height: 13px; /* 100% */
-letter-spacing: 0.65px;
+line-height: 13px; 
+letter-spacing: 0.65px; */
 }
 
 .row-8 .heading h1{
     color: #3564FB;
     text-align: center;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 45px; /* 112.5% */
@@ -521,7 +521,7 @@ letter-spacing: 0.65px;
 .row-8 .lighterHeading{
     color: #3564FB;
 text-align: center;
-font-size: 20px;
+/* font-size: 20px; */
 font-style: normal;
 font-weight: 300;
 line-height: normal;
@@ -530,7 +530,7 @@ line-height: normal;
 .row-8 .aboutProcess h6{
     color: #3564FB;
     text-align: center;
-    font-size: 13px;
+    /* font-size: 13px; */
     font-style: normal;
     font-weight: 600;
     line-height: 18px; /* 112.5% */
@@ -545,7 +545,7 @@ width: 76%;
 
 .row-9 .articleDate{
     color: #000;
-font-size: 14px;
+/* font-size: 14px; */
 font-style: normal;
 font-weight: 300;
 line-height: 14px; /* 100% */
@@ -554,7 +554,7 @@ letter-spacing: 0.28px;
 
 .row-9 .articleHeading{
     color: #3564FB;
-    font-size: 24px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 600;
     line-height: 30px; /* 125% */
@@ -562,7 +562,7 @@ letter-spacing: 0.28px;
 } 
 .row-9 .articleDescription{
     color: #3564FB;
-font-size: 16px;
+/* font-size: 16px; */
 font-style: normal;
 font-weight: 300;
 line-height: 24.5px; /* 153.125% */
@@ -571,7 +571,7 @@ letter-spacing: 0.32px;
 
 .row-9 .readMore{
     color: #3564FB;
-font-size: 16px;
+/* font-size: 16px; */
 font-style: normal;
 font-weight: 300;
 line-height: 16px; /* 100% */
@@ -583,7 +583,7 @@ letter-spacing: 0.32px;
     background: #3564FB;
 }
 
-.social span{
+.social h6{
     color: #FFF;
 font-size: 16px;
 font-style: normal;
@@ -593,7 +593,7 @@ line-height: 16px; /* 100% */
 
 .locationHeading{
     color: #FFF;
-font-size: 16px;
+/* font-size: 16px; */
 font-style: revert;
 font-weight: 600;
 line-height: 146.9%; /* 23.504px */
@@ -706,7 +706,7 @@ gap: 0.5rem;
 .row-4 .heading{
     color: #3564FB;
 font-family: revert;
-font-size: 23px;
+font-size: 25px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -798,7 +798,7 @@ line-height: normal;
     color: #3564FB;
     text-align: justify;
     font-family: Montserrat;
-    font-size: 18px;
+    /* font-size: 18px; */
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -811,12 +811,12 @@ line-height: normal;
 
 .aspirantRow2 .firstLine{
     color: #FFF;
-font-family: Montserrat;
+/* font-family: Montserrat;
 font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
-letter-spacing: 1.6px;
+letter-spacing: 1.6px; */
 }
 
 

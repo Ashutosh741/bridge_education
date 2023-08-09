@@ -96,114 +96,58 @@
               </button>
 
             <div class="offcanvas d-md-none offcanvas-end w-100" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-            <div class="offcanvas-header justify-content-end" style="background-color: #FBCF32;">
+            <div class="offcanvas-header justify-content-end" style="height:7%;background-color:  #FBCF32;">
 
                 <!-- <h5 id="offcanvasRightLabel">Offcanvas right</h5> -->
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close" style = "color: #3564FB !important;"></button>
+                <button type="button" class="btn-close  text-reset" data-bs-dismiss="offcanvas" aria-label="Close" style = "color: #3564FB !important; box-shadow: none;"></button>
             </div>
-            <div class="offcanvas-body p-0" style = "background-color: #FBCF32;">
-                <ul class="navbar-nav p-3 mx-auto w-100 justify-content-end mb-2 mb-lg-0">
-                    <li class="nav-item paddingRight">
-                        <a id = "index-link" class="nav-link menuItems"href="/index.html">Home</a>
+            <div class="offcanvas-body p-0" style = "height: 93%; background-color: #FBCF32;">
+                <ul class="navbar-nav p-3 mx-auto w-100 justify-content-end mb-5 mb-lg-0">
+                    <li class="nav-item active paddingRight">
+                        <h6><a id = "index-link" class="nav-link active menuItems"href="/index.html">Home</a></h6>
                     </li>
                     <li class="nav-item paddingRight">
-                        <a  id = "Blog-link" class="nav-link menuItems" href="./Blog.html">For Employer</a>
+                        <h6><a  id = "AboutUs-link" class="nav-link menuItems" href = "./AboutUs.html">About Us</a></h6>
                     </li>
                     <li class="nav-item paddingRight">
-                        <a  id = "Aspirants-link" class="nav-link menuItems" href="./Aspirants.html">Job Aspirants</a>
+                        <h6><a  id = "Blog-link" class="nav-link menuItems" href="./Blog.html">For Employer</a></h6>
                     </li>
                     <li class="nav-item paddingRight">
-                        <a  id = "AboutUs-link" class="nav-link menuItems" href = "./AboutUs.html">About Us</a>
+                        <h6><a  id = "Aspirants-link" class="nav-link menuItems" href="./Aspirants.html">Job Aspirants</a></h6>
                     </li>
+
                     <li class="nav-item paddingRight">
-                        <a  id = "ContactUs-link" class="nav-link menuItems" href = "ContactUs.html">Contact</a>
+                        <h6><a  id = "AboutUs-link" class="nav-link menuItems" href = "./Blog.html">Blog</a></h6>
                     </li>
                     <li class="nav-item">
-                        <a  id = "login-link" class="nav-link loginRegister fw-bolder">Login | Register</a>
+                        <h6><a  id = "login-link" class="nav-link loginRegister fw-bolder">Login | Register</a></h6>
                     </li>
                 </ul>
                 <section class="row-10 footer familyMont">
                     <div class="container">
-                        <div class="row footerContent">
+                        <div class="row p-3">
                                 <div class="col-md-4">
-                                    <div class="logo pb-5">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="122" height="92" viewBox="0 0 122 92" fill="none">
-                                            <g clip-path="url(#clip0_182_62)">
-                                              <path d="M109.791 8.99064C107.438 7.89874 104.799 7.91934 102.712 9.30379C100.626 10.6841 99.5607 13.111 99.6304 15.7151C99.6386 16.0118 99.823 16.2961 100.094 16.4197C102.446 17.5116 105.086 17.491 107.172 16.1065C109.258 14.7262 110.323 12.2993 110.254 9.69523C110.246 9.40268 110.057 9.11425 109.791 8.99064Z" fill="white"/>
-                                              <path d="M94.2204 8.35213C94.1015 8.08018 93.8187 7.89064 93.5236 7.8824C93.0359 7.86592 92.5564 7.88652 92.0851 7.94833C90.0563 8.21615 88.2448 9.22153 87.1136 10.9109C85.716 12.9958 85.6668 15.6452 86.7283 18.0227C86.8472 18.2946 87.13 18.4842 87.4251 18.4924C87.9128 18.5089 88.3923 18.4883 88.8636 18.4265C90.8924 18.1586 92.7039 17.1533 93.8351 15.4639C95.2286 13.379 95.2819 10.7296 94.2204 8.35213Z" fill="white"/>
-                                              <path d="M81.5109 7.48665C81.3757 7.15702 81.0396 6.91392 80.683 6.89331C80.0929 6.85623 79.5109 6.86447 78.9371 6.92628C76.4698 7.18174 74.2402 8.33545 72.8098 10.3503C71.0475 12.8267 70.8958 16.0365 72.1008 18.9537C72.236 19.2833 72.5721 19.5264 72.9287 19.547C73.5189 19.5841 74.1009 19.5759 74.6746 19.5141C77.1419 19.2586 79.3715 18.1049 80.8019 16.09C82.5643 13.6137 82.7159 10.408 81.5109 7.48665Z" fill="white"/>
-                                              <path d="M66.994 5.69836C66.9285 5.3028 66.6211 4.95669 66.2399 4.84132C65.6087 4.65178 64.9694 4.51581 64.33 4.43752C61.5799 4.09965 58.8667 4.80012 56.8134 6.63369C54.2805 8.89166 53.3255 12.3487 53.9157 15.8304C53.9813 16.2259 54.2887 16.5721 54.6699 16.6874C55.301 16.877 55.9404 17.0129 56.5798 17.0912C59.3298 17.4291 62.0431 16.7286 64.0964 14.8951C66.6252 12.6371 67.5842 9.18009 66.994 5.69836Z" fill="white"/>
-                                              <path d="M89.1792 25.0025C88.9169 25.1426 88.7489 25.4351 88.7571 25.7318C88.7694 26.2221 88.8227 26.7042 88.9128 27.1698C89.3063 29.1888 90.4211 30.9399 92.1711 31.97C94.327 33.2391 96.9623 33.1196 99.2533 31.9041C99.5157 31.764 99.6837 31.4715 99.6755 31.1748C99.6632 30.6845 99.6099 30.2024 99.5198 29.7368C99.1263 27.7178 98.0115 25.9666 96.2614 24.9365C94.1056 23.6716 91.4703 23.787 89.1792 25.0025Z" fill="white"/>
-                                              <path d="M74.2279 27.0503C73.9 27.1946 73.6664 27.5324 73.65 27.8909C73.6213 28.4842 73.6418 29.0693 73.7115 29.6462C74.0066 32.1225 75.1993 34.3393 77.2239 35.7444C79.7199 37.4708 82.9126 37.5656 85.7939 36.3047C86.1218 36.1605 86.3554 35.8226 86.3718 35.4642C86.4005 34.8708 86.38 34.2857 86.3103 33.7089C86.0152 31.2325 84.8225 29.0158 82.7979 27.6107C80.3019 25.8843 77.1092 25.7895 74.2279 27.0503Z" fill="white"/>
-                                              <path d="M56.6659 25.3525C56.2765 25.439 55.9486 25.7604 55.8544 26.1519C55.6986 26.7946 55.5921 27.4457 55.547 28.0884C55.3421 30.8656 56.1699 33.5562 58.0921 35.534C60.457 37.9691 63.9366 38.7644 67.367 38.0021C67.7564 37.9156 68.0843 37.5942 68.1785 37.2027C68.3343 36.56 68.4368 35.9089 68.4859 35.2662C68.6909 32.489 67.863 29.7984 65.9408 27.8206C63.5759 25.3896 60.0922 24.5944 56.6659 25.3525Z" fill="white"/>
-                                              <path d="M48.9525 1.34734C48.8459 0.877618 48.4566 0.486181 47.9894 0.374931C47.2188 0.193634 46.4442 0.0741424 45.6778 0.0246977C42.3621 -0.189562 39.1612 0.840534 36.825 3.18091C33.9479 6.06106 33.038 10.268 33.9889 14.3966C34.0954 14.8663 34.4848 15.2578 34.952 15.369C35.7225 15.5503 36.4972 15.6698 37.2636 15.7193C40.5793 15.9335 43.7802 14.9034 46.1163 12.563C48.9894 9.68289 49.8993 5.47597 48.9525 1.34734Z" fill="white"/>
-                                              <path d="M36.3004 23.1769C35.8291 23.2717 35.4274 23.6549 35.3044 24.1205C35.1036 24.8951 34.9643 25.6698 34.8946 26.4444C34.5913 29.786 35.5381 33.0411 37.8086 35.4598C40.6079 38.4388 44.7843 39.4689 48.9279 38.6201C49.3992 38.5254 49.8008 38.1422 49.9238 37.6766C50.1246 36.9019 50.264 36.1273 50.3336 35.3527C50.6369 32.011 49.6902 28.7559 47.4196 26.3373C44.6203 23.3582 40.444 22.3281 36.3004 23.1769Z" fill="white"/>
-                                              <path d="M13.2628 25.5669L12.7996 24.5904C13.0455 24.475 37.448 13.0657 62.5677 21.3106C86.6628 29.2176 103.225 13.3252 103.389 13.1646L104.143 13.9392C103.975 14.104 86.9415 30.4496 62.2357 22.3407C37.5382 14.2317 13.5046 25.4515 13.2628 25.5669Z" fill="white"/>
-                                              <path d="M16.0661 68.3449C16.0661 70.4092 15.5087 71.9955 14.4021 73.1039C13.2914 74.2082 11.7381 74.7644 9.74623 74.7644H6.75842C4.30752 74.7644 2.56976 74.3359 1.54104 73.4789C0.512312 72.6218 0 71.1385 0 69.033V52.4731H9.37327C11.4922 52.4731 13.0824 53.0047 14.1521 54.0677C15.2218 55.1308 15.7546 56.6347 15.7546 58.5754C15.7546 59.7044 15.4677 60.6645 14.898 61.4556C14.3283 62.2508 13.6972 62.8112 13.0127 63.1449C15.0497 64.1091 16.0661 65.8397 16.0661 68.3449ZM9.02899 61.1754C10.6274 61.1754 11.4266 60.3719 11.4266 58.765C11.4266 57.158 10.6274 56.3546 9.02899 56.3546H4.32801V61.1754H9.02899ZM11.7381 68.1224C11.7381 67.1211 11.5619 66.363 11.2094 65.852C10.8569 65.3411 10.2217 65.0857 9.31179 65.0857H4.32801V68.5921C4.32801 69.4491 4.54114 70.0425 4.96738 70.3762C5.39362 70.71 6.09447 70.8789 7.06991 70.8789H9.31179C10.9307 70.8789 11.7381 69.9601 11.7381 68.1224Z" fill="white"/>
-                                              <path d="M40.3866 74.7603H35.3701L31.042 66.4948H27.9272V74.7603H23.6033V57.261C23.6033 55.5923 23.9885 54.3768 24.755 53.6145C25.5214 52.8522 26.8083 52.4731 28.6157 52.4731H32.288C34.4889 52.4731 36.2389 53.1448 37.5341 54.4921C38.8333 55.8395 39.4809 57.5453 39.4809 59.6097C39.4809 61.1136 39.0915 62.4115 38.3128 63.5075C37.5341 64.6036 36.575 65.3617 35.4315 65.7779L40.3866 74.7603ZM34.2676 61.9088C34.8577 61.2743 35.1569 60.4791 35.1569 59.5314C35.1569 58.5837 34.87 57.8132 34.3004 57.2322C33.7307 56.6471 32.9642 56.3546 32.0134 56.3546H29.8658C28.5788 56.3546 27.9354 57.0097 27.9354 58.3282V62.8689H32.0134C32.9233 62.8648 33.6733 62.5475 34.2676 61.9088Z" fill="white"/>
-                                              <path d="M51.4075 74.7603H47.0795V52.4731H51.4075V74.7603Z" fill="white"/>
-                                              <path d="M76.4124 63.5237L76.4452 65.9342C76.3632 67.4587 76.1747 68.7402 75.8837 69.7826C75.5927 70.8251 75.023 71.7769 74.1705 72.6298C72.7566 74.0472 70.7032 74.76 68.0064 74.76C64.8301 74.76 62.6497 74.3356 61.4693 73.491C60.2848 72.6463 59.6946 71.1176 59.6946 68.905V52.4688H68.322C70.8139 52.4688 72.7648 53.1775 74.1746 54.599C75.314 55.7486 75.9903 57.1454 76.1993 58.7935C76.3386 59.9637 76.4124 61.5377 76.4124 63.5237ZM71.9123 67.5123C72.027 66.6676 72.0844 65.3491 72.0844 63.5526C72.0844 61.7561 72.027 60.4582 71.9123 59.6547C71.7975 58.8512 71.5434 58.2085 71.1499 57.7305C70.404 56.8116 69.322 56.3543 67.9121 56.3543H64.0186V68.6866C64.0186 69.523 64.2973 70.0958 64.8588 70.4089C65.4202 70.7221 66.4203 70.8786 67.863 70.8786C69.3056 70.8786 70.3999 70.4213 71.1458 69.5024C71.5434 69.0203 71.7975 68.357 71.9123 67.5123Z" fill="white"/>
-                                              <path d="M81.9536 64.2737V61.5172C81.9536 58.6165 82.7118 56.3502 84.2282 54.7227C85.7447 53.0951 87.839 52.2793 90.5194 52.2793C93.1957 52.2793 95.3474 53.0951 96.9663 54.7227C98.1098 55.8723 98.6795 57.5905 98.6795 59.8897H94.6302C94.6302 57.4051 93.3105 56.1648 90.6752 56.1648C89.8841 56.1648 89.2161 56.3173 88.6669 56.6181C88.1177 56.9189 87.7078 57.2691 87.4373 57.6646C87.1668 58.0602 86.9578 58.6453 86.8144 59.4158C86.6709 60.1863 86.5849 60.8332 86.5644 61.3565C86.5439 61.8798 86.5316 62.5761 86.5316 63.4538C86.5316 64.3314 86.5357 64.9206 86.548 65.2214C86.5603 65.5222 86.5889 66.0167 86.6422 66.6924C86.6955 67.3723 86.7775 67.8544 86.8922 68.1469C87.007 68.4395 87.1709 68.8144 87.3923 69.2759C87.6095 69.7333 87.8841 70.0588 88.2161 70.2442C89.0685 70.7881 90.0317 71.06 91.1137 71.06C92.9211 71.06 94.1958 70.2895 94.9417 68.7444V67.2404H92.2654V63.6104H98.6467V70.339C98.0033 71.8635 96.9868 73.009 95.5934 73.7836C94.204 74.5582 92.626 74.9414 90.8596 74.9414C87.7242 74.9414 85.4578 74.0597 84.0561 72.2961C82.6544 70.5409 81.9536 67.8626 81.9536 64.2737Z" fill="white"/>
-                                              <path d="M120.877 74.7603H113.028C110.536 74.7603 108.786 74.3277 107.782 73.4624C106.774 72.5971 106.274 71.0685 106.274 68.8764V52.4731H120.877V56.3546H110.602V61.5833H117.795L117.483 65.4647H110.602V68.5633C110.602 69.4409 110.799 70.0466 111.192 70.3803C111.586 70.7141 112.303 70.883 113.34 70.883H120.877V74.7603Z" fill="white"/>
-                                              <path d="M9.51674 91.8349H4.4387C2.82799 91.8349 1.69681 91.5547 1.04514 90.9944C0.393483 90.434 0.0697021 89.4451 0.0697021 88.0277V77.4136H9.52084V79.927H2.86488V83.3098H7.52077L7.31994 85.8233H2.86488V87.8299C2.86488 88.3985 2.99193 88.79 3.24604 89.0042C3.50014 89.2185 3.96327 89.3297 4.63543 89.3297H9.51264V91.8349H9.51674Z" fill="white"/>
-                                              <path d="M25.091 84.5668L25.1115 86.1285C25.0582 87.1132 24.9353 87.9456 24.7508 88.6213C24.5623 89.297 24.1934 89.911 23.6442 90.4631C22.7303 91.382 21.4024 91.8393 19.6564 91.8393C17.6031 91.8393 16.1891 91.5674 15.4268 91.0194C14.6644 90.4714 14.2792 89.4825 14.2792 88.0527V77.418H19.8613C21.472 77.418 22.7344 77.8753 23.6483 78.7942C24.3861 79.5358 24.8246 80.4423 24.9599 81.5095C25.0418 82.2635 25.091 83.2813 25.091 84.5668ZM22.177 87.1462C22.2508 86.5982 22.2876 85.7453 22.2876 84.5833C22.2876 83.4214 22.2508 82.5808 22.177 82.0616C22.1032 81.5425 21.9393 81.1263 21.6852 80.8173C21.2015 80.224 20.5048 79.9273 19.5908 79.9273H17.0744V87.9085C17.0744 88.4482 17.2547 88.8191 17.6195 89.021C17.9801 89.2229 18.6318 89.3259 19.5621 89.3259C20.4966 89.3259 21.2056 89.0292 21.6893 88.4359C21.9393 88.1227 22.1032 87.6942 22.177 87.1462Z" fill="white"/>
-                                              <path d="M40.0998 77.4136V86.8946C40.0998 88.4603 39.5711 89.6964 38.5177 90.6029C37.4644 91.5094 36.1652 91.9585 34.6201 91.9585C33.0749 91.9585 31.7757 91.5053 30.7224 90.6029C29.6691 89.6964 29.1404 88.4644 29.1404 86.8946V77.4136H31.9397V86.7916C31.9397 87.6816 32.1856 88.3491 32.6733 88.7858C33.1651 89.2267 33.8127 89.4451 34.616 89.4451C35.4234 89.4451 36.075 89.2267 36.571 88.7858C37.0669 88.3491 37.3169 87.6816 37.3169 86.7916V77.4136H40.0998Z" fill="white"/>
-                                              <path d="M52.2887 86.2476H54.8871C54.8871 88.0852 54.4322 89.4944 53.5182 90.4792C52.6042 91.464 51.3132 91.9584 49.6492 91.9584C45.9811 91.9584 44.149 89.7911 44.149 85.4564V84.2409C44.149 80.8251 45.0876 78.6825 46.9688 77.8214C47.7065 77.4711 48.6 77.2939 49.6492 77.2939C51.1821 77.2939 52.428 77.7142 53.3871 78.5589C54.3461 79.4036 54.8297 80.6232 54.8297 82.2137H52.2108C52.0632 81.4185 51.8009 80.8169 51.4239 80.409C51.0468 80.0052 50.4566 79.8033 49.6492 79.8033C48.7107 79.8033 48.0098 80.0999 47.5549 80.6933C47.2311 81.1135 47.0426 81.8264 46.9893 82.84C46.9606 83.1655 46.9483 83.6023 46.9483 84.1585V85.4152C46.9483 86.9686 47.1614 88.0276 47.5918 88.5962C48.0344 89.1648 48.723 89.445 49.6574 89.445C50.5919 89.445 51.2353 89.1854 51.5919 88.6662C51.9485 88.147 52.1821 87.3395 52.2887 86.2476Z" fill="white"/>
-                                              <path d="M70.1622 91.8349H67.24L66.4326 89.3421H61.6169L60.8299 91.8349H57.9077L62.5021 78.6291C62.703 78.1717 62.9284 77.8545 63.1784 77.6773C63.4284 77.5001 63.7317 77.4136 64.0964 77.4136C64.4612 77.4136 64.7522 77.496 64.9735 77.6567C65.1948 77.8174 65.3916 78.1429 65.5678 78.6291L70.1622 91.8349ZM65.7891 86.977L64.0964 81.2661L62.3218 86.977H65.7891Z" fill="white"/>
-                                              <path d="M83.4782 79.927H79.6297V91.839H76.8305V79.927H73.0025V77.4136H83.4782V79.927Z" fill="white"/>
-                                              <path d="M90.4703 91.8349H87.671V77.4136H90.4703V91.8349Z" fill="white"/>
-                                              <path d="M106.344 83.9568V85.0487C106.344 87.4674 105.889 89.2227 104.983 90.3146C104.077 91.4065 102.622 91.9545 100.622 91.9545C98.6222 91.9545 97.1713 91.4065 96.282 90.3146C95.3885 89.2186 94.9417 87.4468 94.9417 84.9869V83.9321C94.9417 81.6906 95.3967 80.0219 96.3024 78.93C97.2082 77.838 98.6468 77.29 100.614 77.29C102.581 77.29 104.028 77.8422 104.954 78.9506C105.881 80.0631 106.344 81.7277 106.344 83.9568ZM103.544 84.991V84.2411C103.544 82.9432 103.385 81.9131 103.061 81.1426C102.684 80.2526 101.881 79.8076 100.643 79.8076C99.3927 79.8076 98.5812 80.2526 98.2041 81.1426C97.8968 81.8719 97.741 82.9061 97.741 84.2411V84.991C97.741 86.734 97.9828 87.9083 98.4665 88.514C98.655 88.7694 98.9337 88.9919 99.3025 89.1732C99.6714 89.3545 100.114 89.4452 100.63 89.4452C101.147 89.4452 101.585 89.3587 101.95 89.1815C102.315 89.0043 102.594 88.79 102.794 88.5346C102.995 88.2791 103.151 87.9412 103.258 87.521C103.45 86.8617 103.544 86.017 103.544 84.991Z" fill="white"/>
-                                              <path d="M122 77.4136V90.3763C122 90.8213 121.865 91.2045 121.598 91.5218C121.332 91.839 121.016 91.9997 120.652 91.9997C119.725 91.9997 118.967 91.46 118.373 90.3804L113.418 82.5805V91.839H110.618V77.4177H113.319L119.201 86.8575V77.4177H122V77.4136Z" fill="white"/>
-                                            </g>
-                                            <defs>
-                                              <clipPath id="clip0_182_62">
-                                                <rect width="122" height="92" fill="white"/>
-                                              </clipPath>
-                                            </defs>
-                                          </svg>
+                                    <div class="contactContent text-white  pe-md-2">
+                                        <div class="quickHeading fw-bold pt-3">Contact</div>
+                                        <div class="contact pt-3 d-flex flex-column gap-2">
+                                            <h6 class="fw-bold">RISE MAX COLLEGE OF EDUCATION</h6>
+                                            <h6 class="address">Village Jharsaintly, Sector 58, Near Transport Nagar, Ballabgarh, Faridabad, Haryana- 121004.</h6>
+                                            <div class="email">
+                                                <h6 class="mb-0">risemaxcollage@yahoo.com</h6>
+                                                <h6 class="mb-0">Madhuparasher@gmail.com</h6>
+                                            </div>
+                                            <h6 class="contactNumber">+91 9818 07 6201</h6>
+                                        </div>
+            
                                     </div>
-                                    <div class="description text-white pt-2 width90 pb-3">
-                                        <span>Bridge Education is an educational and school administrative staff recruitment agency. It works as a bridge between educational institutions and educators. Our educationists recruits competent teachers to the India's Prestigious Schools only. Making the process smooth and speedy for both employee and employer.</span>
-                                    </div>
-                                    <div class="social">
-                                        <span>Follow us</span>
+                                    <div class="social mt-2">
+                                        <h6>Follow us</h6>
                                         <div class="icons">
                                             <img src = "images/Icon_05-01 1.svg"/>
                                             <img src = "images/Icon_06-01 1.svg"/>
                                             <img src = "images/Icon_02-01 1.svg"/>
                                             <img src = "images/Icon_01-01 1.svg"/>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 ">
-                                    <div class="quickLink text-white paddingLeft5rem">
-                                        <div class="fw-bolder quickHeading">
-                                            <span>Quick Links</span>
-                                            
-                                        </div>
-                                        <div class="links pt-5 d-flex flex-column gap-4">
-                                            <div class="link1">Services</div>
-                                            <a class="link2" href ="./Blog.html">Blog</a>
-                                            <a class="link3" href="./ContactUs.html">Contact</a>
-                                            <a class="link4">About</a>
-                                        </div>
-                                        
-                                    </div>
-            
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="contactContent text-white  pe-md-2">
-                                        <div class="quickHeading fw-bold">Contact</div>
-                                        <div class="contact pt-5 d-flex flex-column gap-4">
-                                            <div class="locationHeading">RISE MAX COLLEGE OF EDUCATION</div>
-                                            <div class="address"><span>Village Jharsaintly, Sector 58, Near Transport Nagar, Ballabgarh, Faridabad, Haryana- 121004.</span></div>
-                                            <div class="email">
-                                                <span>risemaxcollage@yahoo.com</span>
-                                                <span>Madhuparasher@gmail.com</span>
-                                            </div>
-                                            <div class="contactNumber">+91 9818 07 6201</div>
-                                        </div>
-            
                                     </div>
             
                                 </div>
@@ -263,10 +207,10 @@
                 </div>
                 <div class="col-12">
                     <div class="aboutUsContent marginLeft5rem me-md-4 mt-3">
-                        <p class = "mb-4">
-                            Bridge Education is an educational and school administrative staff recruitment agency. It works as a bridge between educators and educational institutions. Making the whole hiring process speedy and smooth. The agency recruits competent teachers from various institutions that provide degrees in the field of Education. One of its kind is Rise Max College of Education, Faridabad.</p>
+                        <h6 class = "mb-4">
+                            Bridge Education is an educational and school administrative staff recruitment agency. It works as a bridge between educators and educational institutions. Making the whole hiring process speedy and smooth. The agency recruits competent teachers from various institutions that provide degrees in the field of Education. One of its kind is Rise Max College of Education, Faridabad.</h6>
 
-<p>The team guides candidates as well as employers throughout the process once they reflected their needs to the agency. The educators can apply to multiple schools and for their desired posts because we recruit to all designations from Pre Primary to PGTs, by defining them subject-wise in order to maintain transparency and professionalism. Besides, make hiring smooth for both.</p>
+<h6>The team guides candidates as well as employers throughout the process once they reflected their needs to the agency. The educators can apply to multiple schools and for their desired posts because we recruit to all designations from Pre Primary to PGTs, by defining them subject-wise in order to maintain transparency and professionalism. Besides, make hiring smooth for both.</h6>
 
 
                     </div>
@@ -322,11 +266,11 @@
                 <div class="col-md-6">
                     <div class="anilContent paddingTop6rem">
                         <div class="anilHeading">
-                            <p>A brain-child of<br> Mr. Anil Rawal</p>
+                            <h1>A brain-child of<br> Mr. Anil Rawal</h1>
                         </div>
                         <div class="anilDescription">
-                            <p>Bridge Education is the brainchild of Mr. Anil Rawal. He is an experienced, empathetic, ingenious educationist,  who understands the industry brilliantly. Through his experience, he realized the gap in the industry from both ends. He pondered upon all the differences and challenges faced by candidates and institutions in the hiring process. So, to effectively work toward the gap, to minimize their hassle, and to accelerate the hiring process Mr. Rawal established Bridge Education. As his vision was crystal clear to his mind, he thoughtfully chose the name ‘Bridge’ which simply signifies connecting two segments together to make it worthwhile.  
-                            </p>
+                            <h6>Bridge Education is the brainchild of Mr. Anil Rawal. He is an exh6erienced, empathetic, ingenious educationist,  who understands the industry brilliantly. Through his experience, he realized the gap in the industry from both ends. He pondered upon all the differences and challenges faced by candidates and institutions in the hiring process. So, to effectively work toward the gap, to minimize their hassle, and to accelerate the hiring process Mr. Rawal established Bridge Education. As his vision was crystal clear to his mind, he thoughtfully chose the name ‘Bridge’ which simply signifies connecting two segments together to make it worthwhile.  
+                            </h6>
                         </div>
                     </div>
                 </div>
@@ -343,10 +287,10 @@
                     </div>
                 </div>
                 <div class="col-12 ">
-                    <div class="aboutUsRow3LighterHeading mt-2">
+                    <h6 class="aboutUsRow3LighterHeading mt-2">
                         We are proudly introducing you to our institutions that expertly describe us.
                         So, know us through our institutions.
-                    </div>
+                    </h6>
                 </div>
                 <div class="line position-relative col-12">
                     <div class="path"></div>
@@ -386,17 +330,17 @@
                                 <div class="aboutRiseMax">
             
                                 <div class="riseMaxHeading  pe-3">
-                                    <span>Risemax College of Education </span>
+                                    <h2>Risemax College of Education </h2>
                                 </div>
                                 <div class="riseMaxContent mt-4">
-                                    <span>Rise Max College of Education, Faridabad is affiliated with
+                                    <h6>Rise Max College of Education, Faridabad is affiliated with
                                         Chaudhary Ranbir Singh University, Jind is being run by
                                         “Rawal Educational and Welfare Society” by its founder
                                         Chairman Mr. C.B. Rawal. Our Pro-Chairman
                                         Mr. Anil Rawal is a great inspiration. The institution is
                                         situated on sprawling land measuring 4.75 acres and
                                         has a built-up space of 3500 sq. mts.
-                                        </span>
+                                        </h6>
                                 </div>
                             </div>
                             </div>
@@ -413,17 +357,17 @@
                                 <div class="aboutRiseMax">
             
                                 <div class="riseMaxHeading  pe-3">
-                                    <span>Risemax College of Education </span>
+                                    <h2>Risemax College of Education </h2>
                                 </div>
                                 <div class="riseMaxContent mt-4">
-                                    <span>Rise Max College of Education, Faridabad is affiliated with
+                                    <h6>Rise Max College of Education, Faridabad is affiliated with
                                         Chaudhary Ranbir Singh University, Jind is being run by
                                         “Rawal Educational and Welfare Society” by its founder
                                         Chairman Mr. C.B. Rawal. Our Pro-Chairman
                                         Mr. Anil Rawal is a great inspiration. The institution is
                                         situated on sprawling land measuring 4.75 acres and
                                         has a built-up space of 3500 sq. mts.
-                                        </span>
+                                        </h6>
                                 </div>
                             </div>
                             </div>
@@ -440,17 +384,17 @@
                                 <div class="aboutRiseMax">
             
                                 <div class="riseMaxHeading  pe-3">
-                                    <span>Risemax College of Education </span>
+                                    <h2>Risemax College of Education </h2>
                                 </div>
                                 <div class="riseMaxContent mt-4">
-                                    <span>Rise Max College of Education, Faridabad is affiliated with
+                                    <h6>Rise Max College of Education, Faridabad is affiliated with
                                         Chaudhary Ranbir Singh University, Jind is being run by
                                         “Rawal Educational and Welfare Society” by its founder
                                         Chairman Mr. C.B. Rawal. Our Pro-Chairman
                                         Mr. Anil Rawal is a great inspiration. The institution is
                                         situated on sprawling land measuring 4.75 acres and
                                         has a built-up space of 3500 sq. mts.
-                                        </span>
+                                        </h6>
                                 </div>
                             </div>
                             </div>
@@ -467,17 +411,17 @@
                                 <div class="aboutRiseMax">
             
                                 <div class="riseMaxHeading  pe-3">
-                                    <span>Risemax College of Education </span>
+                                    <h2>Risemax College of Education </h2>
                                 </div>
                                 <div class="riseMaxContent mt-4">
-                                    <span>Rise Max College of Education, Faridabad is affiliated with
+                                    <h6>Rise Max College of Education, Faridabad is affiliated with
                                         Chaudhary Ranbir Singh University, Jind is being run by
                                         “Rawal Educational and Welfare Society” by its founder
                                         Chairman Mr. C.B. Rawal. Our Pro-Chairman
                                         Mr. Anil Rawal is a great inspiration. The institution is
                                         situated on sprawling land measuring 4.75 acres and
                                         has a built-up space of 3500 sq. mts.
-                                        </span>
+                                        </h6>
                                 </div>
                             </div>
                             </div>
@@ -541,11 +485,11 @@
                 <div class="col-12">
                     <div class="d-flex justify-content-center align-items-center flex-column resTextCenter">
                     <div class="teamHeading pb-4">
-                        <span>Our dedicated team</span>
+                        <h1>Our dedicated team</h1>
                     </div>
-                    <div class="teamSubHeading">
+                    <h6 class="teamSubHeading">
                         Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ac enim ante.
-                    </div>
+                    </h6>
                 </div>
                 </div>
 
@@ -713,10 +657,10 @@
                               </svg>
                         </div>
                         <div class="description text-white pt-2 width90 pb-3">
-                            <span>Bridge Education is an educational and school administrative staff recruitment agency. It works as a bridge between educational institutions and educators. Our educationists recruits competent teachers to the India's Prestigious Schools only. Making the process smooth and speedy for both employee and employer.</span>
+                            <h6>Bridge Education is an educational and school administrative staff recruitment agency. It works as a bridge between educational institutions and educators. Our educationists recruits competent teachers to the India's Prestigious Schools only. Making the process smooth and speedy for both employee and employer.</h6>
                         </div>
                         <div class="social">
-                            <span>Follow us</span>
+                            <h6>Follow us</h6>
                             <div class="icons">
                                 <img src = "images/Icon_05-01 1.svg"/>
                                 <img src = "images/Icon_06-01 1.svg"/>
@@ -732,10 +676,10 @@
                                 
                             </div>
                             <div class="links pt-5 d-flex flex-column gap-4">
-                                <div class="link1">Services</div>
-                                <a class="link2" href ="./Blog.html">Blog</a>
-                                <a class="link3" href="./ContactUs.html">Contact</a>
-                                <a class="link4">About</a>
+                                <h6 class="link1">Services</h6>
+                                <h6><a class="link2" href ="./Blog.html">Blog</a></h6>
+                                <h6><a class="link3" href="./ContactUs.html">Contact</a></h6>
+                                <h6><a class="link4">About</a></h6>
                             </div>
                             
                         </div>
@@ -745,13 +689,13 @@
                         <div class="contactContent text-white  pe-md-2">
                             <div class="quickHeading fw-bold">Contact</div>
                             <div class="contact pt-5 d-flex flex-column gap-4">
-                                <div class="locationHeading">RISE MAX COLLEGE OF EDUCATION</div>
-                                <div class="address"><span>Village Jharsaintly, Sector 58, Near Transport Nagar, Ballabgarh, Faridabad, Haryana- 121004.</span></div>
+                                <h6 class="locationHeading">RISE MAX COLLEGE OF EDUCATION</h6>
+                                <h6 class="address">Village Jharsaintly, Sector 58, Near Transport Nagar, Ballabgarh, Faridabad, Haryana- 121004.</h6>
                                 <div class="email">
-                                    <span>risemaxcollage@yahoo.com</span>
-                                    <span>Madhuparasher@gmail.com</span>
+                                    <h6 class="mb-0">risemaxcollage@yahoo.com</h6>
+                                    <h6 class="mb-0">Madhuparasher@gmail.com</h6>
                                 </div>
-                                <div class="contactNumber">+91 9818 07 6201</div>
+                                <h6 class="contactNumber">+91 9818 07 6201</h6>
                             </div>
 
                         </div>
@@ -768,18 +712,18 @@
                 <div class="col-md-10 ">
                     <div class="row">
                     <div class="col-md-4 order-3 order-md-1">
-                        <span class = "condition">
+                        <h6 class = "condition mb-0">
                             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18" fill="none">
                             <path d="M8.34018 17.6848C12.8614 17.6848 16.6804 13.8552 16.6804 9.32143C16.6804 4.78762 12.8614 0.958008 8.34018 0.958008C3.81897 0.958008 0 4.78762 0 9.32143C0 13.8552 3.81897 17.6848 8.34018 17.6848ZM8.34018 2.63069C11.9573 2.63069 15.0123 5.69421 15.0123 9.32143C15.0123 12.9486 11.9573 16.0122 8.34018 16.0122C4.72304 16.0122 1.66804 12.9486 1.66804 9.32143C1.66804 5.69421 4.72304 2.63069 8.34018 2.63069Z" fill="white"/>
                             <path d="M8.34019 13.5031C9.09164 13.5031 10.4928 13.3626 11.4319 12.4225L10.2526 11.2383C9.88313 11.6088 9.16754 11.8304 8.34019 11.8304C6.98408 11.8304 5.83814 10.6812 5.83814 9.32136C5.83814 7.96147 6.98408 6.81233 8.34019 6.81233C9.16837 6.81233 9.88396 7.03396 10.2526 7.40363L11.4319 6.22104C10.4936 5.28015 9.09164 5.13965 8.34019 5.13965C6.04081 5.13965 4.1701 7.01556 4.1701 9.32136C4.1701 11.6272 6.04081 13.5031 8.34019 13.5031Z" fill="white"/>
                           </svg>
-                          All Rights Reserved. Rawal Shiksha Samiti</span>
+                          All Rights Reserved. Rawal Shiksha Samiti</h6>
                     </div>
-                    <div class="col-md-4 order-2 order-md-3 ">
-                        <span class = "condition">Terms and Conditions | Privacy Policy</span>
+                    <div class="col-md-4 order-1 order-md-2 ">
+                        <h6 class = " mb-0 condition">Terms and Conditions | Privacy Policy</h6>
                     </div>
-                    <div class="col-md-4 order-1 order-md-2">
-                        <span class = "condition">Website Designed by <u>School Saarthi</u></span>
+                    <div class="col-md-4 order-2 order-md-3">
+                        <h6 class = " mb-0 condition">Website Designed by <u>School Saarthi</u></h6>
                     </div>
                 </div>
                 </div>
@@ -787,6 +731,7 @@
             </div>
         </div>
     </section>
+
 
 </body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

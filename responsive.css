@@ -13,17 +13,23 @@
         letter-spacing: 1px;
     }
     .bannerHeading1 h1{
-        width: 100%;
+        width: 90%;
         font-size: 32px;
+        word-break: break-word;
     }
     .resChangeFont{
         box-shadow: none;
+    }
+    .card-heading >h4{
+        line-height: normal;
     }
     .removePadding{
         padding-left: 0px !important;
         padding-top: 0px !important;
     }
-    
+    .girlImage{
+        text-align: center;
+    }
     .whyRegisterText{
         width:  100% !important;
     }
@@ -95,7 +101,7 @@
     }
     .leftBolderHeading h2{
         width : 100%;
-        font-size: 28px;
+        font-size: 32px;
         padding-left: 3rem;
     }
     .resPadding{
@@ -110,32 +116,49 @@
     }
     .row-3 .bolderText h1{
         width: 100%;
+        font-size: 32px;
     }
     .menuItems{
         font-size: 14px !important;
         font-weight: bolder !important;
     }
     .aspirantRow2 .firstLine{
-        font-size: 13px;
+        /* font-size: 13px; */
+        padding: 0px 20px;
     }
     .loginRegister{
         font-size: 16px !important;
 
     }
+    .header nav{
+        padding-bottom: 1.5rem;
+        
+    }
+    .header nav button{
+        margin-top: auto;
+    }
     .underline{
-        width : 65%;
+        width : 80%;
     }
     .resMarginTop2rem{
         margin-top: 2rem !important;
     }
     .stories{
-        padding : 1rem 1.5rem;
+        padding : 0rem 2rem;
         height: 312px !important;
         width:  100%;
         margin-left : 0px ;
     }
+
+    .navbar-nav .nav-item{
+        /* margin-bottom: 5px; */
+    }
+
+    .offcanvas-body .navbar-nav{
+        padding:  0px 1.8rem !important;
+    }
     .stories >h4{
-        font-size: 20px;
+        font-size: 21px;
     }
     .candidateProfile> img{
         width: 100% !important;
@@ -189,6 +212,7 @@
     }
     .termsConditions{
         height: 100%;
+        padding: 7px;
     }
     .termsConditions .condition{
         line-height: normal;
@@ -237,13 +261,13 @@
     .headingButton{
         /* display: flex; */
         /* justify-content: center; */
-        padding-right: 45%
+        /* padding-right: 45% */
     }
     .resPaddingTop1rem{
         padding-top: 1rem;
     }
     .row-8 .lighterHeading{
-        font-size: 19px;
+        /* font-size: 19px; */
     }
 
 
@@ -260,6 +284,9 @@
         text-decoration: underline; /* Add any other styles you want for the active page */
         
       }
+    .blogBackground{
+        height: 133px;
+    }
       
   .first-child-wrapper {
     order: 2;

@@ -5,20 +5,21 @@ flex-shrink: 0;
 color: #3564FB;
 text-align: justify;
 font-family: Montserrat;
-font-size: 18px;
+/* font-size: 18px; */
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
 .aboutUsBanner img{
     width: 100%;
+    height: 290px;
 }
 
 
-.anilHeading{
+.anilHeading h1{
     color: #3564FB;
     font-family: Montserrat;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 800;
     line-height: 3rem;
@@ -27,11 +28,11 @@ line-height: normal;
 }
 
 
-.anilDescription{
+.anilDescription h6{
     color: #3564FB;
 text-align: justify;
 font-family: Montserrat;
-font-size: 16px;
+/* font-size: 16px; */
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -123,10 +124,10 @@ top: 2.9rem;
 left: 5.9rem;
 } */
 
-.riseMaxHeading{
+.riseMaxHeading h2{
     color: #3564FB;
 font-family: Montserrat;
-font-size: 30px;
+font-size: 28px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
@@ -141,7 +142,7 @@ width: 99%;
 .riseMaxContent{
     color: #3564FB;
 font-family: Montserrat;
-font-size: 16px;
+/* font-size: 16px; */
 font-style: normal;
 font-weight: 300;
 text-align: justify;
@@ -174,28 +175,27 @@ line-height: normal;
 width: 271px;
 }
 
-.visionRotated{
+.visionRotated {
     color: #FBCF32;
     font-family: Montserrat;
     font-size: 96px;
     font-style: normal;
     font-weight: 800;
-  
-    /* letter-spacing: 14.4px; */
+    letter-spacing: 14.4px;
     writing-mode: vertical-lr;
-    -webkit-writing-mode : vertical-lr;
+    -webkit-writing-mode: vertical-lr;
     transform: rotate(180deg);
-    top: 0;
+    top: -0.7rem;
     left: -1.5rem;
     position: absolute;
     margin: 0;
     padding: 0;
 }
 
-.teamHeading{
+.teamHeading h1{
     color: #3564FB;
 font-family: Montserrat;
-font-size: 36px;
+font-size: 32px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
@@ -205,7 +205,7 @@ line-height: normal;
     color: #000;
 text-align: center;
 font-family: Montserrat;
-font-size: 24px;
+/* font-size: 24px; */
 font-style: normal;
 font-weight: 300;
 line-height: normal;
@@ -536,10 +536,12 @@ background: #FBCF32;
     .anilContent{
         margin-top : 18rem !important
     }
-    .anilHeading{
+    .anilHeading h1{
         width: 100% !important;
+        line-height: normal;
+        letter-spacing: normal;
     }
-    .anilDescription{
+    .anilDescription h6{
         width: 100% !important;
         height: 100% !important;
         padding : 0.1rem !important
@@ -573,7 +575,7 @@ background: #FBCF32;
     }
     .teamSubHeading{
         width: 100%;
-        font-size: 16px !important;
+        /* font-size: 16px !important; */
     }
     .resTextCenter{
         text-align: center;
@@ -696,15 +698,19 @@ background: #FBCF32;
         white-space: wrap;
         font-size: 10px;
     }
-    .visionRotated{
-        font-size: 85px;
-        left: -1.4rem;
+    .visionRotated {
+        font-size: 75px;
+        left: -1.2rem;
     }
     .carousel-indicators .indicatorText[data-bs-target] {
         width: auto;
         height: 20px;
         text-indent: 0;
         top: 0.3rem;
+      }
+
+      .aboutUsBanner{
+        height: 133px;
       }
 
 
