@@ -45,16 +45,16 @@ width : 62%;
 }
 
 .floatBox1{
-    width: 190px !important;
+    width: 185px !important;
     /* top : 1rem */
 }
 
 .floatBox2{
-    width: 220px !important;
+    width: 200px !important;
 }
 
 .floatBox3{
-    width: 170px !important;
+    width: 185px !important;
 }
 
 .floatBox2{
@@ -62,12 +62,17 @@ width : 62%;
 }
 
 .floatBox4{
-    width: 180px !important;
+    width: 200px !important;
     top: 1.5rem;
 }
-.floatBox5{
+/* .floatBox5{
     width: 175px !important;
     top: 0.5rem;
+} */
+
+.floatBox5 {
+    width: 200px !important;
+    top: 0rem;
 }
 /* 
 .floatInnerBox2{
@@ -75,11 +80,11 @@ width : 62%;
 } */
 
 .floatInnerBox3{
-    padding: 4.5rem 1rem 1rem 3rem !important
+    padding: 5.1rem 1rem 1rem 3rem !important
 }
 
 .floatInnerBox4{
-    padding: 4.3rem 1rem 1rem 3rem !important
+    padding: 4.7rem 1rem 1rem 3rem !important
 }
 /* 
 .floatInnerBox5{
@@ -87,7 +92,7 @@ width : 62%;
 } */
 
 .floatInnerBox2{
-    padding: 4.7rem 1rem 1rem 3rem !important;
+    padding: 5.5rem 1rem 1rem 3rem !important;
 }
 .floatInnerBox5{
     padding: 5rem 1rem 1rem 3rem !important;
@@ -97,7 +102,7 @@ width : 62%;
 .smallBoxText{
     color: #FFF;
 font-family: Montserrat;
-font-size: 22px;
+font-size: 24px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
@@ -281,7 +286,7 @@ flex-shrink: 0;
 .tabGap{
     display : flex;
     gap : 0.4rem;
-    padding-top: 1.2px;
+    padding-top: 1.3px;
 }
 
 .nav-tabs{
@@ -451,7 +456,7 @@ background: #FBCF32;
 
     .pageHeading{
         padding-left : 0px !important;
-        font-size: 32px;
+        /* font-size: 32px; */
     }
     .resRemovePadding {
         padding: 5px !important;
@@ -469,7 +474,7 @@ background: #FBCF32;
     }
 
     .secondBoxText{
-        font-size: 15px !important;
+        font-size: 16px !important;
     }
     .smallBox{
         left : 0.5rem;
@@ -535,7 +540,7 @@ background: #FBCF32;
         padding : 0px 20px;
     }
     .floatInnerBox5{
-        padding: 4.5rem 1rem 1rem 3rem !important;
+        padding: 5rem 1rem 1rem 3rem !important;
     }
     
 
@@ -552,7 +557,7 @@ background: #FBCF32;
 }
 
 .floatInnerBox1{
-    padding: 3rem 1rem 1rem 3rem !important;
+    padding: 5.1rem 1rem 1rem 3rem !important;
 }
 
 

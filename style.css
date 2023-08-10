@@ -67,7 +67,7 @@ transition: 0.3s all ease;
 
 
 }
-.banner2-card:hover .card-heading h4{
+.banner2-card:hover .card-heading h5{
     color : white;
     transition:0.3s all ease;
 
@@ -111,7 +111,7 @@ transition: 0.3s all ease;
     padding-right: 2rem;
 }
 
-.card-heading >h4{
+.card-heading >h5{
     color: #3367D6;
     /* font-size: 22px; */
     font-weight: 600;
@@ -314,7 +314,7 @@ box-shadow: 2px 2px 6px 1px rgba(30, 30, 30, 0.20);
 
 .whyRegisterText{
     color: #3564FB;
-font-size: 32px;
+font-size: 36px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -443,7 +443,7 @@ line-height: normal;
 
 .heading{
     color: #3564FB;
-font-size: 32px;
+font-size: 30px;
 font-style: normal;
 font-weight: 700;
 line-height: 30px; /* 100% */
@@ -504,7 +504,7 @@ letter-spacing: 0.65px; */
 .row-8 .heading h1{
     color: #3564FB;
     text-align: center;
-    font-size: 32px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 45px; /* 112.5% */
@@ -554,7 +554,7 @@ letter-spacing: 0.28px;
 
 .row-9 .articleHeading{
     color: #3564FB;
-    font-size: 25px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: 30px; /* 125% */
@@ -787,7 +787,7 @@ background: #FBCF32;
 .pageHeading{
 color: #3564FB;
 font-family: Montserrat;
-font-size: 40px;
+font-size: 36px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
