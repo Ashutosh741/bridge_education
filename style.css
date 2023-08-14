@@ -792,6 +792,13 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 }
+/* 
+.wordBreak{
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+} */
 
 
 .aspirantRow1 .aboutAspirants{
