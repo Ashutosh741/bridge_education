@@ -212,7 +212,7 @@ flex-shrink: 0;
     line-height: normal !important;
 }
 
-.row6Heading{
+.row6Heading h1{
     color: #3564FB;
 text-align: center;
 font-family: Montserrat;
@@ -220,7 +220,7 @@ font-size: 30px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
-letter-spacing: 1.5px;
+/* letter-spacing: 1.5px; */
 }
 
 .tabHeadingStyling{
@@ -272,6 +272,10 @@ background: #F1F0F5 !important;
 width: 499px;
 height: 94px;
 flex-shrink: 0;
+}
+
+.panh6 h6{
+    line-height: 30px;
 }
 
 .contentStyling{
@@ -544,7 +548,7 @@ background: #FBCF32;
         margin-top: 3rem !important;
     }
     .aspirantRow5{
-        display: none;
+        /* display: none; */
     }
     .personDetail{
         margin : 0px !important;
@@ -564,8 +568,55 @@ background: #FBCF32;
     .floatInnerBox5{
         padding: 5rem 1rem 1rem 3rem !important;
     }
-    
+    .nav-tabs button{
+        width: 49.8% !important;
+        height: 82px !important;
+    }
 
+    .nav-tabs{
+        flex-wrap: nowrap;
+        display: inline-flex;
+    }
+    .contentStyling{
+        height: 100%;
+        width: 100%;
+    }
+
+    .tabGap{
+        gap : 0.1rem !important;
+        border: none;
+    }
+
+    #nav-profile-tab{
+        /* border-left: none !important; */
+    }
+    .firstTabContent{
+        padding: 1rem;
+    }
+    .firstTabContent p{
+        /* padding: 1rem; */
+        line-height: 30px !important;
+        margin: 0rem !important;
+    }
+
+    .firstTabNote{
+        margin-top: 1rem !important;
+    }
+
+    .firstTabNote h6{
+        margin-bottom: 1rem !important;
+        line-height: normal !important;
+        font-weight: bold;
+    }
+
+    .pb-32{
+        padding: 0rem !important;
+    }
+
+    .aspirantRow5{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
 }
 
 .smallBox:hover .smallBoxText{
