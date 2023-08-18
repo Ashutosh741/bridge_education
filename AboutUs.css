@@ -45,6 +45,7 @@ flex-shrink: 0;
 
 position:absolute;
 top: 1px;
+left : 1px
 }
 
 .anilBackground{
@@ -408,16 +409,22 @@ background: #FBCF32;
 
 
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='6' viewBox='0 0 34 6' fill='none'%3E%3Cpath d='M0.734837 2.73483C0.588387 2.88128 0.588387 3.11872 0.734837 3.26516L3.12132 5.65165C3.26777 5.79809 3.5052 5.79809 3.65165 5.65165C3.7981 5.5052 3.7981 5.26776 3.65165 5.12132L1.53033 3L3.65165 0.878677C3.7981 0.73223 3.7981 0.494794 3.65165 0.348347C3.5052 0.2019 3.26777 0.2019 3.12132 0.348347L0.734837 2.73483ZM34 2.625L1 2.625L1 3.375L34 3.375L34 2.625Z' fill='white'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    margin-top: 10px;
+    width: 34px;
+    height: 16px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='16' viewBox='0 0 34 16' fill='none'%3E%3Cpath d='M0.292893 7.29289C-0.0976295 7.68341 -0.0976296 8.31658 0.292892 8.7071L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34314C8.46159 1.95262 8.46159 1.31945 8.07107 0.92893C7.68054 0.538406 7.04738 0.538405 6.65686 0.92893L0.292893 7.29289ZM34 7L1 7L1 9L34 9L34 7Z' fill='white'/%3E%3C/svg%3E");
+    background-size: cover; /* Adjust as needed */
+  
 }
 
+.carousel-indicators .active{
+    background-image: none !important;
+}
 
 .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='6' viewBox='0 0 34 6' fill='none'%3E%3Cpath d='M33.2652 3.26517C33.4116 3.11872 33.4116 2.88128 33.2652 2.73483L30.8787 0.34835C30.7322 0.201903 30.4948 0.201903 30.3483 0.34835C30.2019 0.494796 30.2019 0.732233 30.3483 0.87868L32.4697 3L30.3483 5.12132C30.2019 5.26777 30.2019 5.5052 30.3483 5.65165C30.4948 5.7981 30.7322 5.7981 30.8787 5.65165L33.2652 3.26517ZM0 3.375H33V2.625H0V3.375Z' fill='white'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    margin-top: 10px;
+    width: 34px;
+    height: 16px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='16' viewBox='0 0 34 16' fill='none'%3E%3Cpath d='M33.7071 8.70711C34.0976 8.31658 34.0976 7.68342 33.7071 7.29289L27.3431 0.928932C26.9526 0.538408 26.3195 0.538408 25.9289 0.928932C25.5384 1.31946 25.5384 1.95262 25.9289 2.34315L31.5858 8L25.9289 13.6569C25.5384 14.0474 25.5384 14.6805 25.9289 15.0711C26.3195 15.4616 26.9526 15.4616 27.3431 15.0711L33.7071 8.70711ZM0 9H33V7H0V9Z' fill='white'/%3E%3C/svg%3E");
+    background-size: cover; /* Adjust as needed */
 }
 
 
@@ -450,35 +457,50 @@ background: #FBCF32;
     white-space: nowrap;
 }
 
-.schoolName1{
+.schoolName1 {
     position: absolute;
-    left: -4.5rem;
+    /* left: -4.5rem; */
     color: #3564FB;
     margin-top: -5rem;
+    margin-left: -5rem;
 }
-.schoolName2{
+.schoolName2 {
     position: absolute;
-    left: -3.4rem;
+    /* left: -3.4rem; */
     color: #3564FB;
     margin-top: -5rem;
-}
-
-.schoolName3{
-    position: absolute;
-    left: -4.5rem;
-    color: #3564FB;
-    margin-top: -5rem;
-}
-.schoolName4{
-    position: absolute;
-    left: -4.5rem;
-    color: #3564FB;
-    margin-top: -5rem;
+    margin-left: -4rem;
 }
 
-
+.schoolName3 {
+    position: absolute;
+    /* left: -4.5rem; */
+    color: #3564FB;
+    margin-top: -5rem;
+    margin-left: -4.5rem;
+}
+.schoolName4 {
+    position: absolute;
+    /* left: -4.5rem; */
+    color: #3564FB;
+    margin-top: -5rem;
+    margin-left: -5rem;
+}
 
 @media screen and (min-width : 300px) and (max-width : 1200px) {
+
+    .carousel-control-prev-icon{
+        width: 24px !important;
+        height: 24px !important;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Ccircle cx='13' cy='13' r='13' transform='matrix(-1 0 0 1 26 0)' fill='%233564FB'/%3E%3Cpath d='M6.73483 12.7348C6.58839 12.8813 6.58839 13.1187 6.73483 13.2652L9.12132 15.6516C9.26777 15.7981 9.5052 15.7981 9.65165 15.6516C9.7981 15.5052 9.7981 15.2678 9.65165 15.1213L7.53033 13L9.65165 10.8787C9.7981 10.7322 9.7981 10.4948 9.65165 10.3483C9.5052 10.2019 9.26777 10.2019 9.12132 10.3483L6.73483 12.7348ZM19 12.625L7 12.625L7 13.375L19 13.375L19 12.625Z' fill='white'/%3E%3C/svg%3E");
+        background-size: cover;
+    }
+    .carousel-control-next-icon{
+        width: 24px !important;
+        height: 24px !important;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26' fill='none'%3E%3Ccircle cx='13' cy='13' r='13' fill='%233564FB'/%3E%3Cpath d='M19.2652 13.2652C19.4116 13.1187 19.4116 12.8813 19.2652 12.7348L16.8787 10.3483C16.7322 10.2019 16.4948 10.2019 16.3483 10.3483C16.2019 10.4948 16.2019 10.7322 16.3483 10.8787L18.4697 13L16.3483 15.1213C16.2019 15.2678 16.2019 15.5052 16.3483 15.6517C16.4948 15.7981 16.7322 15.7981 16.8787 15.6517L19.2652 13.2652ZM7 13.375H19V12.625H7V13.375Z' fill='white'/%3E%3C/svg%3E");
+        background-size: cover; /* Adjust as needed */
+    }
     .aboutUsBanner img{
         height: 113px;
         width: 100%;
@@ -529,9 +551,10 @@ background: #FBCF32;
         width: 416.229px !important;
         height: 504.1px !important;
     }
-    .anilImage {
+    .aboutAnilImage {
         right: 4.5rem !important;
         bottom: 1.5rem !important;
+        position: absolute;
     }
     .anilContent{
         margin-top : 18rem !important
@@ -623,7 +646,8 @@ background: #FBCF32;
 } */
     .carousel-indicators .active{
         height: 0px !important;
-        border: 9px solid #FBCF32 !important;      
+        border: 9px solid #FBCF32 !important;   
+        width: 0px !important;   
     }
     .carousel-indicators {
         gap: 3rem;
@@ -670,32 +694,38 @@ background: #FBCF32;
         font-size: 28px;
     }
     .schoolName1{
-        left: -2rem !important;
+        /* left: -2rem !important; */
         top: -4rem !important;
         margin-top: 0px !important;
+        margin-left: -2rem;
     }
     .schoolName2{
-        left: -1.3rem !important;
+        /* left: -1.3rem !important; */
         top: -4rem !important;
         margin-top: 0px !important;
+        margin-left: -1rem;
+
 
     }
     .schoolName3{
-        left: -1.5rem !important;
+        /* left: -1.5rem !important; */
         top: -4rem !important;
         margin-top: 0px !important;
+        margin-left: -1.5rem;
+
 
     }
     .schoolName4{
-        left: -1.5rem !important;
+        /* left: -1.5rem !important; */
         top: -4rem !important;
         margin-top: 0px !important;
+        margin-left: -1.5rem;
 
     }
     .schoolName1, .schoolName2, .schoolName3, .schoolName4{
         clear: both;
         display: block;
-        overflow: y;
+        overflow: y !important;
         white-space: wrap;
         font-size: 10px;
     }
@@ -709,9 +739,12 @@ background: #FBCF32;
         text-indent: 0;
         top: 0.3rem;
       }
-
       .aboutUsBanner{
         height: 133px;
+      }
+
+      .aboutAnilImage{
+        transform: scaleX(-1);
       }
 
 

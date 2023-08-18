@@ -75,8 +75,13 @@ display: flex;
 justify-content: center;
 align-items: center;
 
+
 }
 
+.upperSubmit button{
+    border: none;
+background: none;
+}
 .submitText{
     color: #FFF;
     font-family: Montserrat;
@@ -85,6 +90,8 @@ align-items: center;
     font-weight: 600;
     line-height: normal;
 }
+
+
 
 @media screen and (min-width : 300px) and (max-width : 1200px) {
     .contactUsRow2{

@@ -434,6 +434,7 @@ background: #FBCF32;
     .aspirantBanner img{
         height: 133px !important;
         width: 100% !important;
+        object-fit: cover;
     }
     .secondUnderLine{
         width: 112px;
@@ -460,7 +461,9 @@ background: #FBCF32;
     }
     .resRemovePadding {
         padding: 5px !important;
-        margin-bottom: 4rem;
+        margin-bottom: 7rem;
+        margin-top: 5rem;
+
     }
     .firstBox h2{
         font-size: 40px !important;
@@ -480,6 +483,18 @@ background: #FBCF32;
         left : 0.5rem;
 
     }
+    .box_2{
+        padding-top: 2.5rem !important;
+    }
+    .box_3{
+        padding-top: 2.5rem !important;
+    }
+    .box_4{
+        padding-top: 1rem !important;
+    }
+    .box_5{
+        padding-top: 2.5rem !important;
+    }
     .floatBox4{
         top : 1.5rem
     }
@@ -488,6 +503,10 @@ background: #FBCF32;
     }
     .videoCoverImage{
         margin-left: 0px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
     .resRemovePaddingCol{
         padding-left: 0px !important;
@@ -504,6 +523,9 @@ background: #FBCF32;
     }
     .aboutVideo {
         padding: 1.5rem 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .submitDetails{
         padding: 0rem;

@@ -91,20 +91,22 @@
                     </defs>
                   </svg>
               </a>
-              <button class="btn resChangeFont d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+              <button class="btn menuHover resChangeFont d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                 <i class="fa-solid fa-bars"></i>
               </button>
 
-            <div class="offcanvas d-md-none offcanvas-end w-100" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-            <div class="offcanvas-header justify-content-end" style="height:7%;background-color:  #FBCF32;">
+            <div class="offcanvas d-md-none offcanvas-end w-100 h-100" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header flex-column" style="height:50%;background-color:  #FBCF32;">
+                <!-- <button type="button" class="btn-close  text-reset" data-bs-dismiss="offcanvas" aria-label="Close" style = "color: #3564FB !important; box-shadow: none;"></button> -->
 
-                <!-- <h5 id="offcanvasRightLabel">Offcanvas right</h5> -->
-                <button type="button" class="btn-close  text-reset" data-bs-dismiss="offcanvas" aria-label="Close" style = "color: #3564FB !important; box-shadow: none;"></button>
-            </div>
-            <div class="offcanvas-body p-0" style = "height: 93%; background-color: #FBCF32;">
-                <ul class="navbar-nav p-3 mx-auto w-100 justify-content-end mb-5 mb-lg-0">
+                <div class="exit ms-auto">
+                    <button type="button" class="btn-close  text-reset" data-bs-dismiss="offcanvas" aria-label="Close" style = "color: #3564FB !important; box-shadow: none;"></button>
+
+                </div>
+                <ul class="navbar-nav p-3 mx-auto w-100 justify-content-end mb-lg-0">
+
                     <li class="nav-item  paddingRight">
-                        <h6><a id = "index-link" class="nav-link  menuItems"href="/index.html">Home</a></h6>
+                        <h6><a id = "index-link" class="nav-link menuItems"href="/index.html">Home</a></h6>
                     </li>
                     <li class="nav-item paddingRight">
                         <h6><a  id = "AboutUs-link" class="nav-link menuItems" href = "./AboutUs.html">About Us</a></h6>
@@ -119,17 +121,24 @@
                     <li class="nav-item paddingRight">
                         <h6><a  id = "AboutUs-link" class="nav-link menuItems" href = "./Blog.html">Blog</a></h6>
                     </li>
+                    <li class="nav-item paddingRight">
+                        <h6><a  id = "ContactUs-link" class="nav-link menuItems" href = "./ContactUs.html">Contact</a></h6>
+                    </li>
                     <li class="nav-item">
                         <h6><a  id = "login-link" class="nav-link loginRegister fw-bolder">Login | Register</a></h6>
                     </li>
                 </ul>
-                <section class="row-10 footer familyMont">
+                <!-- <h5 id="offcanvasRightLabel">Offcanvas right</h5> -->
+            </div>
+            <div class="offcanvas-body p-0" style = "height: calc(50% - 56px); background-color: #FBCF32;">
+
+                <section class="row-10 footer familyMont h-100">
                     <div class="container">
                         <div class="row p-3">
                                 <div class="col-md-4">
                                     <div class="contactContent text-white  pe-md-2">
-                                        <div class="quickHeading fw-bold pt-3">Contact</div>
-                                        <div class="contact pt-3 d-flex flex-column gap-2">
+                                        <div class="quickHeading fw-bold pt-5">Contact</div>
+                                        <div class="contact pt-4 d-flex flex-column gap-3">
                                             <h6 class="fw-bold">RISE MAX COLLEGE OF EDUCATION</h6>
                                             <h6 class="address">Village Jharsaintly, Sector 58, Near Transport Nagar, Ballabgarh, Faridabad, Haryana- 121004.</h6>
                                             <div class="email">
@@ -187,7 +196,6 @@
             </div>
           </nav>
     </section>
-    
     <section class="aboutUsBanner ">
         <img src = "./images/contactBanner.png" class= "img-fluid w-100"></img>
     </section>
@@ -247,9 +255,10 @@
     <section class="aboutUsRow2 paddingTop7rem paddingBottom7rem">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 ">
-                    <div class="position-relative ms-md-5">
-                            <div class="anilImage">
+                <div class="col-md-6">
+                    
+                    <div class="position-relative ms-md-5 ">
+                            <div class="aboutAnilImage">
                                 <div class="anilBorder">
                                     <img src = "./images/anilBorder.png" class = "img-fluid w-100"/>
                                 </div>

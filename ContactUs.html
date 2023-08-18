@@ -90,20 +90,22 @@
                     </defs>
                   </svg>
               </a>
-              <button class="btn resChangeFont d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+              <button class="btn menuHover resChangeFont d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                 <i class="fa-solid fa-bars"></i>
               </button>
 
-            <div class="offcanvas d-md-none offcanvas-end w-100" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-            <div class="offcanvas-header justify-content-end" style="height:7%;background-color:  #FBCF32;">
+            <div class="offcanvas d-md-none offcanvas-end w-100 h-100" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header flex-column" style="height:50%;background-color:  #FBCF32;">
+                <!-- <button type="button" class="btn-close  text-reset" data-bs-dismiss="offcanvas" aria-label="Close" style = "color: #3564FB !important; box-shadow: none;"></button> -->
 
-                <!-- <h5 id="offcanvasRightLabel">Offcanvas right</h5> -->
-                <button type="button" class="btn-close  text-reset" data-bs-dismiss="offcanvas" aria-label="Close" style = "color: #3564FB !important; box-shadow: none;"></button>
-            </div>
-            <div class="offcanvas-body p-0" style = "height: 93%; background-color: #FBCF32;">
-                <ul class="navbar-nav p-3 mx-auto w-100 justify-content-end mb-5 mb-lg-0">
+                <div class="exit ms-auto">
+                    <button type="button" class="btn-close  text-reset" data-bs-dismiss="offcanvas" aria-label="Close" style = "color: #3564FB !important; box-shadow: none;"></button>
+
+                </div>
+                <ul class="navbar-nav p-3 mx-auto w-100 justify-content-end mb-lg-0">
+
                     <li class="nav-item  paddingRight">
-                        <h6><a id = "index-link" class="nav-link  menuItems"href="/index.html">Home</a></h6>
+                        <h6><a id = "index-link" class="nav-link menuItems"href="/index.html">Home</a></h6>
                     </li>
                     <li class="nav-item paddingRight">
                         <h6><a  id = "AboutUs-link" class="nav-link menuItems" href = "./AboutUs.html">About Us</a></h6>
@@ -118,17 +120,24 @@
                     <li class="nav-item paddingRight">
                         <h6><a  id = "AboutUs-link" class="nav-link menuItems" href = "./Blog.html">Blog</a></h6>
                     </li>
+                    <li class="nav-item paddingRight">
+                        <h6><a  id = "ContactUs-link" class="nav-link menuItems" href = "./ContactUs.html">Contact</a></h6>
+                    </li>
                     <li class="nav-item">
                         <h6><a  id = "login-link" class="nav-link loginRegister fw-bolder">Login | Register</a></h6>
                     </li>
                 </ul>
-                <section class="row-10 footer familyMont">
+                <!-- <h5 id="offcanvasRightLabel">Offcanvas right</h5> -->
+            </div>
+            <div class="offcanvas-body p-0" style = "height: calc(50% - 56px); background-color: #FBCF32;">
+
+                <section class="row-10 footer familyMont h-100">
                     <div class="container">
                         <div class="row p-3">
                                 <div class="col-md-4">
                                     <div class="contactContent text-white  pe-md-2">
-                                        <div class="quickHeading fw-bold pt-3">Contact</div>
-                                        <div class="contact pt-3 d-flex flex-column gap-2">
+                                        <div class="quickHeading fw-bold pt-5">Contact</div>
+                                        <div class="contact pt-4 d-flex flex-column gap-3">
                                             <h6 class="fw-bold">RISE MAX COLLEGE OF EDUCATION</h6>
                                             <h6 class="address">Village Jharsaintly, Sector 58, Near Transport Nagar, Ballabgarh, Faridabad, Haryana- 121004.</h6>
                                             <div class="email">
@@ -209,12 +218,12 @@
 
                         <h2 class = "followUs mb-4">Follow us</h2>
                         <div class="socialIcons d-flex gap-4">
-                            <div class="facebook">
+                            <a href = "#" class="facebook">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="17" height="31" viewBox="0 0 17 31" fill="none">
                                     <path d="M3.85946 30.5774H11.2721V15.5215H16.4486L17 10.4697H11.2414C11.2414 10.4697 11.2414 8.57839 11.2414 7.60784C11.2414 6.41332 11.5477 5.94049 12.9568 5.94049C14.0901 5.94049 16.9694 5.94049 16.9694 5.94049V0.714478C16.9694 0.714478 12.7423 0.714478 11.8541 0.714478C6.34054 0.714478 3.85946 2.68045 3.85946 6.46309C3.85946 9.74802 3.85946 10.4946 3.85946 10.4946H0V15.5962H3.85946V30.5774Z" fill="#3564FB"/>
                                   </svg>
-                            </div>
-                            <div class="instagram">
+                                </a>
+                            <a class="instagram" href = "#">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                                     <g clip-path="url(#clip0_223_702)">
                                       <path d="M21.9715 30H8.01694C3.59261 30 0 26.4074 0 21.9715V8.01694C0 3.59261 3.59261 0 8.01694 0H21.9715C26.4074 0 29.9884 3.59261 29.9884 8.01694V21.9715C30 26.4074 26.4074 30 21.9715 30Z" fill="#3564FB"/>
@@ -228,19 +237,19 @@
                                       </clipPath>
                                     </defs>
                                   </svg>
-                            </div>
-                            <div class="youtube">
+                                </a>
+                            <a class="youtube" href = "#">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="42" height="26" viewBox="0 0 42 26" fill="none">
                                     <path d="M41.0831 4.57383C40.6099 3.0558 39.1901 1.8364 37.3859 1.43822C34.1028 0.69165 20.9704 0.69165 20.9704 0.69165C20.9704 0.69165 7.83802 0.69165 4.55493 1.43822C2.7507 1.8364 1.33098 3.0558 0.857744 4.57383C-2.90887e-06 7.36104 0 13.1345 0 13.1345C0 13.1345 -2.29184e-06 18.908 0.887322 21.6953C1.36056 23.2133 2.78028 24.4327 4.5845 24.8309C7.8676 25.5774 21 25.5774 21 25.5774C21 25.5774 34.1324 25.5774 37.4155 24.8309C39.2197 24.4327 40.6394 23.2133 41.1127 21.6953C42 18.9329 42 13.1345 42 13.1345C42 13.1345 41.9704 7.36104 41.0831 4.57383ZM16.6817 18.3854V7.88364L27.6549 13.1345L16.6817 18.3854Z" fill="#3564FB"/>
                                   </svg>
-                            </div>
-                            <div class="linkedin">
+                            </a>
+                            <a class="linkedin" href = '#'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="31" viewBox="0 0 36 31" fill="none">
                                     <path d="M8.35912 10.7159H0.964355V30.5309H8.35912V10.7159Z" fill="#3564FB"/>
                                     <path d="M4.6019 8.11522C7.01713 8.11522 8.95527 6.48049 8.95527 4.44946C8.95527 2.41843 7.01713 0.808472 4.6019 0.808472C2.18668 0.808472 0.248535 2.4432 0.248535 4.47423C0.248535 6.50526 2.18668 8.11522 4.6019 8.11522Z" fill="#3564FB"/>
                                     <path d="M20.1366 20.128C20.1366 17.354 21.6871 15.6945 24.6391 15.6945C27.3525 15.6945 28.6645 17.2796 28.6645 20.128C28.6645 22.9764 28.6645 30.5309 28.6645 30.5309H35.9996C35.9996 30.5309 35.9996 23.2984 35.9996 17.9732C35.9996 12.6727 32.3917 10.0967 27.3227 10.0967C22.2537 10.0967 20.1366 13.3662 20.1366 13.3662V10.716H13.04V30.5309H20.1366C20.1366 30.5309 20.1366 23.1746 20.1366 20.128Z" fill="#3564FB"/>
                                   </svg>
-                            </div>
+                            </a>
                         </div>
                     </div>
 
@@ -250,8 +259,8 @@
                                 and Get Hired by your dream institution.
                             </div>
                             <div class="upperSubmit">
-                                <div class="submitText">Submit
-                                </div>
+                                <button class="submitText">Submit
+                                </button>
                             </div>
                         </div>
                         <div class="upperBox mt-5" style = "border-radius: 10px; background: #3564FB;">
@@ -259,8 +268,8 @@
                                 and Get Hired by your dream institution.
                             </div>
                             <div class="upperSubmit" style = "border-radius: 25px; background: #FBCF32;">
-                                <div class="submitText" style  = "color: #3564FB;">Submit
-                                </div>
+                                <button class="submitText" style  = "color: #3564FB;">Submit
+                                </button>
                             </div>
                         </div>
                     </div>

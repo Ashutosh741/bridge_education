@@ -7,6 +7,11 @@ body{
     font-family: 'Montserrat';
 }
 
+.menuHover{
+    --bs-btn-padding-x: 0rem !important;
+    --bs-btn-padding-y: 0rem !important;
+}
+
 
 .bannerHeading1 h1{
 text-align: right; 
@@ -30,6 +35,15 @@ margin-left: auto;
 .padding7rem{
     padding: 7rem;
 }
+
+.padding9rem{
+    padding: 9rem;
+}
+
+.paddingTL12rem{
+    padding: 10rem 12rem;
+}
+
 
 
 .padding8rem{
@@ -838,7 +852,20 @@ letter-spacing: 1.6px; */
     bottom: -3rem !important;
 }
 .carousel-indicators [data-bs-target] {
-    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25) !important;
+    /* box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25) !important; */
+    /* background-image: url('./images/Ellipse\ 3.svg'); */
+    width: 12px !important;
+    height: 12px !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12' fill='none'%3E%3Ccircle cx='6' cy='6' r='5' stroke='%233564FB' stroke-width='2'/%3E%3C/svg%3E");
+    background-size: cover; /* Adjust as needed */
+    opacity: 1 !important;
+}
+
+.carousel-indicators .active{
+    width: 12px !important;
+  height: 12px !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12' fill='none'%3E%3Ccircle cx='6' cy='6' r='5' fill='%23FBCF32' stroke='%233564FB' stroke-width='2'/%3E%3C/svg%3E");
+  background-size: cover; /* Adjust as needed */
 }
 
 
@@ -906,8 +933,16 @@ height: 112px;
 .anilImage {
     /* position: absolute!important; */
     bottom: 0rem;
-    right: 2rem;
+    right: 4rem;
+    transform: scaleX(-1);
+
 }
+
+.carousel-inner .carousel-item {
+    transition: transform 0.9s ease-in-out;
+  }
+  
+
 
 .page-item:first-child .page-link{
     border-radius: 0px !important;
