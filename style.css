@@ -938,10 +938,7 @@ height: 112px;
 
 }
 
-.carousel-inner .carousel-item {
-    transition: transform 0.9s ease-in-out;
-  }
-  
+
 
 
 .page-item:first-child .page-link{

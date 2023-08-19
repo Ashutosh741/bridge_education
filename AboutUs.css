@@ -296,6 +296,10 @@ background: #FBCF32;
     overflow: hidden;
     border-radius: 10px;
 }
+.carousel-inner .carousel-item {
+    transition: transform 1.5s ease-in;
+  }
+  
 
 .item:hover .overlay {
   bottom: 0;
@@ -332,7 +336,7 @@ background: #FBCF32;
 .carousel-control-prev{
     display: block !important;
     background-color: black;
-    top: -2rem;
+    top: -1.8rem;
     width: 60px;
   height: 60px;
   background-color: #3564FB;
@@ -349,7 +353,7 @@ background: #FBCF32;
 .carousel-control-next{
     display: block !important;
     background-color: black;
-    top: -2rem;
+    top: -1.8rem;
     width: 60px;
   height: 60px;
   background-color: #3564FB;
