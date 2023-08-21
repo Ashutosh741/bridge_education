@@ -491,6 +491,23 @@ background: #FBCF32;
     margin-left: -5rem;
 }
 
+.iframe-container {
+    overflow: hidden;
+    padding-top: 50.25%; 
+    position: relative;
+    padding-bottom: 56.25%;
+    width: 97%;
+  } 
+  
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+  }
+
 @media screen and (min-width : 300px) and (max-width : 1200px) {
 
     .carousel-control-prev-icon{
@@ -530,9 +547,15 @@ background: #FBCF32;
         position: absolute !important;
         top: -2rem !important;
     }
+    .iframe-container {
+        padding: 0px !important;
+        width: 100%;
+        /* padding : 2rem 0px !important */
+    }
     iframe{
+        position: relative !important;
         width: 100% !important;
-    height: 444px !important;
+        height: 444px !important;
     }
     .anilWithGlass {
         transform: scaleX(-1);
@@ -755,18 +778,3 @@ background: #FBCF32;
 }
 
   
-.iframe-container {
-    overflow: hidden;
-    padding-top: 50.25%; 
-    position: relative;
-    /* padding-bottom: 56.25%; */
-  } 
-  
-  .iframe-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    border: 0;
-    width: 100%;
-    height: 100%;
-  }
