@@ -553,12 +553,13 @@ background: #FBCF32;
         height: 100%;
     }
     .iframe-container{
-        padding : 0px !important
+        padding : 0px !important;
+        width: 100%;
     }
     iframe {
         border: 0 !important;
         width: 393px !important;
-        height: 260.663px !important;
+        height: 235px !important;
         position: static !important;
     }
     .aboutVideo {

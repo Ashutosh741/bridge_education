@@ -495,9 +495,12 @@ background: #FBCF32;
     overflow: hidden;
     padding-top: 50.25%; 
     position: relative;
-    padding-bottom: 56.25%;
-    width: 97%;
+    padding-bottom: 39.25%;
+    width: 81%;
   } 
+  .videoCoverImage{
+    display: block;
+  }
   
   .iframe-container iframe {
     position: absolute;
